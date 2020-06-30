@@ -363,3 +363,116 @@ ul.sapUshellInner {
         }
     }
 }
+
+/* Background Image */
+/*#mainShell{
+    .sapUshellShellBG.sapUiShellBackgroundImage{
+        background-image: url('../bg_dark.jpg');
+        opacity: 1;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}*/
+/* my sales dashboard */
+#application-Z_OTC_SALESDB-display{
+    /* incoming sales orders */
+    #__layout68{
+        #__layout67.sapMFlexBoxBGTransparent{
+            background-color: rgba(61, 71, 104, 0.82) !important; 
+            border-radius: 7.64px;
+            .sapMFlexBoxBGTransparent{
+                background-color: #343f5f !important; 
+            }
+            .sapMLnk.styleTitle1{
+                color: #FFFFFF;
+                font-size: 16.38px;
+                font-weight: bold;
+                letter-spacing: 0;
+                line-height: 19px;
+            }
+            #application-Z_OTC_SALESDB-display-component---Home--idSalesTable{
+                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-listUl{
+                    .sapMLabel{
+                        color: #FFFFFF;
+                        font-size: 12.61px;
+                        letter-spacing: 0;
+                        line-height: 15px;
+                    }
+                }
+                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-tblHeader{
+                    >.sapMTableTH{
+                        background: #343f5f !important;
+                    }
+                }
+                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-tblBody{
+                    .sapMText{
+                        color: #FFFFFF;
+                        font-size: 12.29px;
+                        letter-spacing: 0;
+                        line-height: 14px;
+                    }
+                }
+                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-triggerInfo{
+                    text-shadow: none;
+                    color: white;
+                    font-size: 12.61px;
+                    letter-spacing: 0;
+                    line-height: 15px;
+                }
+                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-triggerText{
+                    text-shadow: none;
+                    color: white;
+                    font-size: 12.6px;
+                    letter-spacing: 0;
+                    line-height: 15px;
+                }
+                .sapMLIB{
+                    background: transparent;
+                    border: 0;
+                }
+            }
+        } 
+    }
+    /* end of incoming sales orders */
+
+    /*links*/
+    #__layout80{
+        .sapMFlexBoxBGTransparent{
+            background-color: rgba(61, 71, 104, 0.82) !important; 
+            border-radius: 8px;
+            .sapUiVlt.sapuiVlt{
+                background-color: #343f5f !important;    
+            }
+            .sapMTitle{
+                color: #FFFFFF;
+                font-size: 16px;
+                font-weight: bold;
+                letter-spacing: 0;
+                line-height: 19px;
+                text-shadow: none;
+            }
+            .sapMLnk{
+                color: #599FFF;
+                font-size: 12px;
+                letter-spacing: 0;
+                line-height: 16px;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    /* links */
+
+    /* background color */
+   /* #application-Z_OTC_SALESDB-display-component---App{
+       .sapUiGlobalBackgroundColor, .sapMShellGlobalInnerBackground {
+            background-color: transparent;
+       }
+    }*/
+    /* background color */
+}
+
+/*End of my sales dashboard */
+
