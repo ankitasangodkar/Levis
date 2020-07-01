@@ -406,11 +406,20 @@ ul.sapUshellInner {
             }
             #UIComp_16{
                 margin: 0 auto;
-                &:focus{
-                    outline: none;
+                .v-m-root{
+                    &:focus{
+                        outline: none;
+                    }
                 }
                 .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label{
                     fill: white;
+                }
+            }
+            #application-Z_OTC_SALESDB-display-component---Home--idSalesFulmntChart{
+                > .ui5-viz-controls-viz-frame{
+                    &:focus{
+                        outline: none;
+                    }
                 }
             }
         }
@@ -496,6 +505,11 @@ ul.sapUshellInner {
             }
             #UIComp_17{
                 width: 100% !important;
+                .v-m-root{
+                    &:focus{
+                        outline: none;
+                    }
+                }
                 .v-gridline{
                     stroke: #4F5C89;
                 }
@@ -558,6 +572,11 @@ ul.sapUshellInner {
                 #UIComp_18{
                     width: 100% !important;
                     padding: 0 15px 0 8px;
+                    .v-m-root{
+                        &:focus{
+                            outline: none;
+                        }
+                    }
                     .v-title.viz-axis-title, .v-legend-element{
                         fill: #A4A4A4;
                     }
@@ -737,6 +756,11 @@ ul.sapUshellInner {
                 width: 100% !important;
                 margin: 0 auto;
                 padding: 0 10px;
+                .v-m-root{
+                    &:focus{
+                        outline: none;
+                    }
+                }
                 .v-title.viz-axis-title, .v-legend-element{
                     fill: #A4A4A4;
                 }
@@ -786,6 +810,11 @@ ul.sapUshellInner {
                 margin: auto;
                 .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label{
                     fill: white;
+                }
+                .v-m-root{
+                    &:focus{
+                        outline: none;
+                    }
                 }
             }
         }
