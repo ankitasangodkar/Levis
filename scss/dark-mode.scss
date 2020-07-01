@@ -384,9 +384,9 @@ ul.sapUshellInner {
             background-color: rgba(61, 71, 104, 0.82) !important;
             border-radius: 7.64px;
             padding: 20px 0;
-            height: 430px;
             > .sapuiVltCell{
                 padding-bottom: 6px;
+                outline: none;
             }
             .sapMLnk.styleTitle1{
                 color: #FFFFFF;
@@ -406,6 +406,9 @@ ul.sapUshellInner {
             }
             #UIComp_16{
                 margin: 0 auto;
+                &:focus{
+                    outline: none;
+                }
                 .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label{
                     fill: white;
                 }
@@ -475,6 +478,10 @@ ul.sapUshellInner {
                     right: 20px;
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
+                        font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
                 &:after{
@@ -536,7 +543,7 @@ ul.sapUshellInner {
             }
             #__box38{
                 position: absolute;
-                top: 178px;
+                top: 145px;
                 right: 15px;
                 .sapMInputBaseContentWrapper{
                     border: 0;
@@ -716,11 +723,11 @@ ul.sapUshellInner {
                     width: 35% !important;
                     position: absolute;
                     top: 20px;
-                    right: 0;
+                    right: 20px;
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
-                        &:hover{
+                        &:active{
                             background-color: transparent;
                         }
                     }
@@ -841,7 +848,7 @@ ul.sapUshellInner {
                 border: 0;
                 border-bottom: 1.23px solid #4F5C89;
                 background: transparent;
-                width: 150px !important;
+                width: 100px !important;
             }
             #application-Z_OTC_SALESDB-display-component---Home--idMngSalesTable{
                 #application-Z_OTC_SALESDB-display-component---Home--idMngSalesTable-listUl{
@@ -853,6 +860,7 @@ ul.sapUshellInner {
                     }
                 }
                 #application-Z_OTC_SALESDB-display-component---Home--idMngSalesTable-tblHeader{
+                    background-color: #455278;
                     >.sapMTableTH{
                         background: #455278 !important;
                         border-bottom: 1.05px solid #4F5C89;
