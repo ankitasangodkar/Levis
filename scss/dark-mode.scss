@@ -487,6 +487,11 @@ ul.sapUshellInner {
                 .v-title{
                     fill: #A4A4A4;
                 }
+                .v-datapoint{
+                    rect{
+                        stroke-width: 0;
+                    }
+                }
             }
         }
         /* end of sales volume  - check open sales */
@@ -516,7 +521,7 @@ ul.sapUshellInner {
                 line-height: 16px;  
                 padding: 1rem 1rem 0;
                 border-top: 2px solid #4F5C89;
-                width: 100%;
+                width: 96%;
             }
             #__box38{
                 position: absolute;
@@ -543,6 +548,11 @@ ul.sapUshellInner {
                     }
                     .v-gridline{
                         stroke: #4F5C89;
+                    }
+                    .v-datapoint{
+                        rect{
+                            stroke-width: 0;
+                        }
                     }
                 }
             }
@@ -660,7 +670,7 @@ ul.sapUshellInner {
                     bottom: -10px;
                     background-color: #4F5C89;
                     height: 2.73px;
-                    width: 36vw;
+                    width: 37vw;
                 }
             }
             #__text3193{
@@ -701,6 +711,11 @@ ul.sapUshellInner {
                 }
                 .v-gridline{
                     stroke: #4F5C89;
+                }
+                .v-datapoint{
+                    rect{
+                        stroke-width: 0;
+                    }
                 }
             }
         }
