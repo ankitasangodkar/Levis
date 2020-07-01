@@ -385,7 +385,7 @@ ul.sapUshellInner {
             border-radius: 7.64px;
             padding: 20px 0 0;
             > .sapuiVltCell{
-                padding-bottom: 6px;
+                padding-bottom: 0px;
                 outline: none;
             }
             .sapMLnk.styleTitle1{
@@ -677,7 +677,7 @@ ul.sapUshellInner {
         #__layout69.sapMFlexBoxBGTransparent{
             background-color: rgba(61, 71, 104, 0.82) !important;
             border-radius: 7.64px;
-            padding: 20px 0;
+            padding: 20px 0 24px;
             > .sapuiVltCell{
                 padding-bottom: 6px;
             }
