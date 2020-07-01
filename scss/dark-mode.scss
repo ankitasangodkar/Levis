@@ -478,6 +478,9 @@ ul.sapUshellInner {
             }
             #UIComp_17{
                 width: 100% !important;
+                .v-gridline{
+                    stroke: #4F5C89;
+                }
                 .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label{
                     fill: white;
                 }
@@ -537,6 +540,9 @@ ul.sapUshellInner {
                     }
                     .v-datalabel, .v-legend-element, .v-axis-label-wrapper , .v-morphable-label{
                         fill: #fff;
+                    }
+                    .v-gridline{
+                        stroke: #4F5C89;
                     }
                 }
             }
@@ -692,6 +698,9 @@ ul.sapUshellInner {
                 }
                 .v-hovershadow{
                    fill: #4f5f8c;
+                }
+                .v-gridline{
+                    stroke: #4F5C89;
                 }
             }
         }
