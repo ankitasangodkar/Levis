@@ -403,6 +403,7 @@ ul.sapUshellInner {
                 padding: 0 1rem;
             }
             #UIComp_16{
+                margin: 0 auto;
                 .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label{
                     fill: white;
                 }
@@ -516,7 +517,7 @@ ul.sapUshellInner {
             }
             #__box38{
                 position: absolute;
-                top: 108px;
+                top: 178px;
                 right: 15px;
                 .sapMInputBaseContentWrapper{
                     border: 0;
@@ -652,7 +653,7 @@ ul.sapUshellInner {
                     left: -15px;
                     bottom: -10px;
                     background-color: #4F5C89;
-                    height: 1.23px;
+                    height: 2.73px;
                     width: 36vw;
                 }
             }
@@ -720,8 +721,11 @@ ul.sapUshellInner {
                 line-height: 16px;  
                 padding: 0 1rem;
             }
-            .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label{
-                fill: white;
+            #UIComp_20{
+                margin: auto;
+                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label{
+                    fill: white;
+                }
             }
         }
         /* end of sales volume  - detailed analysis */
