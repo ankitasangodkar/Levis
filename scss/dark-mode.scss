@@ -1523,3 +1523,15 @@ ul.sapUshellInner {
     /* background color */
 }
 /*End of my sales manager dashboard */
+
+/* my analyst dashboard */
+#application-Z_OTC_AR_ANALYST_DB-display{
+    /* background color */
+    #application-Z_OTC_AR_ANALYST_DB-display-component---App{
+       .sapUiGlobalBackgroundColor, .sapMShellGlobalInnerBackground {
+            background-color: transparent;
+       }
+    }
+    /* background color */
+}
+/* my analyst dashboard */
