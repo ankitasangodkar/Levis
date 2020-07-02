@@ -1169,6 +1169,16 @@ ul.sapUshellInner {
                 padding-bottom: 0px;
                 outline: none;
                 position: relative;
+                &:nth-child(2){
+                    float: left;
+                }
+                &:nth-child(3){
+                    float: left;
+                    padding-left: 20px;
+                }
+                &:nth-child(4){
+                    clear: both;
+                }
             }
             .sapMLnk.styleTitle1{
                 color: #FFFFFF;
