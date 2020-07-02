@@ -2857,3 +2857,308 @@ ul.sapUshellInner {
     /* background color */
 }
 /* end of my planning manager dashboard */
+
+
+/* my SSM analyst dashboard */
+#application-Z_PTP_SSM_ANALYST-display{
+
+    #__layout207{
+        /* shortage report */
+        #__layout204{
+            background-color: rgba(61, 71, 104, 0.82) !important;
+            border-radius: 7.64px;
+            padding: 20px 24px;
+            > .sapuiVltCell{
+                padding-bottom: 0px;
+                outline: none;
+                position: relative;
+                &:nth-child(3){
+                    float: left;
+                }
+                &:nth-child(4){
+                    clear: both;
+                }
+            }
+            .sapMLnk.styleTitle1{
+                color: #FFFFFF;
+                font-size: 16.38px;
+                font-weight: 700;
+                letter-spacing: 0;
+                line-height: 19px;
+                padding-bottom: 10px;
+            }
+            #application-Z_PTP_SSM_ANALYST-display-component---Home--idHeaderReport{
+                color: #A1CFE7;
+                font-size: 13.65px;
+                letter-spacing: 0;
+                line-height: 16px;
+                margin-bottom: 16px;
+                width: fit-content;
+            }
+            #__hbox56, #__hbox57 {
+                background-color: transparent;
+                >.sapMFlexBoxBGTransparent{
+                    background-color: transparent;
+                }
+                .sapMObjStatusText {
+                    color: #23BB32;
+                    font-size: 28.66px;
+                    font-weight: bold;
+                    letter-spacing: 0;
+                    line-height: 30px;
+                }
+                .sapMText{
+                    color: #D4D3D3;
+                    font-size: 12.29px;
+                    letter-spacing: 1.02px;
+                    line-height: 34px;
+                }
+            }
+        }
+        /* end of shortage report */
+
+        /* monitor order purchase items */
+        #__layout205{
+            background-color: rgba(61, 71, 104, 0.82) !important;
+            border-radius: 7.64px;
+            padding: 20px 24px;
+            > .sapuiVltCell{
+                padding-bottom: 0px;
+                outline: none;
+                position: relative;
+            }
+            .sapMLnk.styleTitle1{
+                color: #FFFFFF;
+                font-size: 16.38px;
+                font-weight: 700;
+                letter-spacing: 0;
+                line-height: 19px;
+                padding-bottom: 10px;
+            }
+            #application-Z_PTP_SSM_ANALYST-display-component---Home--idHeaderMoni{
+                color: #A1CFE7;
+                font-size: 13.65px;
+                letter-spacing: 0;
+                line-height: 16px;
+                margin-top: 26px;
+                width: fit-content;
+            }
+            #application-Z_PTP_SSM_ANALYST-display-component---Home--idMaterialGroup{
+                position: absolute;
+                right: 0px;
+                top: 15px;
+                #application-Z_PTP_SSM_ANALYST-display-component---Home--idMaterialGroup-content{
+                    border: 0;
+                    background-color: transparent;
+                    border-bottom: 1.23px solid #4F5C89;
+                    .sapMInputBaseInner, .sapMInputBaseIcon{
+                        color: white;
+                        font-size: 12.29px;
+                    }
+                }
+            }
+            #UIComp_33{
+                .v-m-root{
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                .v-title{
+                    fill: #A4A4A4;
+                }
+                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
+                    fill: white;
+                }
+            }
+        }
+        /* end of monitor order purchase items */
+
+        /* monitor  purchase contract items */
+        #__layout206{
+            background-color: rgba(61, 71, 104, 0.82) !important;
+            border-radius: 7.64px;
+            padding: 20px 24px;
+            > .sapuiVltCell{
+                padding-bottom: 0px;
+                outline: none;
+                position: relative;
+            }
+            .sapMLnk.styleTitle1{
+                color: #FFFFFF;
+                font-size: 16.38px;
+                font-weight: 700;
+                letter-spacing: 0;
+                line-height: 19px;
+                padding-bottom: 10px;
+            }
+            #__list14-listUl, #__list13-listUl{
+                >.sapMLIB{
+                    background: transparent !important;
+                    border-bottom: 1.23px solid #4F5C89;
+                    .sapMFlexBoxBGTransparent{
+                        background-color: transparent !important;
+                    }
+                    .sapSuiteCpMCChartItemTitle{
+                        color: white;
+                    }
+                    .sapMLnk{
+                        color: #FFFFFF;
+                        font-size: 16.38px;
+                        font-weight: 700;
+                        letter-spacing: 0;
+                        line-height: 19px;
+                        padding-bottom: 10px;
+                    }
+                    .sapSuiteCpMCChartItemValue.sapSuiteCpMCSemanticColorError{
+                        color: #FFFFFF;
+                        font-size: 24px;
+                        letter-spacing: 0;
+                        line-height: 28px;
+                    }
+                    .sapMObjStatusError .sapMObjStatusText, .sapMObjStatusError .sapMObjStatusIcon{
+                        color: #FFFFFF;
+                        font-size: 13px;
+                        letter-spacing: 0;
+                        line-height: 15px;
+                    }
+                    &:last-child{
+                        border-bottom: 0;
+                    }
+                }
+            }
+        }
+        /*  end of monitor  purchase contract items */
+    }
+
+    #__layout209{
+        /* overdue purchase items */
+        #__layout208{
+            background-color: rgba(61, 71, 104, 0.82) !important;
+            border-radius: 7.64px;
+            padding: 20px 24px;
+            > .sapuiVltCell{
+                padding-bottom: 0px;
+                outline: none;
+                position: relative;
+            }
+            .sapMLnk.styleTitle1{
+                color: #FFFFFF;
+                font-size: 16.38px;
+                font-weight: 700;
+                letter-spacing: 0;
+                line-height: 19px;
+                padding-bottom: 10px;
+            }
+            #__hbox60{
+                background-color: transparent;
+                >.sapMFlexBoxBGTransparent{
+                    background-color: transparent;
+                }
+                .sapMObjStatusText {
+                    color: #23BB32;
+                    font-size: 28.66px;
+                    font-weight: bold;
+                    letter-spacing: 0;
+                    line-height: 30px;
+                }
+                .sapMText{
+                    color: #D4D3D3;
+                    font-size: 12.29px;
+                    letter-spacing: 1.02px;
+                    line-height: 34px;
+                }
+            }
+            #application-Z_PTP_SSM_ANALYST-display-component---Home--idPOSupplier{
+                position: absolute;
+                right: 0px;
+                top: 15px;
+                width: 13rem !important;
+                #application-Z_PTP_SSM_ANALYST-display-component---Home--idPOSupplier-content{
+                    border: 0;
+                    background-color: transparent;
+                    border-bottom: 1.23px solid #4F5C89;
+                    .sapMInputBaseInner, .sapMInputBaseIcon{
+                        color: white;
+                        font-size: 12.29px;
+                    }
+                }
+            }
+            #application-Z_PTP_SSM_ANALYST-display-component---Home--idHeaderOverdue{
+                color: #A1CFE7;
+                font-size: 13.65px;
+                letter-spacing: 0;
+                line-height: 16px;
+                margin-top: 22px;
+                width: fit-content;
+            }
+            #UIComp_34{
+                .v-m-root{
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                .v-title{
+                    fill: #A4A4A4;
+                }
+                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
+                    fill: white;
+                }
+            }
+        }
+        /* end of overdue purchase items */
+    }
+
+    /* Quick Links */
+    #__layout213{
+        padding-left: 0;
+        padding-right: 28px;
+        > .sapuiVltCell{
+            border-radius: 8px;
+            .sapMFlexBox{
+                margin: 0 !important;
+                padding: 20px 24px;
+                border-radius: 8px !important;
+                background-color: rgba(61, 71, 104, 0.82) !important;
+                width: 50%;
+                .sapMFlexBoxBGTransparent {
+                    background-color: transparent !important; 
+                    padding: 0;
+                    border-radius: 8px;
+                }
+            }
+            /*  No Text Label Hidden */
+            .sapMLabelNoText{
+                display: none;
+            }
+            /* End of No Text Label Hidden */
+            .sapMTitle{
+                color: #FFFFFF;
+                font-size: 16px;
+                font-weight: 700;
+                letter-spacing: 0;
+                line-height: 19px;
+                text-shadow: none;
+                margin-bottom: 10px !important;
+            }
+            .sapMLnk{
+                color: #599FFF;
+                font-size: 12px;
+                letter-spacing: 0;
+                line-height: 16px;
+                font-weight: 400;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    /* End of Quick Links */
+    /* background color */
+    #application-Z_PTP_SSM_ANALYST-display-component---Home{
+        .sapUiGlobalBackgroundColor, .sapMShellGlobalInnerBackground, #__page9 {
+            background-color: transparent;
+       }
+    }
+    /* background color */
+}
+/* end of my SSM analyst dashboard  */
