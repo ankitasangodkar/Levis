@@ -1926,3 +1926,241 @@ ul.sapUshellInner {
     /* background color */
 }
 /* my analyst dashboard */
+
+
+/* my OM analyst dashboard */
+#application-Z_OTC_OMANALYST_DB-display{
+    #__layout259{
+        padding-left: 24px;
+        /* sales order fullfullment issues */
+        #__layout257{
+            background-color: rgba(61, 71, 104, 0.82) !important;
+            border-radius: 7.64px;
+            padding: 20px 24px;
+            > .sapuiVltCell{
+                padding-bottom: 0px;
+                outline: none;
+                position: relative;
+            }
+            .sapMLnk.styleTitle1{
+                color: #FFFFFF;
+                font-size: 16.38px;
+                font-weight: 700;
+                letter-spacing: 0;
+                line-height: 19px;
+            }
+            #__text1469{
+                color: #A1CFE7;
+                font-size: 13.65px;
+                font-weight: 400;
+                letter-spacing: 0;
+                line-height: 16px;  
+            }
+            #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idPrtDte{
+                width: 35% !important;
+                position: absolute;
+                top: -6px;
+                right: 0;
+                #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idPrtDte-content{
+                    border: 0;
+                    background-color: transparent;
+                    border-bottom: 1.23px solid #4F5C89;
+                    .sapMInputBaseInner , .sapMInputBaseIcon{
+                        color: white;
+                        font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+            #UIComp_43{
+                .v-m-root{
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                .v-title{
+                    fill: #A4A4A4;
+                }
+                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
+                    fill: white;
+                }
+            }
+        }
+        /* end of sales order fullfullment issues */
+
+        /* manage sales order */
+        #__layout258{
+            background-color: rgba(61, 71, 104, 0.82) !important;
+            border-radius: 7.64px;
+            padding: 20px 24px;
+            > .sapuiVltCell{
+                padding-bottom: 0px;
+                outline: none;
+                position: relative;
+            }
+            .sapMLnk.styleTitle1{
+                color: #FFFFFF;
+                font-size: 16.38px;
+                font-weight: 700;
+                letter-spacing: 0;
+                line-height: 19px;
+            }
+            #__text1472{
+                color: #A1CFE7;
+                font-size: 13.65px;
+                font-weight: 400;
+                letter-spacing: 0;
+                line-height: 16px; 
+                padding-top: 10px; 
+                position: absolute;
+            }
+            #__hbox77{
+                position: absolute;
+                right: 150px;
+                background-color: transparent;
+                padding: 3px 0 12px;
+                margin: 0px 0 12px;
+                >.sapMFlexBoxBGTransparent{
+                    background-color: transparent;
+                }
+                .sapMObjStatusText {
+                    color: #23BB32;
+                    font-size: 28.66px;
+                    font-weight: bold;
+                    letter-spacing: 0;
+                    line-height: 34px;
+                }
+                .sapMText{
+                    color: #D4D3D3;
+                    font-size: 12.29px;
+                    letter-spacing: 1.02px;
+                    line-height: 24px;
+                    padding-left: 0 !important;
+                    padding-top: 0 !important;
+                }
+            }
+            #application-Z_OTC_OMANALYST_DB-display-component---Home--idMngSalesTable{
+                margin-top: 44px;
+                #application-Z_OTC_OMANALYST_DB-display-component---Home--idMngSalesTable-listUl{
+                    .sapMLabel{
+                        color: #FFFFFF;
+                        font-size: 12.61px;
+                        letter-spacing: 0;
+                        line-height: 15px;
+                    }
+                }
+                #application-Z_OTC_OMANALYST_DB-display-component---Home--idMngSalesTable-tblHeader{
+                    >.sapMTableTH{
+                        background: #455278 !important;
+                        border-bottom: 0.4px solid #4F5C89;
+                        padding: 0 3px;
+                    }
+                }
+                #application-Z_OTC_OMANALYST_DB-display-component---Home--idMngSalesTable-tblBody{
+                    .sapMText{
+                        color: #FFFFFF;
+                        font-size: 12.29px;
+                        letter-spacing: 0;
+                        line-height: 32px;
+                    }
+                }
+                .sapMGrowingListTrigger{
+                    border-top: 2.1px solid #5F70A5;
+                }
+                .sapMListShowSeparatorsAll .sapMLIBShowSeparator:last-child>td {
+                    border-bottom: 0;
+                }
+                .sapMLIBShowSeparator>td{
+                    border-top: 1.05px solid #4F5C89;
+                }
+                .sapMLIB{
+                    background: transparent;
+                    border: 0;
+                }
+            }
+            #application-Z_OTC_OMANALYST_DB-display-component---Home--idSoldCombo{
+                position: absolute;
+                top: -6px;
+                right: 0;
+                #application-Z_OTC_OMANALYST_DB-display-component---Home--idSoldCombo-content{
+                    border: 0;
+                    background-color: transparent;
+                    border-bottom: 1.23px solid #4F5C89;
+                    width: 145px !important;
+                    .sapMInputBaseInner , .sapMInputBaseIcon{
+                        color: white;
+                        font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+        /* end of manage sales order */
+    }
+
+    /* Quick Links */
+    #__layout263, #__layout266{
+        padding-left: 0;
+        padding-right: 0;
+        .columns{
+            border-radius: 8px;
+            &.sapMFlexBoxBGTransparent{
+                background-color: transparent;
+            }
+            > .sapMFlexBox{
+                margin: 0 !important;
+                padding: 0;
+                border-radius: 8px !important;
+                background-color: transparent !important;
+                > .sapMFlexBoxBGTransparent {
+                    background-color: rgba(61, 71, 104, 0.82) !important; 
+                    padding: 20px 24px;
+                    border-radius: 8px;
+                }
+            }
+            /*  No Text Label Hidden */
+            .sapUiVlt.sapuiVlt{
+                .sapMLabelNoText{
+                    display: none;
+                }
+            }
+            /* End of No Text Label Hidden */
+            .sapMTitle{
+                color: #FFFFFF;
+                font-size: 16px;
+                font-weight: 700;
+                letter-spacing: 0;
+                line-height: 19px;
+                text-shadow: none;
+                padding-bottom: 10px;
+            }
+            .sapMLnk{
+                color: #599FFF;
+                font-size: 12px;
+                letter-spacing: 0;
+                line-height: 16px;
+                font-weight: 400;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    #__layout266{
+        padding-left: 16px;
+        padding-right: 25px;
+    }
+    /* End of Quick Links */
+    /* background color */
+    #application-Z_OTC_OMANALYST_DB-display-component---App{
+       .sapUiGlobalBackgroundColor, .sapMShellGlobalInnerBackground {
+            background-color: transparent;
+       }
+    }
+    /* background color */
+}
+/* end of  my OM analyst dashboard */
