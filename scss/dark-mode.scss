@@ -2533,17 +2533,20 @@ ul.sapUshellInner {
                     font-weight: bold;
                     letter-spacing: 0;
                     line-height: 30px;
-                    white-space: nowrap;
                 }
                 .sapMText{
                     color: #D4D3D3;
                     font-size: 12.29px !important;
                     letter-spacing: 1.02px;
                     line-height: 34px;
-                    width: 135px;
+                    width: 100%;
+                    margin-left: 15px;
                 }
-                #__text1445{
-                    padding-left: 50px;
+                #application-ZPTP_PLAN_MNGR-display-component---Home--idPOTitle, #application-ZPTP_PLAN_MNGR-display-component---Home--idPOToal{
+                    width: 100% !important;
+                }
+                #__text1444{
+                    width: 100%;
                 }
             }
         }
