@@ -2952,6 +2952,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(3){
                     width: fit-content;
+                    @media (max-width: 991px){
+                        width: auto;
+                        text-align: center;
+                    }
                 }
             }
             .sapMLnk.styleTitle1{
@@ -2970,6 +2974,10 @@ ul.sapUshellInner {
                 line-height: 16px;
                 margin-top: 12px;
                 width: fit-content;
+                @media (max-width: 991px){
+                    position: relative;
+                    top: -26px;
+                }
             }
             #application-Z_PTP_SSM_ANALYST-display-component---Home--idMaterialGroup{
                 position: absolute;
@@ -2988,18 +2996,30 @@ ul.sapUshellInner {
                         }
                     }
                 }
+                @media (max-width: 991px){
+                    right: 0;
+                    left: 0;
+                }
+                @media (max-width: 767px){
+                    top: 40px;
+                }
             }
-            #UIComp_33{
-                .v-m-root{
-                    &:focus{
-                        outline: none;
+            #application-Z_PTP_SSM_ANALYST-display-component---Home--MonitorPurOrdChart{
+                #UIComp_33{
+                    .v-m-root{
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                    .v-title{
+                        fill: #A4A4A4;
+                    }
+                    .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
+                        fill: white;
                     }
                 }
-                .v-title{
-                    fill: #A4A4A4;
-                }
-                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
-                    fill: white;
+                @media (max-width: 991px){
+                    margin-top: 24px;
                 }
             }
         }
@@ -3113,6 +3133,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(4){
                     width: fit-content;
+                    @media (max-width: 991px){
+                        width: auto;
+                        text-align: center;
+                    }
                 }
             }
             .sapMLnk.styleTitle1{
@@ -3157,7 +3181,7 @@ ul.sapUshellInner {
                 position: absolute;
                 right: 0px;
                 top: 15px;
-                width: 13rem !important;
+                width: auto !important;
                 #application-Z_PTP_SSM_ANALYST-display-component---Home--idPOSupplier-content{
                     border: 0;
                     background-color: transparent;
@@ -3170,6 +3194,11 @@ ul.sapUshellInner {
                         }
                     }
                 }
+                @media (max-width: 991px){
+                    margin: auto;
+                    left: 0;
+                    top: 38px;
+                }
             }
             #application-Z_PTP_SSM_ANALYST-display-component---Home--idHeaderOverdue{
                 color: #A1CFE7;
@@ -3177,19 +3206,33 @@ ul.sapUshellInner {
                 letter-spacing: 0;
                 line-height: 16px;
                 margin-top: 22px;
-                width: fit-content;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 200px !important;
+                text-overflow: ellipsis;
+                @media (max-width: 1200px){
+                    width: 150px !important;
+                }
+                @media (max-width: 991px){
+                    text-align: center;
+                }
             }
-            #UIComp_34{
-                .v-m-root{
-                    &:focus{
-                        outline: none;
+            #application-Z_PTP_SSM_ANALYST-display-component---Home--idOverdueChart{
+                #UIComp_34{
+                    .v-m-root{
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                    .v-title{
+                        fill: #A4A4A4;
+                    }
+                    .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
+                        fill: white;
                     }
                 }
-                .v-title{
-                    fill: #A4A4A4;
-                }
-                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
-                    fill: white;
+                @media (max-width: 992px){
+                    margin-top: 28px;
                 }
             }
         }
@@ -3255,7 +3298,7 @@ ul.sapUshellInner {
 #application-Z_PTP_SSM_MANAGER-display{
 
     #__layout236{
-                padding-left: 24px;
+        padding-left: 24px;
         padding-right: 0;
         /* purchase contract approval */
         #__layout231{
