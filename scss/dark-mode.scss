@@ -1070,6 +1070,9 @@ ul.sapUshellInner {
                 line-height: 16px;  
                 position: absolute;
                 padding-top: 3px;
+                @media (max-width: 1200px){
+                    padding-top: 12px;
+                }
             }
             #application-ZOTCMANAGEROVP-display-component---Home--idPrtDte{
                 width: 35% !important;
@@ -1087,6 +1090,11 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+                @media (max-width: 1200px){
+                    width: 100% !important;
+                    position: unset;
+                    margin-bottom: 10px;
                 }
             }
             #application-ZOTCMANAGEROVP-display-component---Home--pftMgnFulmntChart{
@@ -1215,14 +1223,6 @@ ul.sapUshellInner {
                     padding-left: 0 !important;
                 }
             }
-            #__text1496{
-                color: #A1CFE7;
-                font-size: 13.65px;
-                font-weight: 400;
-                letter-spacing: 0;
-                line-height: 16px;  
-                position: absolute;
-            }
             #__text1491{
                 color: #A1CFE7;
                 font-size: 13.65px;
@@ -1249,6 +1249,11 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                    @media (max-width: 1200px){
+                        width: 100% !important;
+                        position: unset;
+                        margin-bottom: 10px;
+                    }
                 }
                 &:after{
                     content: '';
@@ -1257,7 +1262,14 @@ ul.sapUshellInner {
                     bottom: 14px;
                     background-color: #4F5C89;
                     height: 2.73px;
-                    width: 37vw;
+                    width: 35vw;
+                    @media (max-width: 1200px){
+                        bottom: 36px;
+                        width: 30vw;
+                    }
+                }
+                @media (max-width: 1200px){
+                    margin: 18px 0;
                 }
             }
             #application-ZOTCMANAGEROVP-display-component---Home--idOpenSalesChart{
@@ -1403,6 +1415,13 @@ ul.sapUshellInner {
                 letter-spacing: 0;
                 line-height: 16px;  
                 position: absolute;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 180px;
+                @media (max-width: 1200px){
+                    width: 100%;
+                }
             }
             #application-ZOTCMANAGEROVP-display-component---Home--idOverdueCombo{
                 width: auto !important;
@@ -1420,6 +1439,10 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+                @media (max-width: 1200px){
+                    position: unset;
+                    margin-bottom: 18px;
                 }
             }
             #application-ZOTCMANAGEROVP-display-component---Home--idOverdueChart{
