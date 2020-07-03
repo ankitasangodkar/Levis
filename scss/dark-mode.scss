@@ -473,6 +473,9 @@ ul.sapUshellInner {
                 padding: 0 1rem;
                 position: absolute;
                 top: 152px;
+                @media (max-width: 1200px){
+                    position: unset;
+                }
             }
             #application-Z_OTC_SALESDB-display-component---Home--idSlsDte{
                 width: 100% !important;
@@ -491,6 +494,11 @@ ul.sapUshellInner {
                         &:active{
                             background-color: transparent;
                         }
+                    }
+                    @media (max-width: 1200px){
+                        position: unset;
+                        width: 90% !important;
+                        margin: 5px 0 0 10px;
                     }
                 }
                 &:after{
@@ -554,11 +562,15 @@ ul.sapUshellInner {
                 padding: 1rem 25px 0;
                 border-top: 2px solid #4F5C89;
                 width: 96%;
+                @media (max-width: 1200px){
+                    border-top: 0;
+                }
             }
             #__box38{
                 position: absolute;
                 top: 145px;
                 right: 15px;
+                width: 32%;
                 .sapMInputBaseContentWrapper{
                     border: 0;
                     border-bottom: 1.23px solid #4F5C89;
@@ -569,6 +581,11 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+                @media (max-width: 991px){
+                    position: unset;
+                    width: 85%;
+                    margin-left: 20px;
                 }
             }
             #application-Z_OTC_SALESDB-display-component---Home--idSalesIncomChart{
@@ -734,6 +751,16 @@ ul.sapUshellInner {
                 position: absolute;
                 top: 132px;
                 padding: 0 25px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width: 200px;
+                @media (max-width: 1200px){
+                    white-space: normal;
+                    width: 100%;
+                    padding-top: 15px;
+                    position: unset;
+                }
             }
             #application-Z_OTC_SALESDB-display-component---Home--idPrtDte{
                 width: 100% !important;
@@ -752,33 +779,43 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                    @media (max-width: 1200px){
+                        position: unset;
+                        margin: 8px 0 8px 22px;
+                        width: auto !important;
+                    }
                 }
             }
-            #UIComp_19{
-                width: 100% !important;
-                margin: 0 auto;
-                padding: 0 10px;
-                .v-m-root{
-                    &:focus{
-                        outline: none;
+            #application-Z_OTC_SALESDB-display-component---Home--pftMgnFulmntChart{
+                #UIComp_19{
+                    width: 100% !important;
+                    margin: 0 auto;
+                    padding: 0 10px;
+                    .v-m-root{
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                    .v-title.viz-axis-title, .v-legend-element{
+                        fill: #A4A4A4;
+                    }
+                    .v-legend-element, .v-label{
+                        fill: white;
+                    }
+                    .v-hovershadow{
+                       fill: #4f5f8c;
+                    }
+                    .v-gridline{
+                        stroke: #4F5C89;
+                    }
+                    .v-datapoint{
+                        rect{
+                            stroke-width: 0;
+                        }
                     }
                 }
-                .v-title.viz-axis-title, .v-legend-element{
-                    fill: #A4A4A4;
-                }
-                .v-legend-element, .v-label{
-                    fill: white;
-                }
-                .v-hovershadow{
-                   fill: #4f5f8c;
-                }
-                .v-gridline{
-                    stroke: #4F5C89;
-                }
-                .v-datapoint{
-                    rect{
-                        stroke-width: 0;
-                    }
+                @media (max-width: 1200px){
+                    margin-top: 40px;
                 }
             }
         }
@@ -845,6 +882,9 @@ ul.sapUshellInner {
                 padding: 0 25px;
                 position: absolute;
                 top: 48px;
+                @media (max-width: 1200px){
+                    position: unset;
+                }
             }
             #__hbox33{
                 position: absolute;
@@ -869,6 +909,10 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+                @media (max-width: 1200px){
+                    position: unset;
+                    padding: 0 0 0 24px;
                 }
             }
             #__text3195{
