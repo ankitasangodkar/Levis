@@ -565,6 +565,9 @@ ul.sapUshellInner {
                     background: transparent;
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -862,6 +865,9 @@ ul.sapUshellInner {
                     }
                     .sapMInputBaseIcon{
                         color: #ffffff;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -2306,6 +2312,9 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -2396,6 +2405,9 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -2673,6 +2685,9 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -2766,6 +2781,9 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -2965,6 +2983,9 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -3144,6 +3165,9 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -3394,6 +3418,10 @@ ul.sapUshellInner {
                 }
                 &:nth-child(3){
                     width: fit-content;
+                    @media (max-width: 991px){
+                        width: auto;
+                        text-align: center;
+                    }
                 }
             }
             .sapMLnk.styleTitle1{
@@ -3410,6 +3438,10 @@ ul.sapUshellInner {
                 letter-spacing: 0;
                 line-height: 16px;
                 width: fit-content;
+                @media (max-width: 991px){
+                    position: relative;
+                    top: -12px;
+                }
             }
             #application-Z_PTP_SSM_MANAGER-display-component---Home--idMaterialGroup{
                 position: absolute;
@@ -3423,7 +3455,15 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
+                }
+                @media (max-width: 991px){
+                    top: 32px;
+                    left: 0;
+                    margin : auto;
                 }
             }
             #application-Z_PTP_SSM_MANAGER-display-component---Home--pftMgnFulmntChart{
@@ -3480,9 +3520,19 @@ ul.sapUshellInner {
                 font-size: 13.65px;
                 letter-spacing: 0;
                 line-height: 16px;
-                width: fit-content;
                 position: absolute;
                 top: 24px;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 200px;
+                text-overflow: ellipsis;
+                @media (max-width: 1200px){
+                    width: 140px;
+                }
+                @media (max-width: 991px){
+                    text-align: center;
+                    width: 100%;
+                }
             }
             #__hbox71, #__hbox72 {
                 background-color: transparent;
@@ -3512,6 +3562,7 @@ ul.sapUshellInner {
                 position: absolute;
                 right: 0px;
                 top: 15px;
+                width: auto !important;
                 #application-Z_PTP_SSM_MANAGER-display-component---Home--idPOSupplier-content{
                     border: 0;
                     background-color: transparent;
@@ -3519,7 +3570,16 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
+                }
+                @media (max-width: 991px){
+                    left: 0;
+                    right: 0px;
+                    top: 50px;
+                    margin: auto;
                 }
             }
             #application-Z_PTP_SSM_MANAGER-display-component---Home--idOverdueChart{
@@ -3534,6 +3594,9 @@ ul.sapUshellInner {
                     background-color: #4F5C89;
                     width: 100%;
                     height: 1.23px;
+                    @media (max-width: 991px){
+                        top: -68px;
+                    }
                 }
                 #UIComp_40{
                     .v-m-root{
@@ -3547,6 +3610,9 @@ ul.sapUshellInner {
                     .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
                         fill: white;
                     }
+                }
+                @media (max-width: 991px){
+                    margin-top: 75px;
                 }
             }
         }
@@ -3767,6 +3833,9 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
@@ -3975,6 +4044,9 @@ ul.sapUshellInner {
                     .sapMInputBaseInner, .sapMInputBaseIcon{
                         color: white;
                         font-size: 12.29px;
+                        &:active{
+                            background-color: transparent;
+                        }
                     }
                 }
             }
