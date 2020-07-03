@@ -1185,10 +1185,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 20px;
                 }
                 &:nth-child(4){
                     clear: both;
@@ -1421,6 +1421,7 @@ ul.sapUshellInner {
                 width: 180px;
                 @media (max-width: 1200px){
                     width: 100%;
+                    white-space: normal;
                 }
             }
             #application-ZOTCMANAGEROVP-display-component---Home--idOverdueCombo{
@@ -1627,6 +1628,15 @@ ul.sapUshellInner {
                 letter-spacing: 0;
                 line-height: 16px;  
                 position: absolute;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width: 220px;
+                @media (max-width: 1200px){
+                    width: 100%;
+                    white-space: normal;
+                    margin-top: 10px;
+                }
             }
             #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idPrtDte{
                 width: 35% !important;
@@ -1644,6 +1654,10 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+                @media (max-width: 1200px){
+                    width: 100% !important;
+                    position: unset;
                 }
             }
             #application-Z_OTC_AR_ANALYST_DB-display-component---Home--pftMgnFulmntChart{
@@ -1868,6 +1882,15 @@ ul.sapUshellInner {
                 letter-spacing: 0;
                 line-height: 16px;  
                 position: absolute;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width: 180px;
+                @media (max-width: 1200px){
+                    width: 100%;
+                    white-space: normal;
+                    margin-top: 10px;
+                }
             }
             #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idOverdueCombo{
                 width: auto !important;
@@ -1885,6 +1908,9 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+                @media (max-width: 1200px){
+                    position: unset;
                 }
             }
             #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idOverdueChart{
@@ -2057,6 +2083,14 @@ ul.sapUshellInner {
                 padding-top: 10px; 
                 position: absolute;
                 padding-left: 24px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width: 260px;
+                @media (max-width: 1200px){
+                    width: 100%;
+                    white-space: normal;
+                }
             }
             #__hbox77{
                 position: absolute;
@@ -2081,6 +2115,11 @@ ul.sapUshellInner {
                     line-height: 24px;
                     padding-left: 0 !important;
                     padding-top: 0 !important;
+                }
+                @media (max-width: 1200px){
+                    position: unset;
+                    padding: 8px 0 0px 24px;
+                    margin: 0;
                 }
             }
             #application-Z_OTC_OMANALYST_DB-display-component---Home--idMngSalesTable{
@@ -2225,10 +2264,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 25px;
                 }
                 &:nth-child(4){
                     clear: both;
@@ -2322,12 +2361,12 @@ ul.sapUshellInner {
                 letter-spacing: 0;
                 line-height: 16px;
                 padding-top: 10px;
-                width: fit-content;
             }
             #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup{
                 position: absolute;
                 right: 0px;
                 top: 2px;
+                width: auto !important;
                 #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup-content{
                     border: 0;
                     background-color: transparent;
@@ -2339,6 +2378,10 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+                @media (max-width: 1200px){
+                    position: unset;
+                    width: auto !important;
                 }
             }
             #UIComp_31{
@@ -2370,10 +2413,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 25px;
                 }
                 &:nth-child(4){
                     clear: both;
@@ -2396,7 +2439,15 @@ ul.sapUshellInner {
                 letter-spacing: 0;
                 line-height: 16px;
                 margin-top: 26px;
-                width: fit-content;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 180px;
+                @media (max-width: 1200px){
+                    white-space: normal;
+                    width: 100%;
+                    margin-top: 10px;
+                }
             }
             #__hbox54, #__hbox55{
                 background-color: transparent;
@@ -2421,6 +2472,7 @@ ul.sapUshellInner {
                 position: absolute;
                 right: 0px;
                 top: 15px;
+                width: auto !important;
                 #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier-content{
                     border: 0;
                     background-color: transparent;
@@ -2432,6 +2484,10 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+               @media (max-width: 1200px){
+                    position: unset;
+                    width: auto !important;
                 }
             }
             #application-Z_PTP_PA_DB-display-component---Home--idOverdueChart{
@@ -2445,6 +2501,9 @@ ul.sapUshellInner {
                     background-color: #4F5C89;
                     width: 100%;
                     height: 1.23px;
+                    @media (max-width: 1200px){
+                        display: none;
+                    }
                 }
                 #UIComp_32{
                     .v-m-root{
@@ -2540,10 +2599,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 25px;
                 }
                 &:nth-child(4){
                     clear: both;
@@ -2598,10 +2657,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 25px;
                 }
                 &:nth-child(4){
                     clear: both;
@@ -2698,6 +2757,7 @@ ul.sapUshellInner {
                 top: 0px;
             }
             #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup{
+                width: auto !important;
                 position: absolute;
                 right: 0px;
                 top: 20px;
@@ -2711,7 +2771,13 @@ ul.sapUshellInner {
                         &:active{
                             background-color: transparent;
                         }
+                        @media (max-width: 1200px){
+                            width: auto;
+                        }
                     }
+                }
+                @media (max-width: 1200px){
+                    position: unset;
                 }
             }
             #application-ZPTP_PLAN_MNGR-display-component---Home--pftMgnFulmntChart{
@@ -2746,10 +2812,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 25px;
                 }
                 &:nth-child(4){
                     clear: both;
@@ -2773,6 +2839,14 @@ ul.sapUshellInner {
                 line-height: 16px;
                 padding-top: 24px;
                 width: fit-content;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width: 180px;
+                @media (max-width: 1200px){
+                    width: 100%;
+                    white-space: normal;
+                }
             }
             #__hbox65, #__hbox66{
                 background-color: transparent;
@@ -2797,6 +2871,7 @@ ul.sapUshellInner {
                 position: absolute;
                 right: 0px;
                 top: 15px;
+                width: auto !important;
                 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier-content{
                     border: 0;
                     background-color: transparent;
@@ -2808,6 +2883,9 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+                @media (max-width: 1200px){
+                    position: unset;
                 }
             }
             #application-ZPTP_PLAN_MNGR-display-component---Home--idOverdueChart{
@@ -2821,6 +2899,9 @@ ul.sapUshellInner {
                     background-color: #4F5C89;
                     width: 100%;
                     height: 1.23px;
+                    @media (max-width: 1200px){
+                        display: none;
+                    }
                 }
                 #UIComp_37{
                     .v-m-root{
@@ -2917,10 +2998,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(3){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(4){
                     float: left;
-                    padding-left: 20px;
                 }
                 &:nth-child(5){
                     clear: both;
@@ -3235,6 +3316,7 @@ ul.sapUshellInner {
                 text-overflow: ellipsis;
                 @media (max-width: 1200px){
                     width: 150px !important;
+                    white-space: normal;
                 }
                 @media (max-width: 991px){
                     text-align: center;
@@ -3334,10 +3416,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 20px;
                 }
                 &:nth-child(4){
                     clear: both;
@@ -3399,10 +3481,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 20px;
                 }
                 &:nth-child(4){
                     clear: both;
@@ -3564,10 +3646,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 20px;
                 }
                 &:nth-child(4){
                     clear: both;
@@ -3594,6 +3676,7 @@ ul.sapUshellInner {
                 text-overflow: ellipsis;
                 @media (max-width: 1200px){
                     width: 140px;
+                    white-space: normal;
                 }
                 @media (max-width: 991px){
                     text-align: center;
@@ -3695,10 +3778,10 @@ ul.sapUshellInner {
                 position: relative;
                 &:nth-child(2){
                     float: left;
+                    padding-right: 20px;
                 }
                 &:nth-child(3){
                     float: left;
-                    padding-left: 20px;
                 }
                 &:nth-child(4){
                     clear: both;
