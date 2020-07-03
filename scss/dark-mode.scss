@@ -3869,6 +3869,7 @@ ul.sapUshellInner {
                 position: absolute;
                 top: -42px;
                 right: 0;
+                width: auto !important;
                 #application-ZSUPPLY_CHAIN-display-component---Home--idComboHTS-content{
                     border: 0;
                     background-color: transparent;
@@ -3880,6 +3881,10 @@ ul.sapUshellInner {
                             background-color: transparent;
                         }
                     }
+                }
+                @media (max-width: 1200px){
+                    position: unset;
+                    margin-bottom: 10px;
                 }
             }
         }
@@ -4028,14 +4033,22 @@ ul.sapUshellInner {
                 padding: 0 1.5rem;
                 position: absolute;
                 top: -2px;
+                @media (max-width: 991px){
+                    position: unset;
+                    padding-top: 12px;
+                }
             }
             #__hbox76 {
                 background-color: transparent;
                 position: absolute;
                 top: -12px;
                 right: 0;
+                width: auto !important;
                 >.sapMFlexBoxBGTransparent{
                     background-color: transparent;
+                }
+                @media (max-width: 991px){
+                    position: unset;
                 }
             }
             #application-ZSUPPLY_CHAIN-display-component---Home--idMngSalesTable{
@@ -4077,9 +4090,13 @@ ul.sapUshellInner {
                     background: transparent;
                     border: 0;
                 }
+                @media (max-width: 991px){
+                    margin-top: 16px;
+                }
             }
             #application-ZSUPPLY_CHAIN-display-component---Home--idSoldCombo{
                 padding: 0 1.5rem;
+                width: auto !important;
                 #application-ZSUPPLY_CHAIN-display-component---Home--idSoldCombo-content{
                     border: 0;
                     background-color: transparent;
