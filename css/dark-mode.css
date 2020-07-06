@@ -427,7 +427,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 0 0;
-  max-height: 540px;
+  max-height: 575px;
 }
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -513,7 +513,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   border-radius: 7.64px;
   position: relative;
   padding: 20px 10px;
-  max-height: 540px;
+  max-height: 575px;
 }
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -693,6 +693,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   border-radius: 7.64px;
   padding: 20px 0;
   position: relative;
+  max-height: 575px;
 }
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -905,7 +906,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   border-radius: 7.64px;
   padding: 20px 0;
   position: relative;
-  max-height: 535px;
+  max-height: 575px;
 }
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -1413,6 +1414,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 0 0;
+  max-height: 575px;
 }
 
 #application-ZOTCMANAGEROVP-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -1538,6 +1540,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 0 0;
+  max-height: 575px;
 }
 
 #application-ZOTCMANAGEROVP-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -1582,6 +1585,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 0 0;
+  max-height: 575px;
 }
 
 #application-ZOTCMANAGEROVP-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -1718,6 +1722,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 0 0;
+  max-height: 575px;
 }
 
 #application-ZOTCMANAGEROVP-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -1793,6 +1798,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 0 0;
+  max-height: 575px;
 }
 
 #application-ZOTCMANAGEROVP-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -1926,6 +1932,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 0 0;
+  max-height: 575px;
 }
 
 #application-ZOTCMANAGEROVP-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
