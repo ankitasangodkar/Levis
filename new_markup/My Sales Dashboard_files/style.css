@@ -1,0 +1,114 @@
+.styleTitle {
+    font-size: 1.4rem !important;
+    padding-left: 8rem !important;
+}
+
+.styleTitle1 {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+}
+
+.sapMFlexBoxBGTransparent {
+    background-color: white;
+    /* border-radius:6% !important;*/
+}
+
+.HorizontalLayoutID {
+    width: 100% !important;
+}
+
+.HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child {
+    width: 41% !important;
+}
+
+.sapUiHLayoutChildWrapper {
+    width: 40% !important;
+}
+
+.sapUiHLayoutChildWrapper:last-child {
+    width: 19% !important;
+}
+
+.styleBorder {
+    border-radius: 6% !important;
+}
+
+.styleObjectStatus {
+    font-size: x-large !important;
+}
+
+.styleObjectStatusSls {
+    font-size: x-large !important;
+}
+
+.styleObjectStatusInSls {
+    font-size: x-large !important;
+}
+
+.styleObjectStatusInSls1 {
+    font-size: medium !important;
+}
+
+.comboClass {
+    max-width: 170px !important;
+    padding-left: 13px !important;
+}
+
+.titleClass {
+    margin-top: 10px;
+}
+
+.marginStyle {
+    padding-top: 0.4rem !important;
+    padding-left: 10px !important;
+}
+
+.marginPadding {
+    padding-left: 10px !important;
+    padding-top: 0.2rem !important;
+}
+
+.marginOpenSlsStyle {
+    padding-top: 0.6rem !important;
+}
+
+.styleObjectStatusOpnSls {
+    font-size: x-large !important;
+    width: 4.2rem !important;
+}
+
+.styleOpnIcgTitle {
+    padding-left: 8rem !important;
+    font-size: x-large !important;
+}
+
+.soldClass {
+   padding-top: 6px !important;
+   width: 14rem !important;
+}
+
+.dateStyle {
+    width: 240% !important;
+}
+
+.profitStyle {
+    height: 402px !important;
+}
+.PrftStyle{
+	width: 12rem !important;
+	padding-top: 0.5rem !important;
+
+}
+.SlsStyle{
+		width: 28rem !important;
+		padding-top: 0.5rem !important;
+}
+.switchStyle{
+	padding-left: 18rem !important;
+}
+.monthStyle{
+	padding-left: 120px !important;
+}
+.monthTextStyle{
+	padding-top: 8px !important;
+}
