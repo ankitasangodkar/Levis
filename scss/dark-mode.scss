@@ -508,9 +508,19 @@ ul.sapUshellInner {
                                         }
                                     }
                                 }
+                                &:nth-child(2){
+                                    .sapMHBox{
+                                        position: relative;
+                                        &:nth-child(3){
+                                            position: absolute;
+                                            right: 24px;
+                                            top: 38px;
+                                        }
+                                    }
+                                }
                                 &:nth-child(4){
                                     clear: both;
-                                     border-top: 1.23px solid #4F5C89;
+                                    border-top: 1.23px solid #4F5C89;
                                     .sapUiHLayout{
                                         padding: 6px 0 0 18px;
                                         .sapUiHLayoutChildWrapper{
@@ -548,6 +558,10 @@ ul.sapUshellInner {
                                                         }
                                                     }
 
+                                                }
+                                                @media (max-width: 1200px){
+                                                    position: unset;
+                                                    margin: 8px 0 8px 22px;
                                                 }
                                             }
                                         }
@@ -646,6 +660,7 @@ ul.sapUshellInner {
                                         width: 100%;
                                         display: flex;
                                         justify-content: space-between;
+                                        flex-wrap: wrap;
                                         >.sapMFlexBoxBGTransparent{
                                             background-color: transparent;
                                         }
@@ -884,7 +899,10 @@ ul.sapUshellInner {
                                                             margin: 8px 0 8px 22px;
                                                         }
                                                     }
-
+                                                }
+                                                @media (max-width: 1200px){
+                                                    position: unset;
+                                                    margin: 8px 0 8px 22px;
                                                 }
                                             }
                                         }
@@ -1043,6 +1061,7 @@ ul.sapUshellInner {
                                         background-color: transparent;
                                         display: flex;
                                         justify-content: space-between;
+                                        flex-wrap: wrap;
                                         >.sapMFlexBoxBGTransparent{
                                             background-color: transparent;
                                         }
@@ -1163,6 +1182,7 @@ ul.sapUshellInner {
                             padding: 0;
                             border-radius: 8px !important;
                             background-color: transparent !important;
+                            width: 30%;
                             > .sapMFlexBoxBGTransparent {
                                 background-color: rgba(61, 71, 104, 0.82) !important; 
                                 padding: 20px 25px;

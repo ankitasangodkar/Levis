@@ -558,6 +558,16 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   padding: 0 0 0 1rem;
 }
 
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) .sapMHBox {
+  position: relative;
+}
+
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) .sapMHBox:nth-child(3) {
+  position: absolute;
+  right: 24px;
+  top: 38px;
+}
+
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) {
   clear: both;
   border-top: 1.23px solid #4F5C89;
@@ -609,6 +619,13 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
     position: unset;
     width: 90% !important;
     margin: 5px 0 0 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(2) {
+    position: unset;
+    margin: 8px 0 8px 22px;
   }
 }
 
@@ -705,6 +722,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) > .sapMHBox > .sapMFlexBoxBGTransparent {
@@ -960,6 +978,13 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   }
 }
 
+@media (max-width: 1200px) {
+  #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(2) {
+    position: unset;
+    margin: 8px 0 8px 22px;
+  }
+}
+
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .sapVizFrame {
   height: auto !important;
 }
@@ -1117,6 +1142,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: transparent;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox > .sapMFlexBoxBGTransparent {
@@ -1245,6 +1271,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   padding: 0;
   border-radius: 8px !important;
   background-color: transparent !important;
+  width: 30%;
 }
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell .columns > .sapMFlexBox > .sapMFlexBoxBGTransparent {
