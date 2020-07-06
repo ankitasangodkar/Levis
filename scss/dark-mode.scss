@@ -437,6 +437,15 @@ ul.sapUshellInner {
                             padding: 20px 10px;
                             > .sapuiVltCell{
                                 padding-bottom: 6px;
+                                &:nth-child(2){
+                                    float: left;
+                                }
+                                &:nth-child(3){
+                                    float: left;
+                                }
+                                &:nth-child(4){
+                                    clear: both;
+                                }
                             }
                             .sapMLnk.styleTitle1{
                                 color: #FFFFFF;
@@ -467,6 +476,7 @@ ul.sapUshellInner {
                                 font-size: 12.29px;
                                 letter-spacing: 1.02px;
                                 line-height: 22px;
+                                white-space: nowrap;
                             }
                             #__text3188{
                                 color: #A1CFE7;
@@ -549,6 +559,15 @@ ul.sapUshellInner {
                             position: relative;
                             > .sapuiVltCell{
                                 padding-bottom: 6px;
+                                &:nth-child(2){
+                                    float: left;
+                                }
+                                &:nth-child(3){
+                                    float: left;
+                                }
+                                &:nth-child(4){
+                                    clear: both;
+                                }
                             }
                             .sapMLnk.styleTitle1{
                                 color: #FFFFFF;
