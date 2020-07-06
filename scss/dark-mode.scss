@@ -376,322 +376,330 @@ ul.sapUshellInner {
 }
 /* my sales dashboard */
 #application-Z_OTC_SALESDB-display{
-
-    #__layout68{
-        padding: 1rem 0 1rem 25px;
-        /* sales order fulfillment orders */
-        #__layout65.sapMFlexBoxBGTransparent{
-            background-color: rgba(61, 71, 104, 0.82) !important;
-            border-radius: 7.64px;
-            padding: 20px 0 0;
-            > .sapuiVltCell{
-                padding-bottom: 0px;
-                outline: none;
-            }
-            .sapMLnk.styleTitle1{
-                color: #FFFFFF;
-                font-size: 16.38px;
-                font-weight: 700;
-                letter-spacing: 0;
-                line-height: 19px;
-                padding: 0 25px;
-            }
-            #__text3187{
-                color: #A1CFE7;
-                font-size: 13.65px;
-                letter-spacing: 0;
-                line-height: 16px;  
-                padding: 0 25px;
-                font-weight: 400;
-            }
-            #UIComp_16{
-                margin: 0 auto;
-                .v-m-root{
-                    &:focus{
-                        outline: none;
+    .sapUiHLayoutChildWrapper{
+        &:nth-child(1){
+            > .sapUiVlt.sapUiContentPadding{
+                padding: 1rem 0 1rem 25px;
+                .sapUiVltCell.sapuiVltCell{
+                    /* sales order fulfillment orders */
+                    &:nth-child(1){
+                        > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
+                            background-color: rgba(61, 71, 104, 0.82) !important;
+                            border-radius: 7.64px;
+                            padding: 20px 0 0;
+                            > .sapuiVltCell{
+                                padding-bottom: 0px;
+                                outline: none;
+                            }
+                            .sapMLnk.styleTitle1{
+                                color: #FFFFFF;
+                                font-size: 16.38px;
+                                font-weight: 700;
+                                letter-spacing: 0;
+                                line-height: 19px;
+                                padding: 0 25px;
+                            }
+                            #__text3187{
+                                color: #A1CFE7;
+                                font-size: 13.65px;
+                                letter-spacing: 0;
+                                line-height: 16px;  
+                                padding: 0 25px;
+                                font-weight: 400;
+                            }
+                            #UIComp_16{
+                                margin: 0 auto;
+                                .v-m-root{
+                                    &:focus{
+                                        outline: none;
+                                    }
+                                }
+                                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label{
+                                    fill: white;
+                                }
+                            }
+                            #application-Z_OTC_SALESDB-display-component---Home--idSalesFulmntChart{
+                                > .ui5-viz-controls-viz-frame{
+                                    &:focus{
+                                        outline: none;
+                                    }
+                                }
+                            }
+                        }
                     }
-                }
-                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label{
-                    fill: white;
-                }
-            }
-            #application-Z_OTC_SALESDB-display-component---Home--idSalesFulmntChart{
-                > .ui5-viz-controls-viz-frame{
-                    &:focus{
-                        outline: none;
+                    /* end of sales order fullfilment orders */
+                    /* sales volume  - check open sales */
+                    &:nth-child(2){
+                        > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
+                            background-color: rgba(61, 71, 104, 0.82) !important;
+                            border-radius: 7.64px;
+                            position: relative;
+                            padding: 20px 10px;
+                            > .sapuiVltCell{
+                                padding-bottom: 6px;
+                            }
+                            .sapMLnk.styleTitle1{
+                                color: #FFFFFF;
+                                font-size: 16.38px;
+                                font-weight: 700;
+                                letter-spacing: 0;
+                                line-height: 19px;
+                                padding: 0 1rem;
+                            }
+                            #__hbox28, #__hbox29{
+                                position: relative;
+                                width: 90%;
+                                background-color: transparent;
+                                >.sapMFlexBoxBGTransparent{
+                                    background-color: transparent;
+                                }
+                                .sapMObjStatusText {
+                                    color: #23BB32;
+                                    font-size: 28.66px;
+                                    font-weight: bold;
+                                    letter-spacing: 0;
+                                    line-height: 34px;
+                                    padding: 0 0 0 1rem;
+                                }
+                            }
+                            #application-Z_OTC_SALESDB-display-component---Home--IdOpenSlsTitle, #application-Z_OTC_SALESDB-display-component---Home--IdOpenDelTitle{
+                                color: #D4D3D3;
+                                font-size: 12.29px;
+                                letter-spacing: 1.02px;
+                                line-height: 22px;
+                            }
+                            #__text3188{
+                                color: #A1CFE7;
+                                font-size: 13.65px;
+                                font-weight: 400;
+                                letter-spacing: 0;
+                                line-height: 16px;  
+                                padding: 0 1rem;
+                                position: absolute;
+                                top: 152px;
+                                @media (max-width: 1200px){
+                                    position: unset;
+                                }
+                            }
+                            #application-Z_OTC_SALESDB-display-component---Home--idSlsDte{
+                                width: 100% !important;
+                                position: relative;
+                                #application-Z_OTC_SALESDB-display-component---Home--idSlsDte-content{                    
+                                    border: 0;
+                                    border-bottom: 1.23px solid #4F5C89;
+                                    background: transparent;
+                                    width: 45% !important;
+                                    position: absolute;
+                                    top: 20px;
+                                    right: 20px;
+                                    .sapMInputBaseInner, .sapMInputBaseIcon{
+                                        color: white;
+                                        font-size: 12.29px;
+                                        &:active{
+                                            background-color: transparent;
+                                        }
+                                    }
+                                    @media (max-width: 1200px){
+                                        position: unset;
+                                        width: 90% !important;
+                                        margin: 5px 0 0 10px;
+                                    }
+                                }
+                                &:after{
+                                    content: '';
+                                    position: absolute;
+                                    left: -10px;
+                                    bottom: 22px;
+                                    background-color: #4F5C89;
+                                    height: 2.73px;
+                                    width: 37vw;
+                                }
+                            }
+                            #UIComp_17{
+                                width: 100% !important;
+                                .v-m-root{
+                                    &:focus{
+                                        outline: none;
+                                    }
+                                }
+                                .v-gridline{
+                                    stroke: #4F5C89;
+                                }
+                                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label{
+                                    fill: white;
+                                }
+                                .v-title{
+                                    fill: #A4A4A4;
+                                }
+                                .v-datapoint{
+                                    rect{
+                                        stroke-width: 0;
+                                    }
+                                }
+                            }
+                        }
                     }
+                    /* end of sales volume  - check open sales */
+                    /* incoming sales orders */
+                    &:nth-child(3){
+                        > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
+                            background-color: rgba(61, 71, 104, 0.82) !important;
+                            border-radius: 7.64px;
+                            padding: 20px 0;
+                            position: relative;
+                            > .sapuiVltCell{
+                                padding-bottom: 6px;
+                            }
+                            .sapMLnk.styleTitle1{
+                                color: #FFFFFF;
+                                font-size: 16.38px;
+                                font-weight: 700;
+                                letter-spacing: 0;
+                                line-height: 19px;
+                                padding: 0 25px;
+                            }
+                            #__text3189{
+                                color: #A1CFE7;
+                                font-size: 13.65px;
+                                font-weight: 400;
+                                letter-spacing: 0;
+                                line-height: 16px;  
+                                padding: 1rem 25px 0;
+                                border-top: 2px solid #4F5C89;
+                                width: 96%;
+                                @media (max-width: 1200px){
+                                    border-top: 0;
+                                }
+                            }
+                            #__box38{
+                                position: absolute;
+                                top: 145px;
+                                right: 15px;
+                                width: 32%;
+                                .sapMInputBaseContentWrapper{
+                                    border: 0;
+                                    border-bottom: 1.23px solid #4F5C89;
+                                    background: transparent;
+                                    .sapMInputBaseInner, .sapMInputBaseIcon{
+                                        color: white;
+                                        &:active{
+                                            background-color: transparent;
+                                        }
+                                    }
+                                }
+                                @media (max-width: 991px){
+                                    position: unset;
+                                    width: 85%;
+                                    margin-left: 20px;
+                                }
+                            }
+                            #application-Z_OTC_SALESDB-display-component---Home--idSalesIncomChart{
+                                #UIComp_18{
+                                    width: 100% !important;
+                                    padding: 0 15px 0 8px;
+                                    .v-m-root{
+                                        &:focus{
+                                            outline: none;
+                                        }
+                                    }
+                                    .v-title.viz-axis-title, .v-legend-element{
+                                        fill: #A4A4A4;
+                                    }
+                                    .v-datalabel, .v-legend-element, .v-axis-label-wrapper , .v-morphable-label{
+                                        fill: #fff;
+                                    }
+                                    .v-gridline{
+                                        stroke: #4F5C89;
+                                    }
+                                    .v-datapoint{
+                                        rect{
+                                            stroke-width: 0;
+                                        }
+                                    }
+                                }
+                            }
+                            #application-Z_OTC_SALESDB-display-component---Home--idSalesTable{
+                                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-listUl{
+                                    .sapMLabel{
+                                        color: #FFFFFF;
+                                        font-size: 12.61px;
+                                        letter-spacing: 0;
+                                        line-height: 15px;
+                                    }
+                                }
+                                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-tblHeader{
+                                    >.sapMTableTH{
+                                        background: #455278 !important;
+                                        border-bottom: 0.4px solid #4F5C89;
+                                        padding: 0 3px;
+                                    }
+                                }
+                                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-tblBody{
+                                    .sapMText{
+                                        color: #FFFFFF;
+                                        font-size: 12.29px;
+                                        letter-spacing: 0;
+                                        line-height: 32px;
+                                    }
+                                }
+                                .sapMGrowingListTrigger{
+                                    border-top: 2.1px solid #5F70A5;
+                                }
+                                .sapMListShowSeparatorsAll .sapMLIBShowSeparator:last-child>td {
+                                    border-bottom: 1px solid #5F70A5;
+                                }
+                                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-triggerInfo{
+                                    text-shadow: none;
+                                    color: white;
+                                    font-size: 12.61px;
+                                    letter-spacing: 0;
+                                    line-height: 15px;
+                                    padding: 0 1rem;
+                                }
+                                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-triggerText{
+                                    text-shadow: none;
+                                    color: white;
+                                    font-size: 12.6px;
+                                    letter-spacing: 0;
+                                    line-height: 15px;
+                                    padding: 0 1rem;
+                                }
+                                .sapMLIBShowSeparator>td{
+                                    border-top: 1.05px solid #4F5C89;
+                                }
+                                .sapMLIB{
+                                    background: transparent;
+                                    border: 0;
+                                }
+                            }
+                            #__hbox30, #__hbox31{
+                                background-color: transparent;
+                                >.sapMFlexBoxBGTransparent{
+                                    background-color: transparent;
+                                }
+                                .sapMObjStatusText {
+                                    color: #F7B031 !important;
+                                    font-size: 28.66px;
+                                    font-weight: bold;
+                                    letter-spacing: 0;
+                                    line-height: 34px;
+                                    padding: 0 0 0 25px;
+                                }
+                                .sapMText{
+                                    color: #D4D3D3;
+                                    font-size: 12.29px;
+                                    letter-spacing: 1.02px;
+                                    line-height: 30px;
+                                }
+                            }
+                        }
+                    }
+                    /* end of incoming sales orders */
                 }
             }
         }
-        /* end of sales order fullfilment orders */
-
-        /* sales volume  - check open sales */
-        #__layout66.sapMFlexBoxBGTransparent{
-            background-color: rgba(61, 71, 104, 0.82) !important;
-            border-radius: 7.64px;
-            position: relative;
-            padding: 20px 10px;
-            > .sapuiVltCell{
-                padding-bottom: 6px;
-            }
-            .sapMLnk.styleTitle1{
-                color: #FFFFFF;
-                font-size: 16.38px;
-                font-weight: 700;
-                letter-spacing: 0;
-                line-height: 19px;
-                padding: 0 1rem;
-            }
-            #__hbox28, #__hbox29{
-                position: relative;
-                width: 90%;
-                background-color: transparent;
-                >.sapMFlexBoxBGTransparent{
-                    background-color: transparent;
-                }
-                .sapMObjStatusText {
-                    color: #23BB32;
-                    font-size: 28.66px;
-                    font-weight: bold;
-                    letter-spacing: 0;
-                    line-height: 34px;
-                    padding: 0 0 0 1rem;
-                }
-            }
-            #application-Z_OTC_SALESDB-display-component---Home--IdOpenSlsTitle, #application-Z_OTC_SALESDB-display-component---Home--IdOpenDelTitle{
-                color: #D4D3D3;
-                font-size: 12.29px;
-                letter-spacing: 1.02px;
-                line-height: 22px;
-            }
-            #__text3188{
-                color: #A1CFE7;
-                font-size: 13.65px;
-                font-weight: 400;
-                letter-spacing: 0;
-                line-height: 16px;  
-                padding: 0 1rem;
-                position: absolute;
-                top: 152px;
-                @media (max-width: 1200px){
-                    position: unset;
-                }
-            }
-            #application-Z_OTC_SALESDB-display-component---Home--idSlsDte{
-                width: 100% !important;
-                position: relative;
-                #application-Z_OTC_SALESDB-display-component---Home--idSlsDte-content{                    
-                    border: 0;
-                    border-bottom: 1.23px solid #4F5C89;
-                    background: transparent;
-                    width: 45% !important;
-                    position: absolute;
-                    top: 20px;
-                    right: 20px;
-                    .sapMInputBaseInner, .sapMInputBaseIcon{
-                        color: white;
-                        font-size: 12.29px;
-                        &:active{
-                            background-color: transparent;
-                        }
-                    }
-                    @media (max-width: 1200px){
-                        position: unset;
-                        width: 90% !important;
-                        margin: 5px 0 0 10px;
-                    }
-                }
-                &:after{
-                    content: '';
-                    position: absolute;
-                    left: -10px;
-                    bottom: 22px;
-                    background-color: #4F5C89;
-                    height: 2.73px;
-                    width: 37vw;
-                }
-            }
-            #UIComp_17{
-                width: 100% !important;
-                .v-m-root{
-                    &:focus{
-                        outline: none;
-                    }
-                }
-                .v-gridline{
-                    stroke: #4F5C89;
-                }
-                .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label{
-                    fill: white;
-                }
-                .v-title{
-                    fill: #A4A4A4;
-                }
-                .v-datapoint{
-                    rect{
-                        stroke-width: 0;
-                    }
-                }
-            }
-        }
-        /* end of sales volume  - check open sales */
-
-        /* incoming sales orders */
-        #__layout67.sapMFlexBoxBGTransparent{
-            background-color: rgba(61, 71, 104, 0.82) !important;
-            border-radius: 7.64px;
-            padding: 20px 0;
-            position: relative;
-            > .sapuiVltCell{
-                padding-bottom: 6px;
-            }
-            .sapMLnk.styleTitle1{
-                color: #FFFFFF;
-                font-size: 16.38px;
-                font-weight: 700;
-                letter-spacing: 0;
-                line-height: 19px;
-                padding: 0 25px;
-            }
-            #__text3189{
-                color: #A1CFE7;
-                font-size: 13.65px;
-                font-weight: 400;
-                letter-spacing: 0;
-                line-height: 16px;  
-                padding: 1rem 25px 0;
-                border-top: 2px solid #4F5C89;
-                width: 96%;
-                @media (max-width: 1200px){
-                    border-top: 0;
-                }
-            }
-            #__box38{
-                position: absolute;
-                top: 145px;
-                right: 15px;
-                width: 32%;
-                .sapMInputBaseContentWrapper{
-                    border: 0;
-                    border-bottom: 1.23px solid #4F5C89;
-                    background: transparent;
-                    .sapMInputBaseInner, .sapMInputBaseIcon{
-                        color: white;
-                        &:active{
-                            background-color: transparent;
-                        }
-                    }
-                }
-                @media (max-width: 991px){
-                    position: unset;
-                    width: 85%;
-                    margin-left: 20px;
-                }
-            }
-            #application-Z_OTC_SALESDB-display-component---Home--idSalesIncomChart{
-                #UIComp_18{
-                    width: 100% !important;
-                    padding: 0 15px 0 8px;
-                    .v-m-root{
-                        &:focus{
-                            outline: none;
-                        }
-                    }
-                    .v-title.viz-axis-title, .v-legend-element{
-                        fill: #A4A4A4;
-                    }
-                    .v-datalabel, .v-legend-element, .v-axis-label-wrapper , .v-morphable-label{
-                        fill: #fff;
-                    }
-                    .v-gridline{
-                        stroke: #4F5C89;
-                    }
-                    .v-datapoint{
-                        rect{
-                            stroke-width: 0;
-                        }
-                    }
-                }
-            }
-            #application-Z_OTC_SALESDB-display-component---Home--idSalesTable{
-                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-listUl{
-                    .sapMLabel{
-                        color: #FFFFFF;
-                        font-size: 12.61px;
-                        letter-spacing: 0;
-                        line-height: 15px;
-                    }
-                }
-                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-tblHeader{
-                    >.sapMTableTH{
-                        background: #455278 !important;
-                        border-bottom: 0.4px solid #4F5C89;
-                        padding: 0 3px;
-                    }
-                }
-                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-tblBody{
-                    .sapMText{
-                        color: #FFFFFF;
-                        font-size: 12.29px;
-                        letter-spacing: 0;
-                        line-height: 32px;
-                    }
-                }
-                .sapMGrowingListTrigger{
-                    border-top: 2.1px solid #5F70A5;
-                }
-                .sapMListShowSeparatorsAll .sapMLIBShowSeparator:last-child>td {
-                    border-bottom: 1px solid #5F70A5;
-                }
-                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-triggerInfo{
-                    text-shadow: none;
-                    color: white;
-                    font-size: 12.61px;
-                    letter-spacing: 0;
-                    line-height: 15px;
-                    padding: 0 1rem;
-                }
-                #application-Z_OTC_SALESDB-display-component---Home--idSalesTable-triggerText{
-                    text-shadow: none;
-                    color: white;
-                    font-size: 12.6px;
-                    letter-spacing: 0;
-                    line-height: 15px;
-                    padding: 0 1rem;
-                }
-                .sapMLIBShowSeparator>td{
-                    border-top: 1.05px solid #4F5C89;
-                }
-                .sapMLIB{
-                    background: transparent;
-                    border: 0;
-                }
-            }
-            #__hbox30, #__hbox31{
-                background-color: transparent;
-                >.sapMFlexBoxBGTransparent{
-                    background-color: transparent;
-                }
-                .sapMObjStatusText {
-                    color: #F7B031 !important;
-                    font-size: 28.66px;
-                    font-weight: bold;
-                    letter-spacing: 0;
-                    line-height: 34px;
-                    padding: 0 0 0 25px;
-                }
-                .sapMText{
-                    color: #D4D3D3;
-                    font-size: 12.29px;
-                    letter-spacing: 1.02px;
-                    line-height: 30px;
-                }
-            }
-        } 
-        /* end of incoming sales orders */
     }
 
-   
     #__layout72{
         /* sales volume  - profit margin */
         #__layout69.sapMFlexBoxBGTransparent{
