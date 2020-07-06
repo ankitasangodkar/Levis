@@ -572,6 +572,9 @@ ul.sapUshellInner {
                                                    width: 100% !important;
                                                 }
                                             }
+                                            @media (max-width: 1200px){
+                                                width: 100% !important;
+                                            }
                                         }
                                         @media (max-width: 1200px){
                                             display: flex;
@@ -926,6 +929,9 @@ ul.sapUshellInner {
                                                     position: unset;
                                                     width: 85% !important;
                                                 }
+                                            }
+                                            @media (max-width: 1200px){
+                                                width: 100% !important;
                                             }
                                         }
                                         @media (max-width: 1200px){
