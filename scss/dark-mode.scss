@@ -513,16 +513,6 @@ ul.sapUshellInner {
                                         }
                                     }
                                 }
-                                &:nth-child(2){
-                                    .sapMHBox{
-                                        position: relative;
-                                        &:nth-child(3){
-                                            position: absolute;
-                                            right: 24px;
-                                            top: 38px;
-                                        }
-                                    }
-                                }
                                 &:nth-child(4){
                                     clear: both;
                                     border-top: 1.23px solid #4F5C89;
@@ -635,9 +625,24 @@ ul.sapUshellInner {
                                         padding: 0 25px;
                                     }
                                 }
+                                &:nth-child(2){
+                                    >.sapMHBox{
+                                        .sapMFlexItem{
+                                            &:last-child{
+                                                position: absolute;
+                                                right: 24px;
+                                                top: 38px;
+                                                @media (max-width: 1200px){
+                                                    position: unset;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                                 &:nth-child(2), &:nth-child(3){
                                     >.sapMHBox{
                                         background-color: transparent;
+                                        position: relative;
                                         >.sapMFlexBoxBGTransparent{
                                             background-color: transparent;
                                         }
@@ -654,15 +659,6 @@ ul.sapUshellInner {
                                             font-size: 12.29px;
                                             letter-spacing: 1.02px;
                                             line-height: 30px;
-                                        }
-                                    }
-                                }
-                                &:nth-child(2){
-                                    > .sapMFlexBox.sapMHBox{
-                                        &:nth-child(3){
-                                            position: absolute;
-                                            right: 24px;
-                                            top: 0;
                                         }
                                     }
                                 }
