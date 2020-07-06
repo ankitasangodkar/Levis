@@ -679,6 +679,9 @@ ul.sapUshellInner {
                                                 letter-spacing: 0;
                                                 line-height: 16px;
                                                 white-space: nowrap;
+                                                @media (max-width: 1200px){
+                                                    white-space: normal;
+                                                }
                                             }
                                         }
                                         &:last-child{
@@ -871,6 +874,9 @@ ul.sapUshellInner {
                                                     line-height: 16px;
                                                     white-space: nowrap;
                                                     padding-top: 24px;
+                                                    @media (max-width: 1200px){
+                                                        white-space: normal;
+                                                    }
                                                 }
                                             }
                                             &:nth-child(2){
