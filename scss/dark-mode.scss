@@ -3716,6 +3716,7 @@ ul.sapUshellInner {
             > .sapUiVlt.sapUiContentPadding{
                 padding-left: 24px;
                 .sapUiVltCell.sapuiVltCell{
+                    /* shortage report */
                     &:nth-child(1){
                         position: relative;
                         > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
@@ -3784,6 +3785,8 @@ ul.sapUshellInner {
                             }
                         }
                     }
+                    /* end of shortage report */
+                    /* Monitor Purchase order items */
                     &:nth-child(2){
                         > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
                             background-color: rgba(61, 71, 104, 0.82) !important;
@@ -3815,7 +3818,11 @@ ul.sapUshellInner {
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                @media (max-width: 1200px){
+                                                width: 160px !important;
+                                                @media (min-width: 1200px){
+                                                    width: 350px !important;
+                                                }
+                                                @media (max-width: 475px){
                                                     width: 100% !important;
                                                     white-space: normal;
                                                 }
@@ -3837,7 +3844,7 @@ ul.sapUshellInner {
                                                         }
                                                     }
                                                 }
-                                                @media (max-width: 1200px){
+                                                @media (max-width: 475px){
                                                     position: unset;
                                                 }
                                             }
@@ -3845,7 +3852,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 1200px){
+                                        @media (max-width: 475px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
@@ -3870,6 +3877,8 @@ ul.sapUshellInner {
                             }
                         }
                     }
+                    /* end of monitor purchase items */
+                    /* monitor purchase contract items */
                     &:nth-child(3){
                         > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
                             background-color: rgba(61, 71, 104, 0.82) !important;
@@ -3972,7 +3981,7 @@ ul.sapUshellInner {
                             }
                         }
                     }
-
+                    /* end of monitor purchase contract items */
                 }
             }
         }
@@ -4033,7 +4042,11 @@ ul.sapUshellInner {
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                @media (max-width: 1200px){
+                                                width: 150px !important;
+                                                @media (min-width: 1200px){
+                                                    width: 350px !important;
+                                                }
+                                                @media (max-width: 475px){
                                                     width: 100% !important;
                                                     white-space: normal;
                                                 }
@@ -4055,7 +4068,7 @@ ul.sapUshellInner {
                                                         }
                                                     }
                                                 }
-                                                @media (max-width: 1200px){
+                                                @media (max-width: 475px){
                                                     position: unset;
                                                 }
                                             }
@@ -4063,7 +4076,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 1200px){
+                                        @media (max-width: 475px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
