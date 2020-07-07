@@ -2960,13 +2960,11 @@ ul.sapUshellInner {
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                width: 150px !important;
-                                                @media (max-width: 991px) and (min-width: 768px){
+                                                @media (max-width: 1200px){
                                                     width: 100px !important;
                                                 }
                                                 @media (max-width: 475px){
                                                     width: 100% !important;
-                                                    white-space: normal;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -3080,13 +3078,11 @@ ul.sapUshellInner {
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                width: 160px !important;
-                                                @media (max-width: 991px) and (min-width: 768px){
+                                                @media (max-width: 1200px){
                                                     width: 100px !important;
                                                 }
                                                 @media (max-width: 475px){
                                                     width: 100% !important;
-                                                    white-space: normal;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -3213,7 +3209,7 @@ ul.sapUshellInner {
             &:last-child {
                 width: 50% !important;
                 display: block;
-                padding: 0;
+                padding: 0 24px;
                 .sapUiVlt.sapUiContentPadding{
                     padding-top: 0;
                 }
