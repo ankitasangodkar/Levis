@@ -3882,9 +3882,36 @@ ul.sapUshellInner {
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
-                                &:nth-child(1){
-                                    .sapMListUl{
-                                        .sapMLIB{
+                                &:first-child {
+                                    .sapMLIB{
+                                        background: transparent;
+                                        border: 0;
+                                    }
+                                    .sapMLIBContent {
+                                        .sapMFlexBoxBGTransparent{
+                                            background-color: transparent !important;
+                                        }
+                                        .sapMLnk {
+                                            color: #ffffff;
+                                        }
+                                        .sapMFlexItem {
+                                            &:first-child {
+                                                flex: 1 !important;
+                                            }
+                                            &:last-child {
+                                                .sapMText {
+                                                    font-size: 16px;
+                                                    line-height: 19px;
+                                                    color: #FFFFFF;
+                                                    font-weight: 700;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:last-child {
+                                    ul.sapMListItems {
+                                        li {
                                             background: transparent !important;
                                             border-bottom: 1.23px solid #4F5C89;
                                             outline: 0;
@@ -3894,160 +3921,89 @@ ul.sapUshellInner {
                                                 justify-content: space-between;
                                                 align-items: baseline;
                                             }
-                                            .sapMLnk{
-                                                color: #FFFFFF;
-                                                font-size: 16.38px;
-                                                font-weight: 700;
-                                                letter-spacing: 0;
-                                                line-height: 19px;
-                                                padding-bottom: 10px;
-                                            }
-                                            .sapMFlexItem{
-                                                .sapMText{
-                                                    color: #FFFFFF;
-                                                    font-size: 16.38px;
-                                                    font-weight: bold;
-                                                    letter-spacing: 0;
-                                                    line-height: 19px;
-                                                    padding-left: 6rem !important;
+                                            .sapMLIBContent {    
+                                                padding: 20px 0;
+                                                border-top: 1px solid #4F5C89;
+                                                .sapSuiteCpMC {
+                                                    height: auto !important;
+                                                    margin: 0 !important;
+                                                    width: 100% !important;
                                                 }
-                                            }
-                                        }
-                                    }
-                                }
-                                &:nth-child(2){
-                                    > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
-                                        background-color: rgba(61, 71, 104, 0.82) !important;
-                                        border-radius: 7.64px;
-                                        padding: 20px 24px 0;
-                                        > .sapuiVltCell{
-                                            padding-bottom: 0px;
-                                            outline: none;
-                                            &:first-child {
-                                                .sapMLIB{
-                                                    background: transparent;
-                                                    border: 0;
+                                                > .sapMHBox {
+                                                    display: flex;
+                                                    align-items: flex-end;
+                                                    > .sapMFlexItem {
+                                                        &:first-child {
+                                                            max-width: 28rem;
+                                                            width: 100% !important;
+                                                        }
+                                                    }
+                                                    .sapSuiteCpMCVerticalAlignmentContainer {
+                                                        min-width: inherit;
+                                                        max-width: inherit;
+                                                    }
                                                 }
-                                                .sapMLIBContent {
-                                                    .sapMFlexBoxBGTransparent{
-                                                        background-color: transparent !important;
-                                                    }
-                                                    .sapMLnk {
-                                                        color: #ffffff;
-                                                    }
+                                                .sapMVBox {
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    margin: 0 !important;
+                                                    align-items: flex-end;
+                                                    white-space: nowrap;
+
                                                     .sapMFlexItem {
                                                         &:first-child {
-                                                            flex: 1 !important;
+                                                            padding-right: 3px;
                                                         }
-                                                        &:last-child {
-                                                            .sapMText {
-                                                                font-size: 16px;
-                                                                line-height: 19px;
-                                                                color: #FFFFFF;
-                                                                font-weight: 700;
-                                                            }
+                                                        .sapMObjStatus {
+                                                            margin-top: 0 !important;
+                                                            margin-bottom: 6px;
+                                                        }
+                                                        .sapMObjStatusText {
+                                                            font-size: 13px;
+                                                            line-height: 15px;
+                                                            color: #ffffff;
+                                                            font-weight: 400;                                                        
+                                                        }
+                                                    }                                                
+                                                }
+                                                .sapSuiteCpMCChartItem {
+                                                    margin-bottom: 0.375rem;
+                                                    height: auto;
+                                                    display: flex;
+                                                    flex-wrap: wrap;
+                                                    align-items: flex-end;
+                                                    .sapSuiteCpMCChartItemTitle {
+                                                        color: #FFFFFF;
+                                                        font-size: 12px;
+                                                        line-height: 14px;
+                                                        font-weight: 400;   
+                                                        margin-bottom: 10px;   
+                                                        order: 0;                                                  
+                                                    }
+                                                    .sapSuiteCpMCChartItemValue {
+                                                        color: #FFFFFF;
+                                                        font-size: 24px;
+                                                        line-height: 28px;
+                                                        font-weight: 400;   
+                                                        margin-bottom: 10px;
+                                                        order: 1;
+                                                    }
+                                                    .sapSuiteCpMCChartBar {
+                                                        height: 15px;
+                                                        position: static;
+                                                        order: 2;
+                                                        .sapSuiteCpMCSemanticColorError {
+                                                            background: rgb(253,164,126);
+                                                            background: linear-gradient(90deg, rgba(253,164,126,1) 0%, rgba(210,39,31,1) 100%);
+                                                        }
+
+                                                        .sapSuiteCpMCNotFirstBarPart {
+                                                            background-color: #ADADAD;
+                                                            border-left-color: #ADADAD;
                                                         }
                                                     }
                                                 }
-                                            }
-                                            &:last-child {
-                                                ul.sapMListItems {
-                                                    li {
-                                                        background: transparent !important;
-                                                        border-bottom: 1.23px solid #4F5C89;
-                                                        outline: 0;
-                                                        .sapMFlexBoxBGTransparent{
-                                                            background-color: transparent !important;
-                                                            display: flex;
-                                                            justify-content: space-between;
-                                                            align-items: baseline;
-                                                        }
-                                                        .sapMLIBContent {    
-                                                            padding: 20px 0;
-                                                            border-top: 1px solid #4F5C89;
-                                                            .sapSuiteCpMC {
-                                                                height: auto !important;
-                                                                margin: 0 !important;
-                                                                width: 100% !important;
-                                                            }
-                                                            > .sapMHBox {
-                                                                display: flex;
-                                                                align-items: flex-end;
-                                                                > .sapMFlexItem {
-                                                                    &:first-child {
-                                                                        max-width: 28rem;
-                                                                        width: 100% !important;
-                                                                    }
-                                                                }
-                                                                .sapSuiteCpMCVerticalAlignmentContainer {
-                                                                    min-width: inherit;
-                                                                    max-width: inherit;
-                                                                }
-                                                            }
-                                                            .sapMVBox {
-                                                                display: flex;
-                                                                flex-direction: row;
-                                                                margin: 0 !important;
-                                                                align-items: flex-end;
-                                                                white-space: nowrap;
 
-                                                                .sapMFlexItem {
-                                                                    &:first-child {
-                                                                        padding-right: 3px;
-                                                                    }
-                                                                    .sapMObjStatus {
-                                                                        margin-top: 0 !important;
-                                                                        margin-bottom: 6px;
-                                                                    }
-                                                                    .sapMObjStatusText {
-                                                                        font-size: 13px;
-                                                                        line-height: 15px;
-                                                                        color: #ffffff;
-                                                                        font-weight: 400;                                                        
-                                                                    }
-                                                                }                                                
-                                                            }
-                                                            .sapSuiteCpMCChartItem {
-                                                                margin-bottom: 0.375rem;
-                                                                height: auto;
-                                                                display: flex;
-                                                                flex-wrap: wrap;
-                                                                align-items: flex-end;
-                                                                .sapSuiteCpMCChartItemTitle {
-                                                                    color: #FFFFFF;
-                                                                    font-size: 12px;
-                                                                    line-height: 14px;
-                                                                    font-weight: 400;   
-                                                                    margin-bottom: 10px;   
-                                                                    order: 0;                                                  
-                                                                }
-                                                                .sapSuiteCpMCChartItemValue {
-                                                                    color: #FFFFFF;
-                                                                    font-size: 24px;
-                                                                    line-height: 28px;
-                                                                    font-weight: 400;   
-                                                                    margin-bottom: 10px;
-                                                                    order: 1;
-                                                                }
-                                                                .sapSuiteCpMCChartBar {
-                                                                    height: 15px;
-                                                                    position: static;
-                                                                    order: 2;
-                                                                    .sapSuiteCpMCSemanticColorError {
-                                                                        background: rgb(253,164,126);
-                                                                        background: linear-gradient(90deg, rgba(253,164,126,1) 0%, rgba(210,39,31,1) 100%);
-                                                                    }
-
-                                                                    .sapSuiteCpMCNotFirstBarPart {
-                                                                        background-color: #ADADAD;
-                                                                        border-left-color: #ADADAD;
-                                                                    }
-                                                                }
-                                                            }
-
-                                                        }
-                                                    }
-                                                }
                                             }
                                         }
                                     }
