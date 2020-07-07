@@ -3458,7 +3458,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
     display: block;
   }
   #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) .sapUiVlt.sapUiContentPadding {
-    padding: 0 24px 16px;
+    padding: 0 24px 0;
   }
   #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:last-child {
     width: 100% !important;
