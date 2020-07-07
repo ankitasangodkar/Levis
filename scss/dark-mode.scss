@@ -568,7 +568,8 @@ ul.sapUshellInner {
                                         justify-content: space-between;
                                         .sapUiHLayoutChildWrapper{
                                             position: relative;
-                                            width: 45% !important;
+                                            width: auto !important;
+                                            padding: 0;
                                             &:nth-child(1){
                                                 .sapMText{
                                                     color: #A1CFE7;
@@ -601,17 +602,19 @@ ul.sapUshellInner {
 
                                                 }
                                             }
-                                            @media (max-width: 1200px){
+                                            @media (max-width: 475px){
                                                 width: 100% !important;
                                             }
                                         }
                                         @media (max-width: 1024px){
                                             display: flex;
                                             flex-direction: column;
+                                            align-items: flex-start;
                                         }
                                         @media (max-width: 767px) and (min-width: 500px){
                                             display: flex;
                                             flex-direction: row;
+                                            align-items: flex-start;
                                         }
                                     }
                                 }
@@ -961,7 +964,8 @@ ul.sapUshellInner {
                                         justify-content: space-between;
                                         .sapUiHLayoutChildWrapper{
                                             position: relative;
-                                            width: 45% !important;
+                                            width: auto !important;
+                                            padding: 0;
                                             &:nth-child(1){
                                                 .sapMText{
                                                     color: #A1CFE7;
@@ -981,6 +985,7 @@ ul.sapUshellInner {
                                                .sapMInputBase{
                                                     width: 100% !important;
                                                     position: relative;
+                                                    padding: 0;
                                                     .sapMInputBaseContentWrapper{                    
                                                         border: 0;
                                                         border-bottom: 1.23px solid #4F5C89;
@@ -997,13 +1002,14 @@ ul.sapUshellInner {
 
                                                 }
                                             }
-                                            @media (max-width: 1200px){
+                                            @media (max-width: 475px){
                                                 width: 100% !important;
                                             }
                                         }
                                         @media (max-width: 1024px){
                                             display: flex;
                                             flex-direction: column;
+                                            align-items: flex-start;
                                         }
                                         @media (max-width: 767px) and (min-width: 500px){
                                             display: flex;
@@ -1241,10 +1247,13 @@ ul.sapUshellInner {
                                                 font-size: 12.29px;
                                                 letter-spacing: 0;
                                                 line-height: 32px;
-                                                width: 200px;
+                                                width: 140px;
                                                 white-space: nowrap;
                                                 text-overflow: ellipsis;
                                                 overflow: hidden;
+                                                @media (max-width: 1300px){
+                                                    width: 100px;
+                                                }
                                             }
                                             .sapMListTblRow{
                                                 &:first-child{
@@ -2647,12 +2656,12 @@ ul.sapUshellInner {
                                                 font-size: 12.29px;
                                                 letter-spacing: 0;
                                                 line-height: 32px;
-                                                width: 160px;
+                                                width: 140px;
                                                 white-space: nowrap;
                                                 text-overflow: ellipsis;
                                                 overflow: hidden;
-                                                @media (max-width: 1200px){
-                                                    width: 120px;
+                                                @media (max-width: 1300px){
+                                                    width: 100px;
                                                 }
                                             }
                                             .sapMListTblRow{
@@ -3889,16 +3898,14 @@ ul.sapUshellInner {
                                 outline: none;
                                 &:nth-child(1){
                                     .sapMListUl{
-                                        >.sapMLIB{
+                                        .sapMLIB{
                                             background: transparent !important;
                                             border-bottom: 1.23px solid #4F5C89;
                                             outline: 0;
                                             .sapMFlexBoxBGTransparent{
                                                 background-color: transparent !important;
-                                            }
-                                            .sapSuiteCpMCChartItemTitle{
-                                                color: white;
-                                                font-size:  12.29px;
+                                                display: flex;
+                                                justify-content: space-between;
                                             }
                                             .sapMLnk{
                                                 color: #FFFFFF;
@@ -3929,6 +3936,8 @@ ul.sapUshellInner {
                                             outline: 0;
                                             .sapMFlexBoxBGTransparent{
                                                 background-color: transparent !important;
+                                                display: flex;
+                                                justify-content: space-between;
                                             }
                                             .sapSuiteCpMCChartItemTitle{
                                                 color: white;
@@ -3942,7 +3951,17 @@ ul.sapUshellInner {
                                                 line-height: 19px;
                                                 padding-bottom: 10px;
                                             }
-
+                                            .sapSuiteCpMCChartContent{
+                                                margin: 1rem 0 !important;
+                                                .sapSuiteCpMC {
+                                                    height: auto !important;
+                                                    margin: 0 !important;
+                                                    width: 100% !important;
+                                                }
+                                                .sapMFlexItem:first-child {
+                                                    flex: 1 !important;
+                                                }
+                                            }
                                             .sapSuiteCpMCChartItemValue.sapSuiteCpMCSemanticColorError{
                                                 color: #FFFFFF;
                                                 font-size: 24px;
@@ -3956,24 +3975,41 @@ ul.sapUshellInner {
                                                 letter-spacing: 0;
                                                 line-height: 15px;
                                             }
-                                            .sapSuiteCpMCChartContent{
-                                                margin: 1rem 0 !important;
-                                                .sapSuiteCpMCVerticalAlignmentContainer{
-                                                    min-height: 100%;
-                                                    .sapSuiteCpMCChartItem{
-                                                        height: auto;
+                                            .sapSuiteCpMCChartItem {
+                                                margin-bottom: 0.375rem;
+                                                height: auto;
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                align-items: flex-end;
+                                                .sapSuiteCpMCChartItemTitle {
+                                                    color: #FFFFFF;
+                                                    font-size: 12px;
+                                                    line-height: 14px;
+                                                    font-weight: 400;   
+                                                    margin-bottom: 10px;   
+                                                    order: 0;                                                  
+                                                }
+                                                .sapSuiteCpMCChartItemValue {
+                                                    color: #FFFFFF;
+                                                    font-size: 24px;
+                                                    line-height: 28px;
+                                                    font-weight: 400;   
+                                                    margin-top: 15px;
+                                                    order: 1;
+                                                }
+                                                .sapSuiteCpMCChartBar {
+                                                    height: 15px;
+                                                    position: static;
+                                                    order: 2;
+                                                    .sapSuiteCpMCSemanticColorError {
+                                                        background: rgb(253,164,126);
+                                                        background: linear-gradient(90deg, rgba(253,164,126,1) 0%, rgba(210,39,31,1) 100%);
                                                     }
-                                                    .sapSuiteCpMCChartBar{
-                                                        top: 24px;
-                                                        height: 10px;
+                                                    .sapSuiteCpMCNotFirstBarPart {
+                                                        background-color: #ADADAD;
+                                                        border-left-color: #ADADAD;
                                                     }
                                                 }
-                                            }
-                                            .Dynamictext{
-                                                padding-left: 3.5rem !important;
-                                            }
-                                            &:last-child{
-                                                border-bottom: 0;
                                             }
                                         }
                                     }
@@ -4072,7 +4108,7 @@ ul.sapUshellInner {
                                                     position: unset;
                                                 }
                                             }
-                                            @media (max-width: 1200px){
+                                            @media (max-width: 475px){
                                                 width: 100% !important;
                                             }
                                         }
@@ -4428,7 +4464,7 @@ ul.sapUshellInner {
                                                     position: unset;
                                                 }
                                             }
-                                            @media (max-width: 1200px){
+                                            @media (max-width: 475px){
                                                 width: 100% !important;
                                             }
                                         }
@@ -4548,7 +4584,7 @@ ul.sapUshellInner {
                                                     position: unset;
                                                 }
                                             }
-                                            @media (max-width: 1200px){
+                                            @media (max-width: 475px){
                                                 width: 100% !important;
                                             }
                                         }
@@ -4594,6 +4630,8 @@ ul.sapUshellInner {
                                         outline: 0;
                                         .sapMFlexBoxBGTransparent{
                                             background-color: transparent !important;
+                                            display: flex;
+                                            justify-content: space-between;
                                         }
                                         .sapSuiteCpMCChartItemTitle{
                                             color: white;
@@ -4607,7 +4645,17 @@ ul.sapUshellInner {
                                             line-height: 19px;
                                             padding-bottom: 10px;
                                         }
-
+                                        .sapSuiteCpMCChartContent{
+                                            margin: 1rem 0 !important;
+                                            .sapSuiteCpMC {
+                                                height: auto !important;
+                                                margin: 0 !important;
+                                                width: 100% !important;
+                                            }
+                                            .sapMFlexItem:first-child {
+                                                flex: 1 !important;
+                                            }
+                                        }
                                         .sapSuiteCpMCChartItemValue.sapSuiteCpMCSemanticColorError{
                                             color: #FFFFFF;
                                             font-size: 24px;
@@ -4621,33 +4669,41 @@ ul.sapUshellInner {
                                             letter-spacing: 0;
                                             line-height: 15px;
                                         }
-                                        .sapSuiteCpMCChartContent{
-                                            margin: 1rem 0 !important;
-                                            .sapSuiteCpMCVerticalAlignmentContainer{
-                                                min-height: 100%;
-                                                .sapSuiteCpMCChartItem{
-                                                    height: auto;
+                                        .sapSuiteCpMCChartItem {
+                                            margin-bottom: 0.375rem;
+                                            height: auto;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            align-items: flex-end;
+                                            .sapSuiteCpMCChartItemTitle {
+                                                color: #FFFFFF;
+                                                font-size: 12px;
+                                                line-height: 14px;
+                                                font-weight: 400;   
+                                                margin-bottom: 10px;   
+                                                order: 0;                                                  
+                                            }
+                                            .sapSuiteCpMCChartItemValue {
+                                                color: #FFFFFF;
+                                                font-size: 24px;
+                                                line-height: 28px;
+                                                font-weight: 400;   
+                                                margin-top: 15px;
+                                                order: 1;
+                                            }
+                                            .sapSuiteCpMCChartBar {
+                                                height: 15px;
+                                                position: static;
+                                                order: 2;
+                                                .sapSuiteCpMCSemanticColorError {
+                                                    background: rgb(253,164,126);
+                                                    background: linear-gradient(90deg, rgba(253,164,126,1) 0%, rgba(210,39,31,1) 100%);
                                                 }
-                                                .sapSuiteCpMCChartBar{
-                                                    top: 24px;
-                                                    height: 10px;
+                                                .sapSuiteCpMCNotFirstBarPart {
+                                                    background-color: #ADADAD;
+                                                    border-left-color: #ADADAD;
                                                 }
                                             }
-                                        }
-                                        .sapMFlexItem{
-                                            .sapMText{
-                                                color: rgb(255, 255, 255);
-                                                font-size: 16.38px;
-                                                font-weight: bold;
-                                                letter-spacing: 0px;
-                                                line-height: 19px
-                                            }
-                                        }
-                                        .Dynamictext{
-                                            padding-left: 3.5rem !important;
-                                        }
-                                        &:last-child{
-                                            border-bottom: 0;
                                         }
                                     }
                                 }
