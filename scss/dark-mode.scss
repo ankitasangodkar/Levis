@@ -1212,6 +1212,7 @@ ul.sapUshellInner {
                                 &:nth-child(3){
                                     .sapMList{
                                         margin-top: 15px;
+                                        overflow-x: auto;
                                         .sapMListTbl.sapMListUl{
                                             .sapMLabel{
                                                 color: #FFFFFF;
