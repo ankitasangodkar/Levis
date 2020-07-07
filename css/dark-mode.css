@@ -4396,12 +4396,12 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   overflow: hidden;
   text-overflow: ellipsis;
   padding-top: 10px !important;
-  width: 150px !important;
+  width: 280px !important;
 }
 
 @media (min-width: 1200px) {
   #application-Z_PTP_SSM_ANALYST-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
-    width: 350px !important;
+    width: 400px !important;
   }
 }
 
@@ -4807,12 +4807,12 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   overflow: hidden;
   text-overflow: ellipsis;
   padding-top: 10px !important;
-  width: 160px !important;
+  width: 260px !important;
 }
 
 @media (min-width: 1200px) {
   #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
-    width: 350px !important;
+    width: 400px !important;
   }
 }
 
@@ -4947,12 +4947,12 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   overflow: hidden;
   text-overflow: ellipsis;
   padding-top: 10px !important;
-  width: 160px !important;
+  width: 280px !important;
 }
 
 @media (min-width: 1200px) {
   #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
-    width: 350px !important;
+    width: 400px !important;
   }
 }
 
