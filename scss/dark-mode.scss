@@ -2031,7 +2031,6 @@ ul.sapUshellInner {
                                         font-weight: 400;
                                         letter-spacing: 0;
                                         line-height: 16px;  
-                                        position: absolute;
                                         padding: 8px 0 0 0;
                                     }
                                 }
@@ -2081,7 +2080,6 @@ ul.sapUshellInner {
                                         font-weight: 400;
                                         letter-spacing: 0;
                                         line-height: 16px;  
-                                        position: absolute;
                                         padding: 8px 0 0 0;
                                     }
                                 }
@@ -2163,7 +2161,6 @@ ul.sapUshellInner {
                                         font-weight: 400;
                                         letter-spacing: 0;
                                         line-height: 16px;  
-                                        position: absolute;
                                     }
                                 }
                                 &:nth-child(4){
@@ -2241,12 +2238,12 @@ ul.sapUshellInner {
                                 }
                                 &:nth-child(3){
                                     position: relative;
-                                    #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idOverdueCombo{
+                                    .sapMInputBase{
                                         width: auto !important;
                                         position: absolute;
                                         top: -6px;
                                         right: 0;
-                                        #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idOverdueCombo-content{
+                                        .sapMInputBaseContentWrapper{
                                             border: 0;
                                             background-color: transparent;
                                             border-bottom: 1.23px solid #4F5C89;
@@ -2270,7 +2267,6 @@ ul.sapUshellInner {
                                         font-weight: 400;
                                         letter-spacing: 0;
                                         line-height: 16px;  
-                                        position: absolute;
                                         white-space: nowrap;
                                         text-overflow: ellipsis;
                                         overflow: hidden;
