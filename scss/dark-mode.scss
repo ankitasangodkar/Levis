@@ -576,10 +576,7 @@ ul.sapUshellInner {
                                                     font-size: 13.65px;
                                                     letter-spacing: 0;
                                                     line-height: 16px;
-                                                    white-space: nowrap;
-                                                    @media (max-width: 1200px){
-                                                        white-space: normal;
-                                                    }
+
                                                 }
                                             }
                                             &:nth-child(2){
@@ -974,13 +971,6 @@ ul.sapUshellInner {
                                                     font-size: 13.65px;
                                                     letter-spacing: 0;
                                                     line-height: 16px;
-                                                    white-space: nowrap;
-                                                    width: 180px;
-                                                    text-overflow: ellipsis;
-                                                    overflow: hidden;
-                                                    @media (max-width: 1200px){
-                                                        white-space: normal;
-                                                    }
                                                 }
                                             }
                                             &:nth-child(2){
@@ -1185,10 +1175,6 @@ ul.sapUshellInner {
                                                 letter-spacing: 0;
                                                 line-height: 16px;  
                                                 padding: 0 25px;
-                                                white-space: nowrap;
-                                                width: 200px;
-                                                text-overflow: ellipsis;
-                                                overflow: hidden;
                                             }
                                         }
                                         &:last-child{
