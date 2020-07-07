@@ -3199,140 +3199,131 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 /* end of my planning analyst dashboard */
 /* my planning manager dashboard */
 #application-ZPTP_PLAN_MNGR-display {
-  /* Quick Links */
   /* End of Quick Links */
   /* background color */
   /* background color */
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 {
-  padding-left: 24px;
-  /* purchase order approval */
-  /* end of purchase order approval */
-  /* shortage report */
-  /* end of shortage report */
-  /* monitor purchase order items */
-  /* end of purchase order items */
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper {
+  /* Quick Links */
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding {
+  padding-left: 24px;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 24px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 > .sapuiVltCell {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
   padding-bottom: 0px;
   outline: none;
-  position: relative;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 > .sapuiVltCell:nth-child(2) {
-  float: left;
-  padding-right: 20px;
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
+  padding-bottom: 6px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 > .sapuiVltCell:nth-child(3) {
-  float: left;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 > .sapuiVltCell:nth-child(4) {
-  clear: both;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 .sapMLnk.styleTitle1 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) .sapMLnk.styleTitle1 {
   color: #FFFFFF;
   font-size: 16.38px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 19px;
-  padding-bottom: 10px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox61, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox62 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2), #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) {
+  float: left;
+  padding-right: 18px;
+  padding-top: 8px;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox {
   background-color: transparent;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox61 > .sapMFlexBoxBGTransparent, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox62 > .sapMFlexBoxBGTransparent {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox > .sapMFlexBoxBGTransparent, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox > .sapMFlexBoxBGTransparent {
   background-color: transparent;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox61 .sapMObjStatusText, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox62 .sapMObjStatusText {
-  color: #23BB32;
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexItem {
+  width: 100%;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem .sapMObjStatusSuccess, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexItem .sapMObjStatusSuccess {
+  width: 100% !important;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMObjStatusText, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMObjStatusText {
+  color: #F75A56;
   font-size: 28.66px;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 30px;
+  white-space: nowrap;
+  padding-right: 10px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox61 .sapMText, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox62 .sapMText {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMText, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMText {
   color: #D4D3D3;
   font-size: 12.29px !important;
   letter-spacing: 1.02px;
   line-height: 34px;
-  width: 100%;
-  margin-left: 15px;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox61 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOTitle, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox61 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOToal, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox62 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOTitle, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox62 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOToal {
   width: 100% !important;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox61 #__text1444, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout216 #__hbox62 #__text1444 {
-  width: 100%;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 24px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 > .sapuiVltCell {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
   padding-bottom: 0px;
   outline: none;
-  position: relative;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 > .sapuiVltCell:nth-child(2) {
-  float: left;
-  padding-right: 20px;
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
+  padding-bottom: 6px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 > .sapuiVltCell:nth-child(3) {
-  float: left;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 > .sapuiVltCell:nth-child(4) {
-  clear: both;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 .sapMLnk.styleTitle1 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) .sapMLnk.styleTitle1 {
   color: #FFFFFF;
   font-size: 16.38px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 19px;
-  padding-bottom: 10px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #application-ZPTP_PLAN_MNGR-display-component---Home--idHeaderReport {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) .sapMText {
   color: #A1CFE7;
   font-size: 13.65px;
   letter-spacing: 0;
   line-height: 16px;
-  padding-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 0 !important;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #__hbox63, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #__hbox64 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3), #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) {
+  float: left;
+  padding-right: 18px;
+  padding-top: 8px;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) > .sapMHBox {
   background-color: transparent;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #__hbox63 > .sapMFlexBoxBGTransparent, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #__hbox64 > .sapMFlexBoxBGTransparent {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox > .sapMFlexBoxBGTransparent, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) > .sapMHBox > .sapMFlexBoxBGTransparent {
   background-color: transparent;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #__hbox63 .sapMObjStatusText, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #__hbox64 .sapMObjStatusText {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMObjStatusText, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) > .sapMHBox .sapMObjStatusText {
   color: #F75A56;
   font-size: 28.66px;
   font-weight: bold;
@@ -3340,192 +3331,152 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   line-height: 30px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #__hbox63 .sapMText, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #__hbox64 .sapMText {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMText, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) > .sapMHBox .sapMText {
   color: #D4D3D3;
   font-size: 12.29px;
   letter-spacing: 1.02px;
   line-height: 34px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #UIComp_35 .v-m-root:focus {
-  outline: none;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #UIComp_35 .v-title {
-  fill: #A4A4A4;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #UIComp_35 .v-legend-element.v-legend-item, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #UIComp_35 .v-datalabel.v-morphable-label, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout217 #UIComp_35 .v-label.v-morphable-label {
-  fill: white;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 24px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 > .sapuiVltCell {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
   padding-bottom: 0px;
   outline: none;
-  position: relative;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 > .sapuiVltCell:nth-child(1):after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #4F5C89;
-  width: 100%;
-  height: 2.73px;
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
+  padding-bottom: 6px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 .sapMLnk.styleTitle1 {
-  color: #FFFFFF;
-  font-size: 16.38px !important;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 19px;
-  position: relative;
-  padding-bottom: 20px;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idHeaderMoni {
-  color: #A1CFE7;
-  font-size: 13.65px;
-  letter-spacing: 0;
-  line-height: 16px;
-  padding-top: 10px;
-  width: fit-content;
-  position: absolute;
-  top: 0px;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup {
-  width: auto !important;
-  position: absolute;
-  right: 0px;
-  top: 20px;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup-content {
-  border: 0;
-  background-color: transparent;
-  border-bottom: 1.23px solid #4F5C89;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup-content .sapMInputBaseInner, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup-content .sapMInputBaseIcon {
-  color: white;
-  font-size: 12.29px;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup-content .sapMInputBaseInner:active, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup-content .sapMInputBaseIcon:active {
-  background-color: transparent;
-}
-
-@media (max-width: 1200px) {
-  #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup-content .sapMInputBaseInner, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup-content .sapMInputBaseIcon {
-    width: auto;
-  }
-}
-
-@media (max-width: 1200px) {
-  #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--idMaterialGroup {
-    position: unset;
-  }
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--pftMgnFulmntChart {
-  margin-top: 30px;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--pftMgnFulmntChart #UIComp_36 .v-m-root:focus {
-  outline: none;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--pftMgnFulmntChart #UIComp_36 .v-title {
-  fill: #A4A4A4;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--pftMgnFulmntChart #UIComp_36 .v-legend-element.v-legend-item, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--pftMgnFulmntChart #UIComp_36 .v-datalabel.v-morphable-label, #application-ZPTP_PLAN_MNGR-display #__layout221 #__layout220 #application-ZPTP_PLAN_MNGR-display-component---Home--pftMgnFulmntChart #UIComp_36 .v-label.v-morphable-label {
-  fill: white;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout223 {
-  padding-left: 0;
-  /* overdue purchase order items */
-  /* end of  overdue purchase order items */
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 {
-  background-color: rgba(61, 71, 104, 0.82) !important;
-  border-radius: 7.64px;
-  padding: 20px 24px;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 > .sapuiVltCell {
-  padding-bottom: 0px;
-  outline: none;
-  position: relative;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 > .sapuiVltCell:nth-child(2) {
-  float: left;
-  padding-right: 20px;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 > .sapuiVltCell:nth-child(3) {
-  float: left;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 > .sapuiVltCell:nth-child(4) {
-  clear: both;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 > .sapuiVltCell:nth-child(5) {
-  width: fit-content;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 .sapMLnk.styleTitle1 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) .sapMLnk.styleTitle1 {
   color: #FFFFFF;
   font-size: 16.38px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 19px;
-  padding-bottom: 10px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idHeaderOverdue {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) {
+  position: relative;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
   color: #A1CFE7;
   font-size: 13.65px;
   letter-spacing: 0;
   line-height: 16px;
-  padding-top: 24px;
-  width: fit-content;
   white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
-  width: 180px;
+  text-overflow: ellipsis;
+  padding-top: 10px !important;
 }
 
 @media (max-width: 1200px) {
-  #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idHeaderOverdue {
-    width: 100%;
+  #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
+    width: 100% !important;
     white-space: normal;
   }
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #__hbox65, #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #__hbox66 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase {
+  width: auto !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1.23px solid #4F5C89;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon {
+  color: white;
+  font-size: 12.29px;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner:active, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon:active {
   background-color: transparent;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #__hbox65 > .sapMFlexBoxBGTransparent, #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #__hbox66 > .sapMFlexBoxBGTransparent {
+@media (max-width: 1200px) {
+  #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase {
+    position: unset;
+  }
+}
+
+@media (max-width: 1200px) {
+  #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout {
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-m-root:focus {
+  outline: none;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-title {
+  fill: #A4A4A4;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-legend-element.v-legend-item, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-datalabel.v-morphable-label, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-label.v-morphable-label {
+  fill: white;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding {
+  padding-left: 0;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell {
+  /* sales order fullfullment issues */
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
+  background-color: rgba(61, 71, 104, 0.82) !important;
+  border-radius: 7.64px;
+  padding: 20px 24px 0;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
+  padding-bottom: 0px;
+  outline: none;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
+  padding-bottom: 6px;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) .sapMLnk.styleTitle1 {
+  color: #FFFFFF;
+  font-size: 16.38px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox {
   background-color: transparent;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #__hbox65 .sapMObjStatusText, #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #__hbox66 .sapMObjStatusText {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox > .sapMFlexBoxBGTransparent {
+  background-color: transparent;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMObjStatusText {
   color: #23BB32;
   font-size: 28.66px;
   font-weight: bold;
@@ -3533,108 +3484,133 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   line-height: 30px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #__hbox65 .sapMText, #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #__hbox66 .sapMText {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMText {
   color: #D4D3D3;
   font-size: 12.29px;
   letter-spacing: 1.02px;
   line-height: 34px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier {
-  position: absolute;
-  right: 0px;
-  top: 15px;
-  width: auto !important;
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) {
+  position: relative;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier-content {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
+  color: #A1CFE7;
+  font-size: 13.65px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 10px !important;
+}
+
+@media (max-width: 1200px) {
+  #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
+    width: 100% !important;
+    white-space: normal;
+  }
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase {
+  width: auto !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper {
   border: 0;
   background-color: transparent;
   border-bottom: 1.23px solid #4F5C89;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier-content .sapMInputBaseInner, #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier-content .sapMInputBaseIcon {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon {
   color: white;
   font-size: 12.29px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier-content .sapMInputBaseInner:active, #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier-content .sapMInputBaseIcon:active {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner:active, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon:active {
   background-color: transparent;
 }
 
 @media (max-width: 1200px) {
-  #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idPOSupplier {
+  #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase {
     position: unset;
   }
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idOverdueChart {
-  position: relative;
-}
-
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idOverdueChart:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -32px;
-  background-color: #4F5C89;
-  width: 100%;
-  height: 1.23px;
-}
-
 @media (max-width: 1200px) {
-  #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idOverdueChart:after {
-    display: none;
+  #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper {
+    width: 100% !important;
   }
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idOverdueChart #UIComp_37 .v-m-root:focus {
+@media (max-width: 1200px) {
+  #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout {
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-m-root:focus {
   outline: none;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idOverdueChart #UIComp_37 .v-title {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-title {
   fill: #A4A4A4;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idOverdueChart #UIComp_37 .v-legend-element.v-legend-item, #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idOverdueChart #UIComp_37 .v-datalabel.v-morphable-label, #application-ZPTP_PLAN_MNGR-display #__layout223 #__layout222 #application-ZPTP_PLAN_MNGR-display-component---Home--idOverdueChart #UIComp_37 .v-label.v-morphable-label {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-legend-element.v-legend-item, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-datalabel.v-morphable-label, #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-label.v-morphable-label {
   fill: white;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout228 {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt {
   padding-left: 0;
   padding-right: 28px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout228 .columns {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell {
+  /*links*/
+  /* quick links first child */
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns {
   border-radius: 8px;
   /*  No Text Label Hidden */
   /* End of No Text Label Hidden */
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout228 .columns.sapMFlexBoxBGTransparent {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns.sapMFlexBoxBGTransparent {
   background-color: transparent;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout228 .columns .sapMFlexBox {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns > .sapMFlexBox {
   margin: 0 !important;
-  padding: 20px 24px;
+  padding: 0;
   border-radius: 8px !important;
-  background-color: rgba(61, 71, 104, 0.82) !important;
-  width: 50%;
+  background-color: transparent !important;
+  width: 34%;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout228 .columns .sapMFlexBox .sapMFlexBoxBGTransparent {
-  background-color: transparent !important;
-  padding: 0;
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns > .sapMFlexBox > .sapMFlexBoxBGTransparent {
+  background-color: rgba(61, 71, 104, 0.82) !important;
+  padding: 20px 24px;
+  margin: 0 !important;
   border-radius: 8px;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout228 .columns .sapUiVlt.sapuiVlt .sapMLabelNoText {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns > .sapMFlexBox > .sapMFlexBoxBGTransparent .sapMFlexItem.sapMFlexBoxBGTransparent {
+  background-color: transparent;
+}
+
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns .sapUiVlt.sapuiVlt .sapMLabelNoText {
   display: none;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout228 .columns .sapMTitle {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns .sapMTitle {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
@@ -3644,7 +3620,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   margin-bottom: 10px !important;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout228 .columns .sapMLnk {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns .sapMLnk {
   color: #599FFF;
   font-size: 12px;
   letter-spacing: 0;
@@ -3652,12 +3628,12 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   font-weight: 400;
 }
 
-#application-ZPTP_PLAN_MNGR-display #__layout228 .columns .sapMLnk:hover {
+#application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns .sapMLnk:hover {
   text-decoration: none;
 }
 
-#application-ZPTP_PLAN_MNGR-display #application-ZPTP_PLAN_MNGR-display-component---Home .sapUiGlobalBackgroundColor, #application-ZPTP_PLAN_MNGR-display #application-ZPTP_PLAN_MNGR-display-component---Home .sapMShellGlobalInnerBackground, #application-ZPTP_PLAN_MNGR-display #application-ZPTP_PLAN_MNGR-display-component---Home #__page10 {
-  background-color: transparent;
+#application-ZPTP_PLAN_MNGR-display #application-ZPTP_PLAN_MNGR-display-component---Home .sapUiGlobalBackgroundColor, #application-ZPTP_PLAN_MNGR-display #application-ZPTP_PLAN_MNGR-display-component---Home .sapMShellGlobalInnerBackground, #application-ZPTP_PLAN_MNGR-display #application-ZPTP_PLAN_MNGR-display-component---Home .sapMPage.sapMPageBgStandard {
+  background-color: transparent !important;
 }
 
 /* end of my planning manager dashboard */
