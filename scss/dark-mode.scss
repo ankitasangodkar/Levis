@@ -2152,8 +2152,8 @@ ul.sapUshellInner {
                             }
                         }
                     }
-                /* end of sales volumne -profit margin */
-                /* Sales Volume - Detailed  Analysis */
+                /* end of overdue receivables */
+                /* open disputes */
                     &:nth-child(2){
                         > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
                             background-color: rgba(61, 71, 104, 0.82) !important;
@@ -2247,7 +2247,7 @@ ul.sapUshellInner {
                             }
                         }
                     }
-                /* End of Sales Volume - Detailed  Analysis */
+                /* End of open disputes */
                 }
             }
         }
@@ -2591,7 +2591,7 @@ ul.sapUshellInner {
                                             text-overflow: ellipsis;
                                             overflow: hidden;
                                             width: 170px !important;
-                                            @media (max-width: 1200px){
+                                            @media (max-width: 475px){
                                                 width: 100%;
                                                 white-space: normal;
                                             }
@@ -2616,7 +2616,7 @@ ul.sapUshellInner {
                                                 }
                                             }
                                         }
-                                        @media (max-width: 1200px){
+                                        @media (max-width: 475px){
                                             flex-direction: column;
                                         }
                                     }
@@ -2637,7 +2637,7 @@ ul.sapUshellInner {
                                         .sapMListTblHeader{
                                             >.sapMTableTH{
                                                 background: #455278 !important;
-                                                border-bottom: 0.4px solid #4F5C89;
+                                                border-bottom: 0;
                                                 padding: 0 3px;
                                             }
                                         }
@@ -2653,6 +2653,13 @@ ul.sapUshellInner {
                                                 overflow: hidden;
                                                 @media (max-width: 1200px){
                                                     width: 120px;
+                                                }
+                                            }
+                                            .sapMListTblRow{
+                                                &:first-child{
+                                                    td{
+                                                        border-top: 0;
+                                                    }
                                                 }
                                             }
                                         }
