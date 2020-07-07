@@ -719,7 +719,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child {
   position: absolute;
   right: 24px;
-  top: 30px;
+  top: 24px;
   z-index: 1;
 }
 
@@ -744,11 +744,13 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwtOn .sapMSwtText .sapMSwtLabelOn {
   color: white;
   width: auto;
+  padding-top: 5px;
 }
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwtOn .sapMSwtText .sapMSwtLabelOff {
   color: #8A8C91;
   width: auto;
+  padding-top: 5px;
 }
 
 @media (max-width: 425px) {
