@@ -2186,7 +2186,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 }
 
 #application-Z_OTC_AR_ANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell {
-  /* sales volumen - profit margin */
+  /* overdue receivables */
   /* end of sales volumne -profit margin */
   /* Sales Volume - Detailed  Analysis */
   /* End of Sales Volume - Detailed  Analysis */
@@ -2273,10 +2273,15 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   letter-spacing: 0 !important;
   line-height: 16px;
   padding: 8px 0 0 0;
+  white-space: nowrap;
+  width: 160px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 475px) {
   #application-Z_OTC_AR_ANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox {
+    width: 100%;
     flex-direction: column;
   }
 }
@@ -2380,7 +2385,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   padding: 8px 0 0 0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 475px) {
   #application-Z_OTC_AR_ANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox {
     flex-direction: column;
   }

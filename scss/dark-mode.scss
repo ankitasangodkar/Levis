@@ -2050,7 +2050,7 @@ ul.sapUshellInner {
             > .sapUiVlt.sapUiContentPadding{
                 padding-left: 25px;
                 .sapUiVltCell.sapuiVltCell{
-                /* sales volumen - profit margin */
+                /* overdue receivables */
                     &:nth-child(1){
                         > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
                             background-color: rgba(61, 71, 104, 0.82) !important;
@@ -2120,8 +2120,13 @@ ul.sapUshellInner {
                                             letter-spacing: 0 !important;;
                                             line-height: 16px;  
                                             padding: 8px 0 0 0;
+                                            white-space: nowrap;
+                                            width: 160px;
+                                            text-overflow: ellipsis;
+                                            overflow: hidden;
                                         }
-                                        @media (max-width: 1200px){
+                                        @media (max-width: 475px){
+                                            width: 100%;
                                             flex-direction: column;
                                         }
                                     }
@@ -2219,7 +2224,7 @@ ul.sapUshellInner {
                                             line-height: 16px;  
                                             padding: 8px 0 0 0;
                                         }
-                                        @media (max-width: 1200px){
+                                        @media (max-width: 475px){
                                             flex-direction: column;
                                         }
                                     }
