@@ -2818,71 +2818,72 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 /* end of  my OM analyst dashboard */
 /* my planning analyst dashboard */
 #application-Z_PTP_PA_DB-display {
-  /* Quick Links */
   /* End of Quick Links */
   /* background color */
   /* background color */
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 {
-  padding-left: 24px;
-  /* shortage report */
-  /* end of shortage report */
-  /* monitor purchase order items */
-  /* end of purchase order items */
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper {
+  /* Quick Links */
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding {
+  padding-left: 24px;
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell {
+  /* sales order fullfullment issues */
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 24px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 > .sapuiVltCell {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
   padding-bottom: 0px;
   outline: none;
-  position: relative;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 > .sapuiVltCell:nth-child(2) {
-  float: left;
-  padding-right: 20px;
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
+  padding-bottom: 6px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 > .sapuiVltCell:nth-child(3) {
-  float: left;
-}
-
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 > .sapuiVltCell:nth-child(4) {
-  clear: both;
-}
-
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 .sapMLnk.styleTitle1 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) .sapMLnk.styleTitle1 {
   color: #FFFFFF;
   font-size: 16.38px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 19px;
-  padding-bottom: 10px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 #application-Z_PTP_PA_DB-display-component---Home--idHeaderReport {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) .sapMText {
   color: #A1CFE7;
   font-size: 13.65px;
   letter-spacing: 0;
   line-height: 16px;
-  padding-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 0 !important;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 #__hbox52, #application-Z_PTP_PA_DB-display #__layout195 #__layout193 #__hbox53 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3), #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) {
+  float: left;
+  padding-right: 18px;
+  padding-top: 8px;
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) > .sapMHBox {
   background-color: transparent;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 #__hbox52 > .sapMFlexBoxBGTransparent, #application-Z_PTP_PA_DB-display #__layout195 #__layout193 #__hbox53 > .sapMFlexBoxBGTransparent {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox > .sapMFlexBoxBGTransparent, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) > .sapMHBox > .sapMFlexBoxBGTransparent {
   background-color: transparent;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 #__hbox52 .sapMObjStatusText, #application-Z_PTP_PA_DB-display #__layout195 #__layout193 #__hbox53 .sapMObjStatusText {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMObjStatusText, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) > .sapMHBox .sapMObjStatusText {
   color: #F75A56;
   font-size: 28.66px;
   font-weight: bold;
@@ -2890,185 +2891,152 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   line-height: 30px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 #__hbox52 .sapMText, #application-Z_PTP_PA_DB-display #__layout195 #__layout193 #__hbox53 .sapMText {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMText, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) > .sapMHBox .sapMText {
   color: #D4D3D3;
   font-size: 12.29px;
   letter-spacing: 1.02px;
   line-height: 34px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 #UIComp_30 .v-m-root:focus {
-  outline: none;
-}
-
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 #UIComp_30 .v-title {
-  fill: #A4A4A4;
-}
-
-#application-Z_PTP_PA_DB-display #__layout195 #__layout193 #UIComp_30 .v-legend-element.v-legend-item, #application-Z_PTP_PA_DB-display #__layout195 #__layout193 #UIComp_30 .v-datalabel.v-morphable-label, #application-Z_PTP_PA_DB-display #__layout195 #__layout193 #UIComp_30 .v-label.v-morphable-label {
-  fill: white;
-}
-
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 24px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 > .sapuiVltCell {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
   padding-bottom: 0px;
   outline: none;
-  position: relative;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 > .sapuiVltCell:nth-child(3) {
-  width: fit-content;
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
+  padding-bottom: 6px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 .sapMLnk.styleTitle1 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) .sapMLnk.styleTitle1 {
   color: #FFFFFF;
   font-size: 16.38px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 19px;
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) {
   position: relative;
-  padding-bottom: 18px;
-  margin-bottom: 10px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 .sapMLnk.styleTitle1:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #4F5C89;
-  width: 100%;
-  height: 1.23px;
-}
-
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 #application-Z_PTP_PA_DB-display-component---Home--idHeaderMoni {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
   color: #A1CFE7;
   font-size: 13.65px;
   letter-spacing: 0;
   line-height: 16px;
-  padding-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 10px !important;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup {
-  position: absolute;
-  right: 0px;
-  top: 2px;
+@media (max-width: 1200px) {
+  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
+    width: 100% !important;
+    white-space: normal;
+  }
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase {
   width: auto !important;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup-content {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper {
   border: 0;
   background-color: transparent;
   border-bottom: 1.23px solid #4F5C89;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup-content .sapMInputBaseInner, #application-Z_PTP_PA_DB-display #__layout195 #__layout194 #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup-content .sapMInputBaseIcon {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon {
   color: white;
   font-size: 12.29px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup-content .sapMInputBaseInner:active, #application-Z_PTP_PA_DB-display #__layout195 #__layout194 #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup-content .sapMInputBaseIcon:active {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner:active, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon:active {
   background-color: transparent;
 }
 
 @media (max-width: 1200px) {
-  #application-Z_PTP_PA_DB-display #__layout195 #__layout194 #application-Z_PTP_PA_DB-display-component---Home--idMaterialGroup {
+  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase {
     position: unset;
-    width: auto !important;
   }
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 #UIComp_31 .v-m-root:focus {
+@media (max-width: 1200px) {
+  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout .sapUiHLayoutChildWrapper {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapUiHLayout {
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-m-root:focus {
   outline: none;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 #UIComp_31 .v-title {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-title {
   fill: #A4A4A4;
 }
 
-#application-Z_PTP_PA_DB-display #__layout195 #__layout194 #UIComp_31 .v-legend-element.v-legend-item, #application-Z_PTP_PA_DB-display #__layout195 #__layout194 #UIComp_31 .v-datalabel.v-morphable-label, #application-Z_PTP_PA_DB-display #__layout195 #__layout194 #UIComp_31 .v-label.v-morphable-label {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-legend-element.v-legend-item, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-datalabel.v-morphable-label, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .v-info .v-label.v-morphable-label {
   fill: white;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding {
   padding-left: 0;
-  /* overdue purchase order items */
-  /* end of  overdue purchase order items */
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell {
+  /* sales order fullfullment issues */
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
-  padding: 20px 24px;
+  padding: 20px 24px 0;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 > .sapuiVltCell {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
   padding-bottom: 0px;
   outline: none;
-  position: relative;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 > .sapuiVltCell:nth-child(2) {
-  float: left;
-  padding-right: 20px;
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
+  padding-bottom: 6px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 > .sapuiVltCell:nth-child(3) {
-  float: left;
-}
-
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 > .sapuiVltCell:nth-child(4) {
-  clear: both;
-}
-
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 > .sapuiVltCell:nth-child(5) {
-  width: fit-content;
-}
-
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 .sapMLnk.styleTitle1 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) .sapMLnk.styleTitle1 {
   color: #FFFFFF;
   font-size: 16.38px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 19px;
-  padding-bottom: 10px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idHeaderOverdue {
-  color: #A1CFE7;
-  font-size: 13.65px;
-  letter-spacing: 0;
-  line-height: 16px;
-  margin-top: 26px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 180px;
-}
-
-@media (max-width: 1200px) {
-  #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idHeaderOverdue {
-    white-space: normal;
-    width: 100%;
-    margin-top: 10px;
-  }
-}
-
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #__hbox54, #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #__hbox55 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox {
   background-color: transparent;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #__hbox54 > .sapMFlexBoxBGTransparent, #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #__hbox55 > .sapMFlexBoxBGTransparent {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox > .sapMFlexBoxBGTransparent {
   background-color: transparent;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #__hbox54 .sapMObjStatusText, #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #__hbox55 .sapMObjStatusText {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMObjStatusText {
   color: #23BB32;
   font-size: 28.66px;
   font-weight: bold;
@@ -3076,109 +3044,133 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   line-height: 30px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #__hbox54 .sapMText, #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #__hbox55 .sapMText {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMText {
   color: #D4D3D3;
   font-size: 12.29px;
   letter-spacing: 1.02px;
   line-height: 34px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier {
-  position: absolute;
-  right: 0px;
-  top: 15px;
-  width: auto !important;
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) {
+  position: relative;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier-content {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
+  color: #A1CFE7;
+  font-size: 13.65px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 10px !important;
+}
+
+@media (max-width: 1200px) {
+  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMText {
+    width: 100% !important;
+    white-space: normal;
+  }
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase {
+  width: auto !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper {
   border: 0;
   background-color: transparent;
   border-bottom: 1.23px solid #4F5C89;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier-content .sapMInputBaseInner, #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier-content .sapMInputBaseIcon {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon {
   color: white;
   font-size: 12.29px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier-content .sapMInputBaseInner:active, #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier-content .sapMInputBaseIcon:active {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner:active, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon:active {
   background-color: transparent;
 }
 
 @media (max-width: 1200px) {
-  #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idPOSupplier {
+  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper .sapMInputBase {
     position: unset;
-    width: auto !important;
   }
-}
-
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idOverdueChart {
-  position: relative;
-}
-
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idOverdueChart:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -34px;
-  background-color: #4F5C89;
-  width: 100%;
-  height: 1.23px;
 }
 
 @media (max-width: 1200px) {
-  #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idOverdueChart:after {
-    display: none;
+  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper {
+    width: 100% !important;
   }
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idOverdueChart #UIComp_32 .v-m-root:focus {
+@media (max-width: 1200px) {
+  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout {
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-m-root:focus {
   outline: none;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idOverdueChart #UIComp_32 .v-title {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-title {
   fill: #A4A4A4;
 }
 
-#application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idOverdueChart #UIComp_32 .v-legend-element.v-legend-item, #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idOverdueChart #UIComp_32 .v-datalabel.v-morphable-label, #application-Z_PTP_PA_DB-display #__layout197 #__layout196 #application-Z_PTP_PA_DB-display-component---Home--idOverdueChart #UIComp_32 .v-label.v-morphable-label {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-legend-element.v-legend-item, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-datalabel.v-morphable-label, #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(4) .v-info .v-label.v-morphable-label {
   fill: white;
 }
 
-#application-Z_PTP_PA_DB-display #__layout202 {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt {
   padding-left: 0;
   padding-right: 28px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout202 .columns {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell {
+  /*links*/
+  /* quick links first child */
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns {
   border-radius: 8px;
   /*  No Text Label Hidden */
   /* End of No Text Label Hidden */
 }
 
-#application-Z_PTP_PA_DB-display #__layout202 .columns.sapMFlexBoxBGTransparent {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns.sapMFlexBoxBGTransparent {
   background-color: transparent;
 }
 
-#application-Z_PTP_PA_DB-display #__layout202 .columns .sapMFlexBox {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns > .sapMFlexBox {
   margin: 0 !important;
-  padding: 20px 24px;
+  padding: 0;
   border-radius: 8px !important;
-  background-color: rgba(61, 71, 104, 0.82) !important;
-  width: 50%;
+  background-color: transparent !important;
+  width: 34%;
 }
 
-#application-Z_PTP_PA_DB-display #__layout202 .columns .sapMFlexBox .sapMFlexBoxBGTransparent {
-  background-color: transparent !important;
-  padding: 0;
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns > .sapMFlexBox > .sapMFlexBoxBGTransparent {
+  background-color: rgba(61, 71, 104, 0.82) !important;
+  padding: 20px 24px;
+  margin: 0 !important;
   border-radius: 8px;
 }
 
-#application-Z_PTP_PA_DB-display #__layout202 .columns .sapUiVlt.sapuiVlt .sapMLabelNoText {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns > .sapMFlexBox > .sapMFlexBoxBGTransparent .sapMFlexItem.sapMFlexBoxBGTransparent {
+  background-color: transparent;
+}
+
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns .sapUiVlt.sapuiVlt .sapMLabelNoText {
   display: none;
 }
 
-#application-Z_PTP_PA_DB-display #__layout202 .columns .sapMTitle {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns .sapMTitle {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
@@ -3188,7 +3180,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   margin-bottom: 10px !important;
 }
 
-#application-Z_PTP_PA_DB-display #__layout202 .columns .sapMLnk {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns .sapMLnk {
   color: #599FFF;
   font-size: 12px;
   letter-spacing: 0;
@@ -3196,12 +3188,12 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   font-weight: 400;
 }
 
-#application-Z_PTP_PA_DB-display #__layout202 .columns .sapMLnk:hover {
+#application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell .columns .sapMLnk:hover {
   text-decoration: none;
 }
 
-#application-Z_PTP_PA_DB-display #application-Z_PTP_PA_DB-display-component---Home .sapUiGlobalBackgroundColor, #application-Z_PTP_PA_DB-display #application-Z_PTP_PA_DB-display-component---Home .sapMShellGlobalInnerBackground, #application-Z_PTP_PA_DB-display #application-Z_PTP_PA_DB-display-component---Home #__page8 {
-  background-color: transparent;
+#application-Z_PTP_PA_DB-display #application-Z_PTP_PA_DB-display-component---Home .sapUiGlobalBackgroundColor, #application-Z_PTP_PA_DB-display #application-Z_PTP_PA_DB-display-component---Home .sapMShellGlobalInnerBackground, #application-Z_PTP_PA_DB-display #application-Z_PTP_PA_DB-display-component---Home .sapMPage.sapMPageBgStandard {
+  background-color: transparent !important;
 }
 
 /* end of my planning analyst dashboard */
