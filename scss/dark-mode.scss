@@ -1890,7 +1890,7 @@ ul.sapUshellInner {
                         > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
                             background-color: rgba(61, 71, 104, 0.82) !important;
                             border-radius: 7.64px;
-                            padding: 20px 0 0;
+                            padding: 20px 24px 0;
                             max-height: 575px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
@@ -1903,11 +1903,10 @@ ul.sapUshellInner {
                                         font-weight: 700;
                                         letter-spacing: 0;
                                         line-height: 19px;
-                                        padding: 0 25px;
                                     }
                                 }
                                 &:nth-child(2){
-                                    > sapMHBo{
+                                    > .sapMHBox{
                                         position: relative;
                                         background-color: transparent;
                                         padding: 3px 0 12px;
@@ -1941,31 +1940,13 @@ ul.sapUshellInner {
                                     }
                                 }
                                 &:nth-child(3){
-                                    .sapMText{
-                                        color: #A1CFE7;
-                                        font-size: 13.65px;
-                                        font-weight: 400;
-                                        letter-spacing: 0;
-                                        line-height: 16px;  
-                                        position: absolute;
-                                        white-space: nowrap;
-                                        text-overflow: ellipsis;
-                                        overflow: hidden;
-                                        width: 220px;
-                                        @media (max-width: 1200px){
-                                            width: 100%;
-                                            white-space: normal;
-                                            margin-top: 10px;
-                                        }
-                                    }
-                                }
-                                &:nth-child(4){
-                                    #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idPrtDte{
+                                    position: relative;
+                                    .sapMInputBase{
                                         width: 35% !important;
                                         position: absolute;
                                         top: -6px;
-                                        right: 0;
-                                        #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idPrtDte-content{
+                                        right: 0px;
+                                        .sapMInputBaseContentWrapper{
                                             border: 0;
                                             background-color: transparent;
                                             border-bottom: 1.23px solid #4F5C89;
@@ -1980,6 +1961,24 @@ ul.sapUshellInner {
                                         @media (max-width: 1200px){
                                             width: 100% !important;
                                             position: unset;
+                                        }
+                                    }
+                                }
+                                &:nth-child(4){
+                                    .sapMText{
+                                        color: #A1CFE7;
+                                        font-size: 13.65px;
+                                        font-weight: 400;
+                                        letter-spacing: 0;
+                                        line-height: 16px;  
+                                        white-space: nowrap;
+                                        text-overflow: ellipsis;
+                                        overflow: hidden;
+                                        width: 220px;
+                                        @media (max-width: 1200px){
+                                            width: 100%;
+                                            white-space: normal;
+                                            margin-top: 10px;
                                         }
                                     }
                                 }
@@ -2007,256 +2006,306 @@ ul.sapUshellInner {
                 /* end of sales volumne -profit margin */
                 /* Sales Volume - Detailed  Analysis */
                     &:nth-child(2){
-                        background-color: rgba(61, 71, 104, 0.82) !important;
-                        border-radius: 7.64px;
-                        padding: 20px 24px;
-                        > .sapuiVltCell{
-                            padding-bottom: 0px;
-                            outline: none;
-                        }
-                        .sapMLnk.styleTitle1{
-                            color: #FFFFFF;
-                            font-size: 16.38px;
-                            font-weight: 700;
-                            letter-spacing: 0;
-                            line-height: 19px;
-                        }
-                        #__text1478{
-                            color: #A1CFE7;
-                            font-size: 13.65px;
-                            font-weight: 400;
-                            letter-spacing: 0;
-                            line-height: 16px;  
-                            position: absolute;
-                            padding-top: 8px;
-                        }
-                        #UIComp_45{
-                            .v-m-root{
-                                &:focus{
-                                    outline: none;
+                        > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
+                            background-color: rgba(61, 71, 104, 0.82) !important;
+                            border-radius: 7.64px;
+                            padding: 20px 24px 0;
+                            max-height: 575px;
+                            > .sapuiVltCell{
+                                padding-bottom: 0px;
+                                outline: none;
+                                &:nth-child(1){
+                                    padding-bottom: 6px;
+                                    .sapMLnk.styleTitle1{
+                                        color: #FFFFFF;
+                                        font-size: 16.38px;
+                                        font-weight: 700;
+                                        letter-spacing: 0;
+                                        line-height: 19px;
+                                    }
                                 }
-                            }
-                            .v-title{
-                                fill: #A4A4A4;
-                            }
-                            .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
-                                fill: white;
+                                &:nth-child(2){
+                                    .sapMText{
+                                        color: #A1CFE7;
+                                        font-size: 13.65px;
+                                        font-weight: 400;
+                                        letter-spacing: 0;
+                                        line-height: 16px;  
+                                        position: absolute;
+                                        padding: 8px 0 0 0;
+                                    }
+                                }
+                                &:nth-child(3){
+                                    .v-info{
+                                        .v-m-root{
+                                            &:focus{
+                                                outline: none;
+                                            }
+                                        }
+                                        .v-title{
+                                            fill: #A4A4A4;
+                                        }
+                                        .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
+                                            fill: white;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
                 /* End of Sales Volume - Detailed  Analysis */
                 /* cash collection tracker - collections management */
                     &:nth-child(3){
-                        background-color: rgba(61, 71, 104, 0.82) !important;
-                        border-radius: 7.64px;
-                        padding: 20px 24px;
-                        > .sapuiVltCell{
-                            padding-bottom: 0px;
-                            outline: none;
-                        }
-                        .sapMLnk.styleTitle1{
-                            color: #FFFFFF;
-                            font-size: 16.38px;
-                            font-weight: 700;
-                            letter-spacing: 0;
-                            line-height: 19px;
-                        }
-                        #__text1479{
-                            color: #A1CFE7;
-                            font-size: 13.65px;
-                            font-weight: 400;
-                            letter-spacing: 0;
-                            line-height: 16px; 
-                            padding-top: 8px; 
-                        }
-                        #UIComp_46{
-                            .v-m-root{
-                                &:focus{
-                                    outline: none;
+                        > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
+                            background-color: rgba(61, 71, 104, 0.82) !important;
+                            border-radius: 7.64px;
+                            padding: 20px 24px 0;
+                            max-height: 575px;
+                            > .sapuiVltCell{
+                                padding-bottom: 0px;
+                                outline: none;
+                                &:nth-child(1){
+                                    padding-bottom: 6px;
+                                    .sapMLnk.styleTitle1{
+                                        color: #FFFFFF;
+                                        font-size: 16.38px;
+                                        font-weight: 700;
+                                        letter-spacing: 0;
+                                        line-height: 19px;
+                                    }
                                 }
-                            }
-                            .v-title{
-                                fill: #A4A4A4;
-                            }
-                            .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
-                                fill: white;
+                                &:nth-child(2){
+                                    .sapMText{
+                                        color: #A1CFE7;
+                                        font-size: 13.65px;
+                                        font-weight: 400;
+                                        letter-spacing: 0;
+                                        line-height: 16px;  
+                                        position: absolute;
+                                        padding: 8px 0 0 0;
+                                    }
+                                }
+                                &:nth-child(3){
+                                    .v-info{
+                                        .v-m-root{
+                                            &:focus{
+                                                outline: none;
+                                            }
+                                        }
+                                        .v-title{
+                                            fill: #A4A4A4;
+                                        }
+                                        .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
+                                            fill: white;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
                 /* End of cash collection tracker - collections management */
+                }
             }
         }
         &:nth-child(2){
             > .sapUiVlt.sapUiContentPadding{
-            padding-left: 0;
-            /* vendor line items */
-            &:nth-child(1){
-                background-color: rgba(61, 71, 104, 0.82) !important;
-                border-radius: 7.64px;
-                padding: 20px 24px;
-                > .sapuiVltCell{
-                    padding-bottom: 0px;
-                    outline: none;
-                }
-                .sapMLnk.styleTitle1{
-                    color: #FFFFFF;
-                    font-size: 16.38px;
-                    font-weight: 700;
-                    letter-spacing: 0;
-                    line-height: 19px;
-                }
-                #__hbox79{
-                    background-color: transparent;
-                    margin: 0px 0 12px;
-                    >.sapMFlexBoxBGTransparent{
-                        background-color: transparent;
-                    }
-                    .sapMObjStatusText {
-                        color: #F75A56;
-                        font-size: 28.66px;
-                        font-weight: bold;
-                        letter-spacing: 0;
-                        line-height: 34px;
-                        padding-right: 9px;
-                    }
-                    .sapMText{
-                        color: #D4D3D3;
-                        font-size: 12.29px;
-                        letter-spacing: 1.02px;
-                        line-height: 24px;
-                        padding-left: 0 !important;
-                        padding-right: 4px;
-                    }
-                }
-                #__text1482{
-                    color: #A1CFE7;
-                    font-size: 13.65px;
-                    font-weight: 400;
-                    letter-spacing: 0;
-                    line-height: 16px;  
-                    position: absolute;
-                }
-                #UIComp_47{
-                    .v-m-root{
-                        &:focus{
-                            outline: none;
-                        }
-                    }
-                    .v-title{
-                        fill: #A4A4A4;
-                    }
-                    .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
-                        fill: white;
-                    }
-                }
-            }
-            /* end of vendor line items */
-
-            /* overdue receivables */
-            &:nth-child(2){
-                background-color: rgba(61, 71, 104, 0.82) !important;
-                border-radius: 7.64px;
-                padding: 20px 24px;
-                > .sapuiVltCell{ 
-                    padding-bottom: 0px;
-                    outline: none;
-                    position: relative;
-                }
-                .sapMLnk.styleTitle1{
-                    color: #FFFFFF;
-                    font-size: 16.38px;
-                    font-weight: 700;
-                    letter-spacing: 0;
-                    line-height: 19px;
-                }
-                #__hbox80,  {
-                    position: relative;
-                    background-color: transparent;
-                    padding: 3px 0 12px;
-                    margin: 0px 0 12px;
-                    >.sapMFlexBoxBGTransparent{
-                        background-color: transparent;
-                    }
-                    .sapMObjStatusText {
-                        color: #F7B031;
-                        font-size: 28.66px;
-                        font-weight: bold;
-                        letter-spacing: 0;
-                        line-height: 34px;
-                    }
-                    .sapMText{
-                        color: #D4D3D3;
-                        font-size: 12.29px;
-                        letter-spacing: 1.02px;
-                        line-height: 24px;
-                        padding-left: 0 !important;
-                        padding-top: 0 !important;
-                    }
-                    &:after{
-                        content: '';
-                        position: absolute;
-                        bottom: 0;
-                        background-color: #4F5C89;
-                        width: 100%;
-                        height: 1.23px;
-                    }
-                }
-                #__text1484{
-                    color: #A1CFE7;
-                    font-size: 13.65px;
-                    font-weight: 400;
-                    letter-spacing: 0;
-                    line-height: 16px;  
-                    position: absolute;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
-                    width: 180px;
-                    @media (max-width: 1200px){
-                        width: 100%;
-                        white-space: normal;
-                        margin-top: 10px;
-                    }
-                }
-                #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idOverdueCombo{
-                    width: auto !important;
-                    position: absolute;
-                    top: -6px;
-                    right: 0;
-                    #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idOverdueCombo-content{
-                        border: 0;
-                        background-color: transparent;
-                        border-bottom: 1.23px solid #4F5C89;
-                        .sapMInputBaseInner , .sapMInputBaseIcon{
-                            color: white;
-                            font-size: 12.29px;
-                            &:active{
-                                background-color: transparent;
-                            }
-                        }
-                    }
-                    @media (max-width: 1200px){
-                        position: unset;
-                    }
-                }
-                #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idOverdueChart{
-                    margin-top: 34px;
-                    #UIComp_48{
-                        .v-m-root{
-                            &:focus{
+                padding-left: 0;
+                .sapUiVltCell.sapuiVltCell{
+                    /* vendor line items */
+                    &:nth-child(1){
+                        > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
+                            background-color: rgba(61, 71, 104, 0.82) !important;
+                            border-radius: 7.64px;
+                            padding: 20px 24px 0;
+                            max-height: 575px;
+                            > .sapuiVltCell{
+                                padding-bottom: 0px;
                                 outline: none;
+                                &:nth-child(1){
+                                    padding-bottom: 6px;
+                                    .sapMLnk.styleTitle1{
+                                        color: #FFFFFF;
+                                        font-size: 16.38px;
+                                        font-weight: 700;
+                                        letter-spacing: 0;
+                                        line-height: 19px;
+                                    }
+                                }
+                                &:nth-child(2){
+                                    > .sapMHBox{
+                                        background-color: transparent;
+                                        margin: 0px 0 12px;
+                                        >.sapMFlexBoxBGTransparent{
+                                            background-color: transparent;
+                                        }
+                                        .sapMObjStatusText {
+                                            color: #F75A56;
+                                            font-size: 28.66px;
+                                            font-weight: bold;
+                                            letter-spacing: 0;
+                                            line-height: 34px;
+                                            padding-right: 9px;
+                                        }
+                                        .sapMText{
+                                            color: #D4D3D3;
+                                            font-size: 12.29px;
+                                            letter-spacing: 1.02px;
+                                            line-height: 24px;
+                                            padding-left: 0 !important;
+                                            padding-top: 0 !important;
+                                        }
+                                    }
+                                }
+                                &:nth-child(3){
+                                    .sapMText{
+                                        color: #A1CFE7;
+                                        font-size: 13.65px;
+                                        font-weight: 400;
+                                        letter-spacing: 0;
+                                        line-height: 16px;  
+                                        position: absolute;
+                                    }
+                                }
+                                &:nth-child(4){
+                                    .v-info{
+                                        .v-m-root{
+                                            &:focus{
+                                                outline: none;
+                                            }
+                                        }
+                                        .v-title{
+                                            fill: #A4A4A4;
+                                        }
+                                        .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
+                                            fill: white;
+                                        }
+                                    }
+                                }
                             }
                         }
-                        .v-title{
-                            fill: #A4A4A4;
-                        }
-                        .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
-                            fill: white;
+                    }
+                    /* end of vendor line items */
+                    /* overdue receivables */
+                    &:nth-child(2){
+                        > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
+                            background-color: rgba(61, 71, 104, 0.82) !important;
+                            border-radius: 7.64px;
+                            padding: 20px 24px 0;
+                            max-height: 575px;
+                            > .sapuiVltCell{
+                                padding-bottom: 0px;
+                                outline: none;
+                                &:nth-child(1){
+                                    padding-bottom: 6px;
+                                    .sapMLnk.styleTitle1{
+                                        color: #FFFFFF;
+                                        font-size: 16.38px;
+                                        font-weight: 700;
+                                        letter-spacing: 0;
+                                        line-height: 19px;
+                                    }
+                                }
+                                &:nth-child(2){
+                                    > .sapMHBox{
+                                        position: relative;
+                                        background-color: transparent;
+                                        padding: 3px 0 12px;
+                                        margin: 0px 0 12px;
+                                        >.sapMFlexBoxBGTransparent{
+                                            background-color: transparent;
+                                        }
+                                        .sapMObjStatusText {
+                                            color: #F7B031;
+                                            font-size: 28.66px;
+                                            font-weight: bold;
+                                            letter-spacing: 0;
+                                            line-height: 34px;
+                                        }
+                                        .sapMText{
+                                            color: #D4D3D3;
+                                            font-size: 12.29px;
+                                            letter-spacing: 1.02px;
+                                            line-height: 24px;
+                                            padding-left: 0 !important;
+                                            padding-top: 0 !important;
+                                        }
+                                        &:after{
+                                            content: '';
+                                            position: absolute;
+                                            bottom: 0;
+                                            background-color: #4F5C89;
+                                            width: 100%;
+                                            height: 1.23px;
+                                        }
+                                    }
+                                }
+                                &:nth-child(3){
+                                    position: relative;
+                                    #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idOverdueCombo{
+                                        width: auto !important;
+                                        position: absolute;
+                                        top: -6px;
+                                        right: 0;
+                                        #application-Z_OTC_AR_ANALYST_DB-display-component---Home--idOverdueCombo-content{
+                                            border: 0;
+                                            background-color: transparent;
+                                            border-bottom: 1.23px solid #4F5C89;
+                                            .sapMInputBaseInner , .sapMInputBaseIcon{
+                                                color: white;
+                                                font-size: 12.29px;
+                                                &:active{
+                                                    background-color: transparent;
+                                                }
+                                            }
+                                        }
+                                        @media (max-width: 1200px){
+                                            position: unset;
+                                        }
+                                    }
+                                }
+                                &:nth-child(4){
+                                    .sapMText{
+                                       color: #A1CFE7;
+                                        font-size: 13.65px;
+                                        font-weight: 400;
+                                        letter-spacing: 0;
+                                        line-height: 16px;  
+                                        position: absolute;
+                                        white-space: nowrap;
+                                        text-overflow: ellipsis;
+                                        overflow: hidden;
+                                        width: 180px;
+                                        @media (max-width: 1200px){
+                                            width: 100%;
+                                            white-space: normal;
+                                            margin-top: 10px;
+                                        } 
+                                    }
+                                }
+                                &:nth-child(5){
+                                    .sapVizFrame{
+                                        margin-top: 34px;
+                                        .v-info{
+                                            .v-m-root{
+                                                &:focus{
+                                                    outline: none;
+                                                }
+                                            }
+                                            .v-title{
+                                                fill: #A4A4A4;
+                                            }
+                                            .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
+                                                fill: white;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
+                    /*end  of overdue receivables */
                 }
             }
-            /*end  of overdue receivables */
         }
         &:nth-child(3){
             > .sapUiVlt.sapUiContentPadding{
