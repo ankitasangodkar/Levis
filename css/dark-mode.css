@@ -4532,12 +4532,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 }
 
 @media (max-width: 1024px) {
-  #application-Z_PTP_SSM_ANALYST-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell:first-child {
-    display: none;
-  }
-}
-
-@media (max-width: 1024px) {
   #application-Z_PTP_SSM_ANALYST-display .sapUiHLayoutChildWrapper:first-child {
     width: 50% !important;
   }
@@ -5188,12 +5182,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell > .sapMHBox .sapMLnk:hover {
   text-decoration: none;
-}
-
-@media (max-width: 1024px) {
-  #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell:first-child {
-    display: none;
-  }
 }
 
 @media (max-width: 1024px) {

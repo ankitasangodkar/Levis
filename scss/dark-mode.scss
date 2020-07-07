@@ -4183,11 +4183,6 @@ ul.sapUshellInner {
                         }
                     }
                     /* quick links first child */
-                    &:first-child{
-                        @media (max-width: 1024px){
-                            display: none;
-                        }
-                    }
                 }
             }
         }
@@ -4757,11 +4752,6 @@ ul.sapUshellInner {
                         }
                     }
                     /* quick links first child */
-                    &:first-child{
-                        @media (max-width: 1024px){
-                            display: none;
-                        }
-                    }
                 }
             }
         }
