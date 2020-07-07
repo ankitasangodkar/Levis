@@ -255,7 +255,7 @@
             //first column
             &:first-child {
                 .sapUiVltCell {
-                    // first component
+                    // Missing HTS Report
                     &:first-child {
                         .sapMFlexBoxBGTransparent {
                             &.sapUiVlt {
@@ -269,6 +269,9 @@
                                     }
                                     &:nth-child(2){
                                         text-align: right;
+                                        > .sapMInputBase {
+                                            max-width: 170px !important;
+                                        }
                                     }
 
                                     &:last-child {
@@ -314,7 +317,7 @@
                         }
                     }
 
-                    // 2
+                    // Spend Analysis
                     &:nth-child(2){
                         .sapMFlexBoxBGTransparent {
                             .sapUiVltCell {
@@ -336,7 +339,7 @@
                         }
                     }
 
-                    // 3
+                    // Inventory Turnover Analysis
                     &:nth-child(3){
                         .sapMFlexBoxBGTransparent {
                             .sapUiVltCell {
@@ -403,7 +406,7 @@
                         }
                     }   
 
-                    //4 
+                    //Monitor Purchase Order Items
                     &:nth-child(4){
                         .sapMFlexBoxBGTransparent {
                             .sapUiVltCell {
@@ -439,6 +442,12 @@
                                             .dateStyle {
                                                 width: 70% !important;
                                             }
+                                            @media(max-width: 767px){
+                                                width: 100% !important;
+                                            }
+                                        }
+                                        @media(max-width: 767px){
+                                           white-space: normal;
                                         }
                                     }
                                 }
@@ -534,7 +543,7 @@
                                             &:last-child {
                                                 text-align: right;
                                                 > .sapMComboBoxBase {
-                                                    width: 80% !important;
+                                                    width: 100% !important;
                                                 }
                                             }
                                         }
@@ -738,6 +747,28 @@
 
                 }
             }
+            @media(max-width: 1024px){
+                &:first-child {
+                    width: 50% !important;
+                }
+                &:nth-child(2) {
+                    width: 50% !important;
+                }
+                &:last-child {
+                    width: 50% !important;
+                }
+            }
+            @media(max-width: 767px){
+                &:first-child {
+                    width: 100% !important;
+                }
+                &:nth-child(2) {
+                    width: 100% !important;
+                }
+                &:last-child {
+                    width: 100% !important;
+                }
+            }
         }
     }
 }
@@ -835,7 +866,16 @@
                                             .dateStyle {
                                                 width: 70% !important;
                                             }
+                                            @media (max-width: 767px){
+                                                width: 100% !important;
+                                            }
                                         }
+                                        @media (max-width: 767px){
+                                            white-space: normal;
+                                        }
+                                    }
+                                    .sapMInputBase {
+                                        width: 175px !important;
                                     }
                                 }
                             }
@@ -972,6 +1012,12 @@
                                             .dateStyle {
                                                 width: 70% !important;
                                             }
+                                            @media (max-width: 767px){
+                                                width: 100% !important;
+                                            }
+                                        }
+                                        @media (max-width: 767px){
+                                            white-space: normal;
                                         }
                                     }
                                 }
@@ -1056,6 +1102,12 @@
                                             .dateStyle {
                                                 width: 70% !important;
                                             }
+                                            @media (max-width: 767px){
+                                                width: 100% !important;
+                                            }
+                                        }
+                                        @media (max-width: 767px){
+                                            flex-wrap: wrap;
                                         }
                                     }
                                     
@@ -1226,6 +1278,12 @@
                                             .dateStyle {
                                                 width: 70% !important;
                                             }
+                                            @media (max-width: 767px){
+                                                width: 100% !important;
+                                            }
+                                        }
+                                        @media (max-width: 767px){
+                                           flex-wrap: wrap;
                                         }
                                     }
                                 }
@@ -1288,9 +1346,30 @@
 
                 }
             }
-
-
-        }
+            @media(max-width: 1024px){
+                &:first-child {
+                    width: 50% !important;
+                }
+                &:nth-child(2) {
+                    width: 50% !important;
+                }
+                &:last-child {
+                    width: 50% !important;
+                }
+            }
+            
+            @media(max-width: 767px){
+                &:first-child {
+                    width: 100% !important;
+                }
+                &:nth-child(2) {
+                    width: 100% !important;
+                }
+                &:last-child {
+                    width: 100% !important;
+                }
+            }
+        }        
     }
 }
 
