@@ -264,7 +264,7 @@
                                     float: left;
 
                                     &:first-child {
-                                        width: calc(100% - 15rem);
+                                        width: calc(100% - 15rem) !important;
 
                                     }
                                     &:nth-child(2){
