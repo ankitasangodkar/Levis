@@ -3,7 +3,6 @@
 }
 
 .sapUshellFiori3.sapUshellShellHeader {
-    height: 3.875rem;
     @media screen and (min-width: 600px) {
         padding: 0 2rem;
     }
@@ -13,10 +12,6 @@
     @media screen and (max-width: 600px) {
         padding: 0 0.5rem;
     }
-}
-
-.sapUshellFiori3 .sapUshellShellCanvas {
-    top: 3.875rem;
 }
 
 .sapUshellFiori3.sapUshellShellHeader #shell-header-icon {
@@ -29,7 +24,6 @@
 }
 
 .sapUshellFiori3.sapUshellShellHeader .sapUshellShellIco {
-    line-height: 3.75rem;
     margin-left: 0;
 }
 
@@ -199,7 +193,6 @@ header {
 }
 
 .sapMPageHeader {
-    height: 3.75rem;
     &.sapUshellAnchorNavigationBar {
         background-color: rgba(26, 76, 125, 0.61);
         background-color: transparent;
