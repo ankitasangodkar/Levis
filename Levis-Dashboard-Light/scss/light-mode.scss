@@ -1996,7 +1996,7 @@ ul.sapUshellInner {
             }
             &:last-child {
                 width: 100% !important;
-                padding: 16px 24px;
+                padding: 0 24px 16px;
                 .sapUiVlt.sapUiContentPadding{
                     padding: 0 36px 0 12px;
                 }
@@ -2027,6 +2027,7 @@ ul.sapUshellInner {
                             border: 1.05px solid #EEECEC;
                             border-radius: 7.64px;
                             background-color: #FBFCFE;
+                            padding: 20px 25px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -2077,7 +2078,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 550px;
+                                height: 590px;
                             }
                         }
                     }
@@ -2088,6 +2089,7 @@ ul.sapUshellInner {
                             border: 1.05px solid #EEECEC;
                             border-radius: 7.64px;
                             background-color: #FBFCFE;
+                            padding: 20px 25px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -2200,7 +2202,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 550px;
+                                height: 590px;
                             }
                         }
                     }
@@ -2223,7 +2225,7 @@ ul.sapUshellInner {
                                         font-weight: bold;
                                         letter-spacing: 0;
                                         line-height: 19px;
-                                        padding: 16px 16px 0;
+                                        padding: 20px 24px 0;
                                     }
                                 }
                                 &:nth-child(2){
@@ -2281,7 +2283,7 @@ ul.sapUshellInner {
                                             font-weight: bold;
                                             letter-spacing: 0;
                                             line-height: 34px;
-                                            padding: 16px 16px 0;
+                                            padding: 20px 0px 0 24px;
                                         }
                                         .sapMText{
                                             color: #7B7878;
@@ -2453,7 +2455,8 @@ ul.sapUshellInner {
                             border: 1.05px solid #EEECEC;
                             border-radius: 7.64px;
                             background-color: #FBFCFE;
-                            height: 550px;
+                            height: 590px;
+                            padding: 20px 25px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -2465,9 +2468,6 @@ ul.sapUshellInner {
                                         font-weight: bold;
                                         letter-spacing: 0;
                                         line-height: 19px;
-                                        @media (max-width: 767px){
-                                            padding-top: 16px;
-                                        }
                                     }
                                 }
                                 &:nth-child(2){
@@ -2588,6 +2588,7 @@ ul.sapUshellInner {
                             border: 1.05px solid #EEECEC;
                             border-radius: 7.64px;
                             background-color: #FBFCFE;
+                            padding: 20px 25px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -2599,9 +2600,6 @@ ul.sapUshellInner {
                                         font-weight: bold;
                                         letter-spacing: 0;
                                         line-height: 19px;
-                                        @media (max-width: 767px){
-                                            padding-top: 16px;
-                                        }
                                     }
                                 }
                                 &:nth-child(2){
@@ -2653,7 +2651,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 550px;
+                                height: 590px;
                             }
                         }
                     }
@@ -2676,7 +2674,7 @@ ul.sapUshellInner {
                                         font-weight: bold;
                                         letter-spacing: 0;
                                         line-height: 19px;
-                                        padding: 16px 16px 0;
+                                        padding: 20px 16px 0 24px;
                                         @media (max-width: 767px){
                                             padding: 16px 24px 0;
                                         }
@@ -2687,6 +2685,7 @@ ul.sapUshellInner {
                                         background-color: transparent;
                                         display: flex;
                                         justify-content: space-between;
+                                        padding-bottom:  10px;
                                         >.sapMFlexBoxBGTransparent{
                                             background-color: transparent;
                                         }
@@ -2697,7 +2696,7 @@ ul.sapUshellInner {
                                                 font-weight: 400;
                                                 letter-spacing: 0;
                                                 line-height: 16px;  
-                                                padding: 0 16px 16px;
+                                                padding: 20px 0px 0 24px;
                                                 @media (max-width: 767px){
                                                     padding: 16px 24px;
                                                 }
@@ -2876,6 +2875,9 @@ ul.sapUshellInner {
             }
             &:nth-child(2) {
                 width: 50% !important;
+                .sapUiVlt.sapUiContentPadding{
+                    padding-right: 24px;
+                }
             }
             &:last-child {
                 width: 50% !important;
