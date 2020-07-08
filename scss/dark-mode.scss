@@ -2119,7 +2119,7 @@ ul.sapUshellInner {
                                             letter-spacing: 0 !important;;
                                             line-height: 16px;  
                                             padding: 8px 0 0 0;
-                                            white-space: nowrap;
+                                            white-space: normal;
                                             width: 160px;
                                             text-overflow: ellipsis;
                                             overflow: hidden;
@@ -2586,7 +2586,7 @@ ul.sapUshellInner {
                                             letter-spacing: 0;
                                             line-height: 16px; 
                                             padding-top: 10px; 
-                                            white-space: nowrap;
+                                            white-space: normal;
                                             text-overflow: ellipsis;
                                             overflow: hidden;
                                             width: 170px !important;
@@ -2622,6 +2622,7 @@ ul.sapUshellInner {
                                 }
                                 &:nth-child(3){
                                     .sapMList{
+                                        overflow-x: auto;
                                         .sapMListTbl.sapMListUl{
                                             .sapMLabel{
                                                 color: #FFFFFF;
@@ -2895,7 +2896,7 @@ ul.sapUshellInner {
                                         font-size: 13.65px;
                                         letter-spacing: 0;
                                         line-height: 16px;
-                                        white-space: nowrap;
+                                        white-space: normal;
                                         overflow: hidden;
                                         text-overflow: ellipsis;
                                         padding-top: 0 !important;

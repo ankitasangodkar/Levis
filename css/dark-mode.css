@@ -2268,7 +2268,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   letter-spacing: 0 !important;
   line-height: 16px;
   padding: 8px 0 0 0;
-  white-space: nowrap;
+  white-space: normal;
   width: 160px;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -2760,7 +2760,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   letter-spacing: 0;
   line-height: 16px;
   padding-top: 10px;
-  white-space: nowrap;
+  white-space: normal;
   text-overflow: ellipsis;
   overflow: hidden;
   width: 170px !important;
@@ -2800,6 +2800,10 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox {
     flex-direction: column;
   }
+}
+
+#application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .sapMList {
+  overflow-x: auto;
 }
 
 #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) .sapMList .sapMListTbl.sapMListUl .sapMLabel {
@@ -3090,7 +3094,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   font-size: 13.65px;
   letter-spacing: 0;
   line-height: 16px;
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
   padding-top: 0 !important;
