@@ -1004,8 +1004,7 @@ ul.sapUshellInner {
                                     }
                                 }
                                 &:nth-child(4){
-                                    .sapVizFrame{
-                                        height: auto !important;
+                                    .sapVizFrame{                                        
                                         .v-info{
                                             width: 100% !important;
                                             margin: 0 auto;
@@ -1096,7 +1095,6 @@ ul.sapUshellInner {
                                 }
                                 &:nth-child(4){
                                     .sapVizFrame{
-                                        height: auto !important;
                                         .v-info{
                                             width: 100% !important;
                                             margin: 0 auto;
