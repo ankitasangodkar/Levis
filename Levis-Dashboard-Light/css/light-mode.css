@@ -696,12 +696,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   line-height: 19px;
 }
 
-@media (max-width: 767px) {
-  #application-Z_OTC_AR_ANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
-    padding-top: 20px;
-  }
-}
-
 #application-Z_OTC_AR_ANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) .sapMText {
   color: #466D81;
   font-size: 13.65px;
@@ -738,12 +732,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   font-weight: bold;
   letter-spacing: 0;
   line-height: 19px;
-}
-
-@media (max-width: 767px) {
-  #application-Z_OTC_AR_ANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
-    padding-top: 20px;
-  }
 }
 
 #application-Z_OTC_AR_ANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) .sapMText {
@@ -903,6 +891,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   border: 1.05px solid #EEECEC;
   border-radius: 7.64px;
   background-color: #FBFCFE;
+  padding: 20px 25px;
 }
 
 #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -984,14 +973,13 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   font-weight: bold;
   letter-spacing: 0;
   line-height: 19px;
-  padding: 20px 16px 0;
+  padding: 20px 25px 0;
 }
 
 #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox {
   position: relative;
   background-color: transparent;
-  padding: 3px 16px 12px;
-  margin: 0px 0 12px;
+  padding: 3px 25px 12px;
   display: flex;
   justify-content: space-between;
 }
@@ -1253,6 +1241,9 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   }
   #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) {
     width: 50% !important;
+  }
+  #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) .sapUiVlt.sapUiContentPadding {
+    padding-right: 24px;
   }
   #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:last-child {
     width: 50% !important;

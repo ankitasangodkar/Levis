@@ -634,9 +634,6 @@ ul.sapUshellInner {
                                         letter-spacing: 0;
                                         line-height: 19px;
                                     }
-                                    @media (max-width: 767px){
-                                        padding-top: 20px;
-                                    }
                                 }
                                 &:nth-child(2){
                                     .sapMText{
@@ -672,9 +669,6 @@ ul.sapUshellInner {
                                         font-weight: bold;
                                         letter-spacing: 0;
                                         line-height: 19px;
-                                    }
-                                    @media (max-width: 767px){
-                                        padding-top: 20px;
                                     }
                                 }
                                 &:nth-child(2){
@@ -823,6 +817,7 @@ ul.sapUshellInner {
                             border: 1.05px solid #EEECEC;
                             border-radius: 7.64px;
                             background-color: #FBFCFE;
+                            padding: 20px 25px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -894,15 +889,14 @@ ul.sapUshellInner {
                                         font-weight: bold;
                                         letter-spacing: 0;
                                         line-height: 19px;
-                                        padding: 20px 16px 0;
+                                        padding: 20px 25px 0;
                                     }
                                 }
                                 &:nth-child(2){
                                     > .sapMHBox{
                                         position: relative;
                                         background-color: transparent;
-                                        padding: 3px 16px 12px;
-                                        margin: 0px 0 12px;
+                                        padding: 3px 25px 12px;
                                         display: flex;
                                         justify-content: space-between;
                                         >.sapMFlexBoxBGTransparent{
@@ -1149,6 +1143,9 @@ ul.sapUshellInner {
             }
             &:nth-child(2) {
                 width: 50% !important;
+                .sapUiVlt.sapUiContentPadding{
+                    padding-right: 24px;
+                }
             }
             &:last-child {
                 width: 50% !important;
