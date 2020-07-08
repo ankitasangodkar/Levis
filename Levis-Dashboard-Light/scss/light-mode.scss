@@ -134,7 +134,7 @@ header {
         border-bottom: 1px solid #979797;
     }
     .sapUshellShellHeadEnd .sapUshellShellHeadItm>span {
-        color: #ffffff;
+        color: #3D4768;
     }
     .sapUshellShellHeadItm {
         .sapUshellShellHeadItmCntnt {
@@ -211,7 +211,7 @@ header {
         }
         .sapUshellAnchorItemInner {
             line-height: 3.563rem;
-            color: #D0D0D0;
+            color: #3D466B;
             font-family: Avenir, 72, 72full, Arial, Helvetica, sans-serif;
             font-size: 16px;
             font-weight: 500;
@@ -229,16 +229,16 @@ header {
     .sapUshellAnchorItemOverFlow {
         margin-top: 0.65rem;
         button {
-            color: #D0D0D0;
+            color: #3D466B;
             &:hover {
                 .sapMBtnHoverable {
                     background-color: rgba(4, 41, 93, 0.8) !important;
-                    color: #d0d0d0 !important;
+                    color: #3D466B !important;
                 }
             }
             .sapUiIcon {
                 text-shadow: none !important;
-                color: #d0d0d0 !important;
+                color: #3D466B !important;
             }
         }
     }
@@ -335,7 +335,7 @@ header {
                 color: #93AEB6;
             }
             .sapUiIcon {
-                color: #649CEC;
+                color: #6095e1;
                 width: 3.75rem;
                 font-size: 3.75rem;
                 line-height: 3.75rem;
@@ -347,7 +347,7 @@ header {
         .sapMImageContent {
             margin-left: auto;
             .sapUiIcon {
-                color: #649CEC;
+                color: #6095e1;
                 width: 3.75rem;
                 font-size: 3.75rem;
                 right: 0;
@@ -368,19 +368,21 @@ header {
 
 ul.sapUshellInner {
     li.sapUshellTile {
-        background: #34486A;
+        background: #FBFCFE;
         border-radius: 8px;
         overflow: hidden;
+        border: 1px solid #EEECEC;
         .sapUshellTileWrapper {
             .sapMGT {
-                background: #34486A;
+                background: #FBFCFE;
                 color: #fff;
+                border: 1px solid #EEECEC;
                 .sapMGTTitle.sapMText {
                     font-size: 16px;
                     font-weight: 900;
                     letter-spacing: 0;
                     line-height: 19px;
-                    color: #fff !important;
+                    color: #3D4768 !important;
                 }
                 .sapMText {
                     color: #93AEB6;
