@@ -1309,6 +1309,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   border: 1.05px solid #EEECEC;
   border-radius: 7.64px;
   background-color: #FBFCFE;
+  padding: 20px 25px;
 }
 
 #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -1372,6 +1373,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   border: 1.05px solid #EEECEC;
   border-radius: 7.64px;
   background-color: #FBFCFE;
+  padding: 20px 25px;
 }
 
 #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -1482,6 +1484,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   border: 1.05px solid #EEECEC;
   border-radius: 7.64px;
   background-color: #FBFCFE;
+  padding: 20px 25px;
 }
 
 #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -1499,12 +1502,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   font-weight: bold;
   letter-spacing: 0;
   line-height: 19px;
-}
-
-@media (max-width: 767px) {
-  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(1) {
-    padding-top: 20px;
-  }
 }
 
 #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox {
@@ -1600,6 +1597,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt {
   padding-left: 0;
   padding-right: 28px;
+  padding-bottom: 16px;
 }
 
 #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt .sapUiVltCell.sapuiVltCell {
@@ -1670,10 +1668,13 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) {
     width: 50% !important;
   }
+  #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(2) .sapUiVlt.sapUiContentPadding {
+    padding-right: 24px;
+  }
   #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:last-child {
     width: 50% !important;
     display: block;
-    padding: 0 24px;
+    padding: 0 24px 16px;
   }
   #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:last-child .sapUiVlt.sapUiContentPadding {
     padding-top: 0;
@@ -1696,6 +1697,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   }
   #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:last-child {
     width: 100% !important;
+    padding-bottom: 16px;
   }
   #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:last-child .sapUiVlt.sapUiContentPadding {
     padding: 0 36px 15px 12px;
