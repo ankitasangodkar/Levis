@@ -2952,21 +2952,20 @@ ul.sapUshellInner {
                                 &:nth-child(2){
                                     position: relative;
                                     > .sapUiHLayout{
+                                        display: flex;
                                         .sapUiHLayoutChildWrapper{
                                             .sapMText{
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
                                                 letter-spacing: 0;
                                                 line-height: 16px;
-                                                white-space: nowrap;
+                                                //white-space: nowrap;
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                @media (max-width: 1200px){
-                                                    width: 100px !important;
-                                                }
-                                                @media (max-width: 475px){
-                                                    width: 100% !important;
+                                                width: auto !important;
+                                                @media (min-width: 768px){
+                                                    padding-right: 30px;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -2994,7 +2993,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 1200px){
+                                        @media (max-width: 499px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
@@ -3070,21 +3069,20 @@ ul.sapUshellInner {
                                 &:nth-child(3){
                                     position: relative;
                                     > .sapUiHLayout{
+                                        display: flex;
                                         .sapUiHLayoutChildWrapper{
                                             .sapMText{
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
                                                 letter-spacing: 0;
                                                 line-height: 16px;
-                                                white-space: nowrap;
+                                                //white-space: nowrap;
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                @media (max-width: 1200px){
-                                                    width: 100px !important;
-                                                }
-                                                @media (max-width: 475px){
-                                                    width: 100% !important;
+                                                width: auto !important;
+                                                @media (min-width: 768px){
+                                                    padding-right: 30px;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -3112,7 +3110,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 475px){
+                                        @media (max-width: 499px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
@@ -3400,23 +3398,20 @@ ul.sapUshellInner {
                                 &:nth-child(2){
                                     position: relative;
                                     > .sapUiHLayout{
+                                        display: flex;
                                         .sapUiHLayoutChildWrapper{
                                             .sapMText{
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
                                                 letter-spacing: 0;
                                                 line-height: 16px;
-                                                white-space: nowrap;
+                                                //white-space: nowrap;
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                width: 150px !important;
-                                                @media (min-width: 1200px){
-                                                    width: 400px !important;
-                                                }
-                                                @media (max-width: 475px){
-                                                    width: 100% !important;
-                                                    white-space: normal;
+                                                width: auto !important;
+                                                @media (min-width: 768px){
+                                                    padding-right: 30px;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -3444,7 +3439,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 475px){
+                                        @media (max-width: 499px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
@@ -3520,23 +3515,20 @@ ul.sapUshellInner {
                                 &:nth-child(3){
                                     position: relative;
                                     > .sapUiHLayout{
+                                        display: flex;
                                         .sapUiHLayoutChildWrapper{
                                             .sapMText{
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
                                                 letter-spacing: 0;
                                                 line-height: 16px;
-                                                white-space: nowrap;
+                                                //white-space: nowrap;
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                width: 150px !important;
-                                                @media (min-width: 1200px){
-                                                    width: 400px !important;
-                                                }
-                                                @media (max-width: 475px){
-                                                    width: 100% !important;
-                                                    white-space: normal;
+                                                width: auto !important;
+                                                @media (min-width: 768px){
+                                                    padding-right: 30px;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -3564,7 +3556,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 475px){
+                                        @media (max-width: 499px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
@@ -3804,23 +3796,20 @@ ul.sapUshellInner {
                                 &:nth-child(2){
                                     position: relative;
                                     > .sapUiHLayout{
+                                        display: block;
                                         .sapUiHLayoutChildWrapper{
                                             .sapMText{
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
                                                 letter-spacing: 0;
                                                 line-height: 16px;
-                                                white-space: nowrap;
+                                                //white-space: nowrap;
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                width: 160px !important;
-                                                @media (min-width: 1200px){
-                                                    width: 350px !important;
-                                                }
-                                                @media (max-width: 475px){
-                                                    width: 100% !important;
-                                                    white-space: normal;
+                                                width: auto !important;
+                                                @media (min-width: 768px){
+                                                    padding-right: 30px;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -3848,7 +3837,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 475px){
+                                        @media (max-width: 499px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
@@ -4063,23 +4052,20 @@ ul.sapUshellInner {
                                 &:nth-child(3){
                                     position: relative;
                                     > .sapUiHLayout{
+                                        display: block;
                                         .sapUiHLayoutChildWrapper{
                                             .sapMText{
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
                                                 letter-spacing: 0;
                                                 line-height: 16px;
-                                                white-space: nowrap;
+                                                //white-space: nowrap;
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                width: 280px !important;
-                                                @media (min-width: 1200px){
-                                                    width: 400px !important;
-                                                }
-                                                @media (max-width: 475px){
-                                                    width: 100% !important;
-                                                    white-space: normal;
+                                                width: auto !important;
+                                                @media (min-width: 768px){
+                                                    padding-right: 30px;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -4107,7 +4093,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 475px){
+                                        @media (max-width: 499px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
@@ -4414,23 +4400,20 @@ ul.sapUshellInner {
                                 &:nth-child(2){
                                     position: relative;
                                     > .sapUiHLayout{
+                                        display: block;
                                         .sapUiHLayoutChildWrapper{
                                             .sapMText{
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
                                                 letter-spacing: 0;
                                                 line-height: 16px;
-                                                white-space: nowrap;
+                                                //white-space: nowrap;
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                width: 260px !important;
-                                                @media (min-width: 1200px){
-                                                    width: 400px !important;
-                                                }
-                                                @media (max-width: 475px){
-                                                    width: 100% !important;
-                                                    white-space: normal;
+                                                width: auto !important;
+                                                @media (min-width: 768px){
+                                                    padding-right: 30px;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -4458,7 +4441,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 475px){
+                                        @media (max-width: 499px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
@@ -4534,23 +4517,20 @@ ul.sapUshellInner {
                                 &:nth-child(3){
                                     position: relative;
                                     > .sapUiHLayout{
+                                        display: block;
                                         .sapUiHLayoutChildWrapper{
                                             .sapMText{
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
                                                 letter-spacing: 0;
                                                 line-height: 16px;
-                                                white-space: nowrap;
+                                                //white-space: nowrap;
                                                 overflow: hidden;
                                                 text-overflow: ellipsis;
                                                 padding-top: 10px !important;
-                                                width: 280px !important;
-                                                @media (min-width: 1200px){
-                                                    width: 400px !important;
-                                                }
-                                                @media (max-width: 475px){
-                                                    width: 100% !important;
-                                                    white-space: normal;
+                                                width: auto !important;
+                                                @media (min-width: 768px){
+                                                    padding-right: 30px;
                                                 }
                                             }
                                             .sapMInputBase{
@@ -4578,7 +4558,7 @@ ul.sapUshellInner {
                                                 width: 100% !important;
                                             }
                                         }
-                                        @media (max-width: 475px){
+                                        @media (max-width: 499px){
                                             display: inline-flex;
                                             flex-direction: column;
                                             flex: 1;
