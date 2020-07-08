@@ -57,60 +57,6 @@
     background-color: rgba(52, 97, 135, 0.15);
 }
 
-.viz-legend-valueLabel {
-    .v-legend-item {
-        text {
-            tspan {
-                fill: #3D3B3B;
-            }
-        }
-    }
-}
-.v-axis {
-    .v-m-axisTitle,.v-m-axisBody {
-        text {
-            fill: #857E7E;
-        }
-    }
-}
-
-.v-datalabel-group {
-    text {
-        fill: #434242;
-    }
-}
-.v-m-root {
-    .v-gridline-group {
-        .v-gridline {
-            stroke: #DBDBDB;
-            &:first-child {
-                stroke: #DBDBDB;
-            }
-        }
-    }
-    .v-tick-group{
-        .v-valueaxisline{
-            stroke: #DBDBDB;
-        }
-    }
-    .v-datapoint-group {
-        g {
-            rect {
-                stroke: transparent;
-            }
-        }
-    }
-    .v-datapoint-group {
-        g {
-            path {
-                stroke: transparent;
-            }
-        }
-    }
-    &:focus{
-        outline: none;
-    }
-}
 
 header {
     .sapUshellShellHeadBegin {
@@ -422,7 +368,64 @@ ul.sapUshellInner {
     }
 }
 
+#application-Z_OTC_AR_ANALYST_DB-display, #application-Z_OTC_OMANALYST_DB-display,
+#application-Z_PTP_PA_DB-display, #application-ZPTP_PLAN_MNGR-display , 
+#application-Z_OTC_SALESDB-display{
+    .viz-legend-valueLabel {
+        .v-legend-item {
+            text {
+                tspan {
+                    fill: #3D3B3B;
+                }
+            }
+        }
+    }
+    .v-axis {
+        .v-m-axisTitle,.v-m-axisBody {
+            text {
+                fill: #857E7E;
+            }
+        }
+    }
 
+    .v-datalabel-group {
+        text {
+            fill: #434242;
+        }
+    }
+    .v-m-root {
+        .v-gridline-group {
+            .v-gridline {
+                stroke: #DBDBDB;
+                &:first-child {
+                    stroke: #DBDBDB;
+                }
+            }
+        }
+        .v-tick-group{
+            .v-valueaxisline{
+                stroke: #DBDBDB;
+            }
+        }
+        .v-datapoint-group {
+            g {
+                rect {
+                    stroke: transparent;
+                }
+            }
+        }
+        .v-datapoint-group {
+            g {
+                path {
+                    stroke: transparent;
+                }
+            }
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+}
 
 /* my AR  dashboard */
 #application-Z_OTC_AR_ANALYST_DB-display{
@@ -437,6 +440,7 @@ ul.sapUshellInner {
                             border: 1.05px solid #EEECEC;
                             border-radius: 7.64px;
                             background-color: #FBFCFE;
+                            padding: 20px 25px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -527,6 +531,7 @@ ul.sapUshellInner {
                             border: 1.05px solid #EEECEC;
                             border-radius: 7.64px;
                             background-color: #FBFCFE;
+                            padding: 20px 25px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -616,6 +621,7 @@ ul.sapUshellInner {
                             border: 1.05px solid #EEECEC;
                             border-radius: 7.64px;
                             background-color: #FBFCFE;
+                            padding: 20px 25px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -654,6 +660,7 @@ ul.sapUshellInner {
                             border: 1.05px solid #EEECEC;
                             border-radius: 7.64px;
                             background-color: #FBFCFE;
+                            padding: 20px 25px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -759,6 +766,9 @@ ul.sapUshellInner {
             }
             &:nth-child(2) {
                 width: 50% !important;
+                .sapUiVlt.sapUiContentPadding{
+                    padding-right: 25px;
+                }
             }
             &:last-child {
                 width: 50% !important;
@@ -773,22 +783,19 @@ ul.sapUshellInner {
         @media(max-width: 767px){
             &:first-child {
                 width: 100% !important;
-                .sapUiVlt.sapUiContentPadding{
-                    padding: 16px 24px;
-                }
             }
             &:nth-child(2) {
                 width: 100% !important;
                 display: block;
                 .sapUiVlt.sapUiContentPadding{
-                    padding: 0 24px 16px;
+                    padding: 0 16px 0 24px;
                 }
             }
             &:last-child {
                 width: 100% !important;
                 padding: 0 12px 16px;
                 .sapUiVlt.sapUiContentPadding{
-                    padding: 0 36px 0 12px
+                    padding: 16px 28px 0 12px;
                 }
             }
         }
