@@ -2490,7 +2490,7 @@ ul.sapUshellInner {
     .sapUiHLayoutChildWrapper{
         &:nth-child(1){
             > .sapUiVlt.sapUiContentPadding{
-                padding-left: 24px;
+                padding: 16px 0 16px 25px;
                 .sapUiVltCell.sapuiVltCell{
                     /* shortage report*/
                     &:nth-child(1){
@@ -2572,68 +2572,55 @@ ul.sapUshellInner {
                                 }
                                 &:nth-child(2){
                                     position: relative;
-                                    > .sapUiHLayout{
-                                        display: flex;
-                                        .sapUiHLayoutChildWrapper{
-                                            .sapMText{
-                                                color: #A1CFE7;
-                                                font-size: 13.65px;
-                                                letter-spacing: 0;
-                                                line-height: 16px;
-                                                //white-space: nowrap;
-                                                overflow: hidden;
-                                                text-overflow: ellipsis;
-                                                padding-top: 10px !important;
-                                                width: auto !important;
-                                                @media (min-width: 768px){
-                                                    padding-right: 30px;
-                                                }
+                                    > .sapMHBox{
+                                        background-color: transparent;
+                                        >.sapMFlexBoxBGTransparent{
+                                            background-color: transparent;
+                                            margin: 0 !important;
+                                        }
+                                        .sapMText{
+                                            color: #A1CFE7;
+                                            font-size: 13.65px;
+                                            letter-spacing: 0;
+                                            line-height: 16px;
+                                            //white-space: nowrap;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            padding-top: 10px !important;
+                                            width: auto !important;
+                                            @media (min-width: 768px){
+                                                padding-right: 30px;
                                             }
-                                            .sapMInputBase{
-                                                width: auto !important;
-                                                position: absolute;
-                                                right: 0;
-                                                top: 0;
-                                                .sapMInputBaseContentWrapper{
-                                                    border: 0;
-                                                    background-color: transparent;
-                                                    border-bottom: 1.23px solid #4F5C89;
-                                                    .sapMInputBaseInner , .sapMInputBaseIcon{
-                                                        color: white;
-                                                        font-size: 12.29px;
-                                                        &:active{
-                                                            background-color: transparent;
-                                                        }
+                                        }
+                                        .sapMInputBase{
+                                            width: auto !important;
+                                            position: absolute;
+                                            right: 0;
+                                            top: 0;
+                                            .sapMInputBaseContentWrapper{
+                                                border: 0;
+                                                background-color: transparent;
+                                                border-bottom: 1.23px solid #4F5C89;
+                                                .sapMInputBaseInner , .sapMInputBaseIcon{
+                                                    color: white;
+                                                    font-size: 12.29px;
+                                                    &:active{
+                                                        background-color: transparent;
                                                     }
                                                 }
-                                                @media (max-width: 475px){
-                                                    position: unset;
-                                                }
                                             }
-                                            @media (max-width: 1200px){
-                                                width: 100% !important;
+                                            @media (max-width: 475px){
+                                                position: unset;
                                             }
                                         }
-                                        @media (max-width: 499px){
-                                            display: inline-flex;
-                                            flex-direction: column;
-                                            flex: 1;
+                                        @media (max-width: 1200px){
+                                            width: 100% !important;
                                         }
                                     }
-                                }
-                                &:nth-child(3){
-                                    .v-info{
-                                        .v-m-root{
-                                            &:focus{
-                                                outline: none;
-                                            }
-                                        }
-                                        .v-title{
-                                            fill: #A4A4A4;
-                                        }
-                                        .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
-                                            fill: white;
-                                        }
+                                    @media (max-width: 499px){
+                                        display: inline-flex;
+                                        flex-direction: column;
+                                        flex: 1;
                                     }
                                 }
                             }
@@ -2645,8 +2632,9 @@ ul.sapUshellInner {
         }
         &:nth-child(2){
             > .sapUiVlt.sapUiContentPadding{
-                padding-left: 0;
-                .sapUiVltCell.sapuiVltCell{
+                padding: 16px 16px 16px 0;
+                >.sapUiVltCell.sapuiVltCell{
+                    padding-left: 16px;
                     /* overdue purchase order items */
                     &:nth-child(1){
                         > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt{
@@ -2689,67 +2677,63 @@ ul.sapUshellInner {
                                 }
                                 &:nth-child(3){
                                     position: relative;
-                                    > .sapUiHLayout{
-                                        display: flex;
-                                        .sapUiHLayoutChildWrapper{
-                                            .sapMText{
-                                                color: #A1CFE7;
-                                                font-size: 13.65px;
-                                                letter-spacing: 0;
-                                                line-height: 16px;
-                                                //white-space: nowrap;
-                                                overflow: hidden;
-                                                text-overflow: ellipsis;
-                                                padding-top: 10px !important;
-                                                width: auto !important;
-                                                @media (min-width: 768px){
-                                                    padding-right: 30px;
-                                                }
+                                    > .sapMHBox{
+                                        background-color: transparent;
+                                        >.sapMFlexBoxBGTransparent{
+                                            background-color: transparent;
+                                            margin-left:0 !important;
+                                        }
+                                        .sapMText{
+                                            color: #A1CFE7;
+                                            font-size: 13.65px;
+                                            letter-spacing: 0;
+                                            line-height: 16px;
+                                            //white-space: nowrap;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            margin-top: 0 !important;
+                                            padding-top: 0 !important;
+                                            width: auto !important;
+                                            @media (min-width: 768px){
+                                                padding-right: 30px;
                                             }
-                                            .sapMInputBase{
-                                                width: auto !important;
-                                                position: absolute;
-                                                right: 0;
-                                                top: 0;
-                                                .sapMInputBaseContentWrapper{
-                                                    border: 0;
-                                                    background-color: transparent;
-                                                    border-bottom: 1.23px solid #4F5C89;
-                                                    .sapMInputBaseInner , .sapMInputBaseIcon{
-                                                        color: white;
-                                                        font-size: 12.29px;
-                                                        &:active{
-                                                            background-color: transparent;
-                                                        }
+                                        }
+                                        .sapMInputBase{
+                                            width: auto !important;
+                                            position: absolute;
+                                            right: 0;
+                                            top: -8px;
+                                            .sapMInputBaseContentWrapper{
+                                                border: 0;
+                                                background-color: transparent;
+                                                border-bottom: 1.23px solid #4F5C89;
+                                                .sapMInputBaseInner , .sapMInputBaseIcon{
+                                                    color: white;
+                                                    font-size: 12.29px;
+                                                    &:active{
+                                                        background-color: transparent;
                                                     }
                                                 }
-                                                @media (max-width: 475px){
-                                                    position: unset;
-                                                }
                                             }
-                                            @media (max-width: 1200px){
-                                                width: 100% !important;
+                                            @media (max-width: 475px){
+                                                position: unset;
                                             }
                                         }
-                                        @media (max-width: 499px){
-                                            display: inline-flex;
-                                            flex-direction: column;
-                                            flex: 1;
+                                        @media (max-width: 1200px){
+                                            width: 100% !important;
                                         }
+                                    }
+                                    @media (max-width: 499px){
+                                        display: inline-flex;
+                                        flex-direction: column;
+                                        flex: 1;
                                     }
                                 }
                                 &:nth-child(4){
                                     .v-info{
-                                        .v-m-root{
-                                            &:focus{
-                                                outline: none;
-                                            }
-                                        }
-                                        .v-title{
-                                            fill: #A4A4A4;
-                                        }
-                                        .v-legend-element.v-legend-item, .v-datalabel.v-morphable-label, .v-label.v-morphable-label{
-                                            fill: white;
+                                        &:before{
+                                            content:'';
+                                            border: 0;
                                         }
                                     }
                                 }
@@ -2762,62 +2746,56 @@ ul.sapUshellInner {
         /* Quick Links */
         &:nth-child(3){
             > .sapUiVlt.sapuiVlt{
-                padding-left: 0;
-                padding-right: 28px;
+                padding: 16px 25px 0 0;
                 .sapUiVltCell.sapuiVltCell{
                     /*links*/
-                    .columns{
-                        border-radius: 8px;
-                        &.sapMFlexBoxBGTransparent{
-                            background-color: transparent;
-                        }
-                        > .sapMFlexBox{
+                    > .sapMFlexBox{
+                        margin: 0 !important;
+                        padding: 0;
+                        border-radius: 8px !important;
+                        background-color: transparent !important;
+                        width: 34%;
+                        &.sapMFlexBoxBGTransparent {
+                            background-color: rgba(61, 71, 104, 0.82) !important; 
+                            padding: 20px 24px;
                             margin: 0 !important;
-                            padding: 0;
-                            border-radius: 8px !important;
-                            background-color: transparent !important;
-                            width: 34%;
-                            > .sapMFlexBoxBGTransparent {
-                                background-color: rgba(61, 71, 104, 0.82) !important; 
-                                padding: 20px 24px;
-                                margin: 0 !important;
-                                border-radius: 8px;
-                                .sapMFlexItem{
-                                    &.sapMFlexBoxBGTransparent{
-                                        background-color: transparent;
-                                    } 
-                                }
-                            }
-                        }
-                        /*  No Text Label Hidden */
-                        .sapUiVlt.sapuiVlt{
-                            .sapMLabelNoText{
-                                display: none;
-                            }
-                        }
-                        /* End of No Text Label Hidden */
-                        .sapMTitle{
-                            color: #FFFFFF;
-                            font-size: 16px;
-                            font-weight: 700;
-                            letter-spacing: 0;
-                            line-height: 19px;
-                            text-shadow: none;
-                            margin-bottom: 10px !important;
-                        }
-                        .sapMLnk{
-                            color: #599FFF;
-                            font-size: 12px;
-                            letter-spacing: 0;
-                            line-height: 16px;
-                            font-weight: 400;
-                            &:hover{
-                                text-decoration: none;
+                            border-radius: 8px;
+                            .sapMFlexItem{
+                                &.sapMFlexBoxBGTransparent{
+                                    background-color: transparent;
+                                    margin: 0 !important;
+                                } 
                             }
                         }
                     }
-                    /* quick links first child */
+                    /*  No Text Label Hidden */
+                    .sapUiVlt.sapuiVlt{
+                        .sapMLabelNoText{
+                            display: none;
+                        }
+                    }
+                    /* End of No Text Label Hidden */
+                    .sapMTitle{
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        font-weight: 700;
+                        letter-spacing: 0;
+                        line-height: 19px;
+                        text-shadow: none;
+                        margin-bottom: 10px !important;
+                    }
+                    .sapMLnk{
+                        color: #599FFF;
+                        font-size: 12px;
+                        letter-spacing: 0;
+                        line-height: 16px;
+                        font-weight: 400;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
                 }
+                /* quick links first child */
             }
         }
         @media(max-width: 1024px){
@@ -2830,7 +2808,7 @@ ul.sapUshellInner {
             &:last-child {
                 width: 50% !important;
                 display: block;
-                padding: 0 24px;
+                padding: 0 24px 16px;
                 .sapUiVlt.sapUiContentPadding{
                     padding-top: 0;
                 }
@@ -2841,20 +2819,23 @@ ul.sapUshellInner {
             &:first-child {
                 width: 100% !important;
                 .sapUiVlt.sapUiContentPadding{
-                    padding: 24px;
+                    padding: 16px 24px 0;
                 }
             }
             &:nth-child(2) {
                 width: 100% !important;
                 display: block;
                 .sapUiVlt.sapUiContentPadding{
-                    padding: 0 24px 0;
+                    padding: 16px 24px 0;
+                    > .sapUiVltCell.sapuiVltCell{
+                        padding-left: 0;
+                    }
                 }
             }
             &:last-child {
                 width: 100% !important;
                 .sapUiVlt.sapUiContentPadding{
-                    padding: 0 36px 15px 12px
+                    padding: 16px 48px 16px 0;
                 }
             }
         }
