@@ -713,7 +713,6 @@ ul.sapUshellInner {
                                         width: 100%;
                                         display: flex;
                                         justify-content: space-between;
-                                        flex-wrap: wrap;
                                         >.sapMFlexBoxBGTransparent{
                                             background-color: transparent;
                                         }
@@ -750,6 +749,9 @@ ul.sapUshellInner {
                                                             background-color: transparent;
                                                         }
                                                     }
+                                                }
+                                                @media (max-width: 475px){
+                                                    padding-left: 30px !important;
                                                 }
                                             }
                                         }
@@ -932,7 +934,9 @@ ul.sapUshellInner {
                                         position: relative;
                                         width: 100%;
                                         background-color: transparent;
-                                        padding: 16px 24px;
+                                        padding: 16px 0 0 0;
+                                        display: flex;
+                                        justify-content: space-between;
                                         .sapUiHLayoutChildWrapper{
                                             background-color: transparent;
                                             &:nth-child(1){
@@ -941,15 +945,16 @@ ul.sapUshellInner {
                                                     font-size: 13.65px;
                                                     letter-spacing: 0;
                                                     line-height: 16px;
+                                                    padding-left: 24px;
                                                 }
                                             }
                                             &:nth-child(2){
-                                                width: 52% !important;
+                                                width: auto !important;
+                                                padding-right: 24px;
                                                .sapMInputBase{
                                                     width: 100% !important;
                                                     position: relative;
                                                     padding: 0;
-                                                    text-align: right;
                                                     .sapMInputBaseContentWrapper{                    
                                                         border: 0;
                                                         border-bottom: 1.23px solid #4F5C89;
@@ -979,7 +984,7 @@ ul.sapUshellInner {
                                         @media (max-width: 767px) and (min-width: 500px){
                                             display: flex;
                                             flex-direction: row;
-                                            align-items: center;
+                                            align-items: baseline;
                                         }
                                     }
                                 }
@@ -2886,9 +2891,6 @@ ul.sapUshellInner {
                                     }
                                 }
                             }
-                            @media (min-width: 768px){
-                                height: 560px;
-                            }
                         }
                     }
                     /* end of monitor purchase contract items */
@@ -3617,9 +3619,6 @@ ul.sapUshellInner {
                                         }
                                     }
                                 }
-                            }
-                            @media (min-width: 768px){
-                                height: 560px;
                             }
                         }
                     }
