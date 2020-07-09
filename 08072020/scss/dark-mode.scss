@@ -795,6 +795,8 @@ ul.sapUshellInner {
                                 }
                                 &:nth-child(6){
                                     .sapMList{
+                                        overflow-x: auto;
+                                        max-height: 300px;
                                         .sapMListTbl.sapMListUl{
                                             .sapMLabel{
                                                 color: #FFFFFF;
@@ -1156,6 +1158,7 @@ ul.sapUshellInner {
                                     .sapMList{
                                         margin-top: 0;
                                         overflow-x: auto;
+                                        max-height: 600px;
                                         .sapMListTbl.sapMListUl{
                                             .sapMLabel{
                                                 color: #FFFFFF;
@@ -1228,6 +1231,9 @@ ul.sapUshellInner {
                                         }
                                     }
                                 }
+                            }
+                            @media (min-width: 768px){
+                                height: 866px;
                             }
                         }
                     }
@@ -1837,6 +1843,9 @@ ul.sapUshellInner {
                                     }
                                 }
                             }
+                            @media (max-width: 768px){
+                                height: 135px;
+                            }
                         }
                     }
                     /* end of shortage reportn */
@@ -1912,6 +1921,9 @@ ul.sapUshellInner {
                                         flex: 1;
                                     }
                                 }
+                            }
+                            @media (min-width: 768px){
+                                height: 600px;
                             }
                         }
                     }
@@ -2026,6 +2038,9 @@ ul.sapUshellInner {
                                         }
                                     }
                                 }
+                            }
+                            @media (min-width: 768px){
+                                height: 600px;
                             }
                         }
                     }
