@@ -4212,6 +4212,20 @@ ul.sapUshellInner {
                                         top: 0;
                                     }
                                 }
+                                &:nth-child(3){
+                                    > .sapMFlexBox {
+                                        padding: 0;
+                                        .sapUiTinyMargin{
+                                            margin:0 !important;
+                                            &:first-child{
+                                                text-align: left;
+                                            }
+                                            &:last-child{
+                                                text-align: right;
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
@@ -4287,7 +4301,7 @@ ul.sapUshellInner {
                                             max-width: 170px !important;
                                         }
                                     }
-                                    .sapMRb {
+                                    .sapMFlexItem .sapMRb {
                                         .sapMLabel {
                                             color: #D4D3D3;
                                             font-size: 12px;

@@ -1,4 +1,4 @@
-.styleTitle {
+/* Enter your custom styles here */.styleTitle {
     font-size: 1.4rem !important;
     padding-left: 8rem !important;
 }
@@ -9,34 +9,34 @@
 }
 
 .sapMFlexBoxBGTransparent {
-    background-color: white;
+    background-color: white !important;
     /* border-radius:6% !important;*/
 }
 
+.backColor{
+	 background-color: white !important;
+}
 .sapUiVlt.sapUiContentPadding {
-    padding: .5rem;
+    padding: 0.5rem;
     box-sizing: border-box;
 }
-
-.borderStyle {
-    /*box-shadow: 1px 1px 4px 4px #9a959575;*/
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.borderStyle{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .HorizontalLayoutID {
     width: 100% !important;
 }
 
 .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child {
-    width: 41% !important;
+    width: 38% !important;
 }
 
 .sapUiHLayoutChildWrapper {
-    width: 40% !important;
+    width: 42% !important;
 }
 
 .sapUiHLayoutChildWrapper:last-child {
-    width: 19% !important;
+    width: 20% !important;
 }
 
 .styleBorder {
@@ -69,8 +69,8 @@
 }
 
 .marginStyle {
-    padding-top: 0.4rem !important;
-    padding-left: 10px !important;
+    padding-top: 0.6rem !important;
+    /*padding-left: 10px !important;*/
 }
 
 .marginPadding {
@@ -93,47 +93,10 @@
 }
 
 .soldClass {
-    padding-top: 6px !important;
-    width: 14rem !important;
+   padding-top: 11px !important;
+   width: 14rem !important;
 }
 
 .dateStyle {
-    width: 240% !important;
-}
-
-.profitStyle {
-    height: 430px !important;
-}
-
-.PrftStyle {
-    width: 34rem !important;
-    padding-top: 0.5rem !important;
-}
-.PrftStyle1 {
-    width: 24rem !important;
-    padding-top: 0.5rem !important;
-}
-.SlsStyle {
-    width: 28rem !important;
-    padding-top: 0.5rem !important;
-}
-
-.switchStyle {
-    padding-left: 15rem !important;
-}
-
-.monthStyle {
-    width: 10.5rem !important;
-    max-width: 220px !important;
-}
-.monthStyle1 {
-    width: 11rem !important;
-    max-width: 220px !important;
-}
-.monthStyle2 {
-    width: 6.5rem !important;
-    max-width: 220px !important;
-}
-.monthTextStyle {
-    padding-top: 8px !important;
+    width: 47% !important;
 }
