@@ -4347,7 +4347,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-ZSUPPLY_CHAIN-display .sapMList,
 #application-ZOTCMANAGEROVP-display .sapMList {
   overflow-x: auto;
-  max-width: 500px;
 }
 
 #application-ZSUPPLY_CHAIN-display .sapMList .sapMListTbl.sapMListUl .sapMLabel,
