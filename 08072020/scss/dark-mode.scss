@@ -1030,19 +1030,13 @@ ul.sapUshellInner {
                                     }
                                 }
                                 &:nth-child(2){
-                                    .sapMHBox{
-                                        background-color: transparent;
-                                        > .sapMFlexBoxBGSolid{
-                                            background-color: transparent;
-                                        }
-                                        .sapMText{
-                                            color: #A1CFE7;
-                                            font-size: 13.65px;
-                                            letter-spacing: 0;
-                                            line-height: 16px;
-                                            padding: 0 25px;
-                                            font-weight: 400;
-                                        }
+                                    .sapMText{
+                                        color: #A1CFE7;
+                                        font-size: 13.65px;
+                                        letter-spacing: 0;
+                                        line-height: 16px;
+                                        padding: 0 25px;
+                                        font-weight: 400;
                                     }
                                 }
                                 &:nth-child(3){
