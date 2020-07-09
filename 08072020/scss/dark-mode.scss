@@ -4653,8 +4653,21 @@ ul.sapUshellInner {
 /* OTC Sales manages */
 
 #application-ZOTCMANAGEROVP-display {
-    .sapUiVlt.sapUiContentPadding {
+    >.sapUiVlt.sapUiContentPadding {
         padding: .5rem;
+    }
+    .HorizontalLayoutID{
+        .sapUiHLayoutChildWrapper{
+            &:first-child , &:nth-child(2){
+                > .sapUiContentPadding.sapUiVlt{
+                    > .sapUiVltCell.sapuiVltCell{
+                        > .sapMFlexBoxBGTransparent{
+                            height: 660px;
+                        }
+                    }
+                }
+            }
+        }
     }
     .HorizontalLayoutID {
         .sapUiHLayoutChildWrapper {

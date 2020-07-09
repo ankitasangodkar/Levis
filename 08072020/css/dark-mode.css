@@ -5123,8 +5123,12 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 /* end of my supply chain dashboard */
 /* OTC Sales manages */
-#application-ZOTCMANAGEROVP-display .sapUiVlt.sapUiContentPadding {
+#application-ZOTCMANAGEROVP-display > .sapUiVlt.sapUiContentPadding {
   padding: .5rem;
+}
+
+#application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent, #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent {
+  height: 660px;
 }
 
 #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child .sapUiVltCell:first-child .sapMFlexBoxBGTransparent .sapUiVltCell:nth-child(2) {
