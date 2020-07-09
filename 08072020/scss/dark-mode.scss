@@ -3866,6 +3866,8 @@ ul.sapUshellInner {
     }
 
     .sapMList{
+        overflow-x: auto;
+        max-width: 500px;
         .sapMListTbl.sapMListUl{
             .sapMLabel{
                 color: #FFFFFF;
@@ -3990,6 +3992,26 @@ ul.sapUshellInner {
 #application-ZSUPPLY_CHAIN-display {
     .HorizontalLayoutID {
         .sapUiHLayoutChildWrapper {
+            &:first-child,  &:nth-child(2){
+                > .sapUiContentPadding.sapUiVlt{
+                    > .sapUiVltCell.sapuiVltCell{
+                        &:first-child{
+                            > .sapMFlexBoxBGTransparent{
+                                @media (min-width: 768px){
+                                    height: 134px;
+                                }
+                            }
+                        }
+                        &:nth-child(2), &:nth-child(3), &:last-child{
+                            > .sapMFlexBoxBGTransparent{
+                                @media (min-width: 768px){
+                                    height: 580px;
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
             //first column
             &:first-child {
                 padding-top: 16px;
@@ -4618,7 +4640,7 @@ ul.sapUshellInner {
                 }
             }
             &:nth-child(3){
-                @media (min-width: 768px){
+                @media (min-width: 1024px){
                     padding-top: 16px;
                 } 
             }
@@ -4656,21 +4678,19 @@ ul.sapUshellInner {
     >.sapUiVlt.sapUiContentPadding {
         padding: .5rem;
     }
-    .HorizontalLayoutID{
-        .sapUiHLayoutChildWrapper{
+    .HorizontalLayoutID {
+        .sapUiHLayoutChildWrapper {
             &:first-child , &:nth-child(2){
                 > .sapUiContentPadding.sapUiVlt{
                     > .sapUiVltCell.sapuiVltCell{
                         > .sapMFlexBoxBGTransparent{
-                            height: 660px;
+                            @media (min-width: 768px){
+                                height: 585px;
+                            }
                         }
                     }
                 }
             }
-        }
-    }
-    .HorizontalLayoutID {
-        .sapUiHLayoutChildWrapper {
             //first column
             &:first-child {
                 .sapUiVltCell {

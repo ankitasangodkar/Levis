@@ -4327,6 +4327,12 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   margin-top: 15px;
 }
 
+#application-ZSUPPLY_CHAIN-display .sapMList,
+#application-ZOTCMANAGEROVP-display .sapMList {
+  overflow-x: auto;
+  max-width: 500px;
+}
+
 #application-ZSUPPLY_CHAIN-display .sapMList .sapMListTbl.sapMListUl .sapMLabel,
 #application-ZOTCMANAGEROVP-display .sapMList .sapMListTbl.sapMListUl .sapMLabel {
   color: #FFFFFF;
@@ -4463,6 +4469,18 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 }
 
 /* my supply chain dashboard */
+@media (min-width: 768px) {
+  #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:first-child > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:first-child > .sapMFlexBoxBGTransparent {
+    height: 134px;
+  }
+}
+
+@media (min-width: 768px) {
+  #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:last-child > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:last-child > .sapMFlexBoxBGTransparent {
+    height: 580px;
+  }
+}
+
 #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child {
   padding-top: 16px;
 }
@@ -5091,7 +5109,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(3) {
     padding-top: 16px;
   }
@@ -5127,8 +5145,10 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   padding: .5rem;
 }
 
-#application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent, #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent {
-  height: 660px;
+@media (min-width: 768px) {
+  #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent, #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent {
+    height: 585px;
+  }
 }
 
 #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child .sapUiVltCell:first-child .sapMFlexBoxBGTransparent .sapUiVltCell:nth-child(2) {
