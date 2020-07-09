@@ -478,6 +478,9 @@ ul.sapUshellInner {
                                         position: relative;
                                         width: 90%;
                                         background-color: transparent;
+                                        display: flex;
+                                        align-items: flex-end;
+
                                         >.sapMFlexBoxBGTransparent{
                                             background-color: transparent;
                                         }
@@ -526,6 +529,11 @@ ul.sapUshellInner {
                                 &:nth-child(2), &:nth-child(3){
                                     float: left;
                                     padding-bottom: 18px;
+
+                                    > .sapMFlexBox {
+                                        display: flex;
+                                        align-items: flex-end;
+                                    }
                                     .sapMHBox{
                                         position: relative;
                                         width: 90%;
@@ -1044,6 +1052,10 @@ ul.sapUshellInner {
                                     }
                                 }
                                 &:nth-child(3){
+                                    > .sapMFlexBox {
+                                        display: flex;
+                                        align-items: flex-end;
+                                    }
                                     .sapMHBox{
                                         background-color: transparent;
                                         >.sapMFlexBoxBGTransparent{
@@ -1376,6 +1388,35 @@ ul.sapUshellInner {
                                         line-height: 19px;
                                     }
                                 }
+                                &:nth-child(2){
+                                    > .sapMFlexBox {
+                                        margin-top: 5px;
+                                        padding: 0;
+                                        padding-right: 20px;
+                                        display: flex;
+                                        align-items: flex-end;
+                                        .sapMFlexItem {
+                                            &:nth-child(2){
+                                                order: 0 !important;
+                                                .styleObjectStatus,.sapMObjStatusText {
+                                                    padding-left: 0 !important;
+                                                }    
+                                                                                           
+                                            }
+                                            &:first-child {
+                                                padding-bottom: 5px;
+                                                padding-left: 10px;
+                                                order: 1 !important;
+                                                
+                                                .sapMText {
+                                                    padding-top: 0 !important;
+                                                    vertical-align: bottom;
+                                                    line-height: normal;
+                                                } 
+                                            }
+                                        }
+                                    }
+                                }
                                 &:nth-child(2), &:nth-child(3){
                                     margin-bottom: 10px;
                                     > .sapMHBox{
@@ -1478,6 +1519,35 @@ ul.sapUshellInner {
                                         font-weight: 700;
                                         letter-spacing: 0;
                                         line-height: 19px;
+                                    }
+                                }
+                                &:nth-child(2){
+                                    > .sapMFlexBox {
+                                        padding: 0;
+                                        padding-right: 20px;
+                                        display: flex;
+                                        align-items: flex-end;
+                                        margin-top: 5px;
+                                        .sapMFlexItem {
+                                            &:nth-child(2){
+                                                order: 0 !important;
+                                                .styleObjectStatus,.sapMObjStatusText {
+                                                    padding-left: 0 !important;
+                                                }    
+                                                                                           
+                                            }
+                                            &:first-child {
+                                                padding-bottom: 5px;
+                                                padding-left: 10px;
+                                                order: 1 !important;
+                                                
+                                                .sapMText {
+                                                    padding-top: 0 !important;
+                                                vertical-align: bottom;
+                                                line-height: normal;
+                                                } 
+                                            }
+                                        }
                                     }
                                 }
                                 &:nth-child(2), &:nth-child(3){
@@ -2217,6 +2287,7 @@ ul.sapUshellInner {
                                             padding-right: 10px;
                                         }
                                         .sapMText{
+                                            padding-left: 0 !important;
                                             color: #D4D3D3;
                                             font-size: 12.29px !important;
                                             letter-spacing: 1.02px;
@@ -2492,6 +2563,10 @@ ul.sapUshellInner {
             > .sapUiVlt.sapuiVlt{
                 padding: 16px 25px 0 0;
                 width: 82% !important;
+                @media (max-width: 767px){
+                    padding: 16px 0 0 0;
+                    width: 87%;
+                }
                 > .sapUiVltCell.sapuiVltCell{
                     .sapUiVlt{
                         display: block;
@@ -3191,6 +3266,7 @@ ul.sapUshellInner {
                                             }
                                         }
                                         .sapMText{
+                                            padding-left: 0 !important;
                                             color: #D4D3D3;
                                             font-size: 12.29px !important;
                                             letter-spacing: 1.02px;
@@ -3271,6 +3347,7 @@ ul.sapUshellInner {
                                             padding-right: 10px;
                                         }
                                         .sapMText{
+                                            padding-left: 0 !important;
                                             color: #D4D3D3;
                                             font-size: 12.29px !important;
                                             letter-spacing: 1.02px;
@@ -4208,6 +4285,13 @@ ul.sapUshellInner {
                                         }
                                         > .sapMInputBase {
                                             max-width: 170px !important;
+                                        }
+                                    }
+                                    .sapMRb {
+                                        .sapMLabel {
+                                            color: #D4D3D3;
+                                            font-size: 12px;
+                                            font-weight: 400;
                                         }
                                     }
                                     .sapUiHLayout {
