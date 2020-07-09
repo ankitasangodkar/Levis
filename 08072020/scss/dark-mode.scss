@@ -3015,8 +3015,12 @@ ul.sapUshellInner {
                             text-decoration: none;
                         }
                     }
-                    &:first-child{
-                        display: none;
+                    &:first-child, &:nth-child(2){
+                        .sapMFlexItem {
+                            &:nth-child(2){
+                                display: none;
+                            }
+                        }
                     }
                 }
                 /* quick links first child */
