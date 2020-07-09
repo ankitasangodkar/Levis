@@ -3157,7 +3157,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-Z_PTP_SSM_ANALYST-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:last-child ul.sapMListItems li .sapMFlexBoxBGTransparent {
   background-color: transparent !important;
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -3994,7 +3993,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:last-child ul.sapMListItems li .sapMFlexBoxBGTransparent {
   background-color: transparent !important;
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -4852,7 +4850,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) .sapUiVltCell:nth-child(2) .sapMFlexBoxBGTransparent .sapUiVltCell:last-child ul.sapMListItems li .sapMFlexBoxBGTransparent {
   background-color: transparent !important;
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
 }
 
