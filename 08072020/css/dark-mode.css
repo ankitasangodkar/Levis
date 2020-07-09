@@ -1022,61 +1022,60 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   margin: 0 auto;
 }
 
-#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox {
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout {
   position: relative;
   width: 100%;
   background-color: transparent;
-  padding: 0 10px;
+  padding: 16px 24px;
 }
 
-#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox > .sapMFlexBoxBGTransparent {
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper {
   background-color: transparent;
 }
 
-#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexBoxBGSolid {
-  background-color: transparent;
-}
-
-#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexBoxBGSolid:nth-child(1) .sapMText {
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(1) .sapMText {
   color: #A1CFE7;
   font-size: 13.65px;
   letter-spacing: 0;
   line-height: 16px;
-  padding-top: 10px;
 }
 
-#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexBoxBGSolid:nth-child(2) .sapMInputBase {
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(2) {
+  width: 52% !important;
+}
+
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(2) .sapMInputBase {
   width: 100% !important;
   position: relative;
   padding: 0;
   text-align: right;
 }
 
-#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexBoxBGSolid:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper {
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper {
   border: 0;
   border-bottom: 1.23px solid #4F5C89;
   background: transparent;
   width: auto !important;
 }
 
-#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexBoxBGSolid:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner, #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexBoxBGSolid:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon {
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner, #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon {
   color: white;
   font-size: 12.29px;
   width: auto;
 }
 
-#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexBoxBGSolid:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner:active, #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexBoxBGSolid:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon:active {
+#application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseInner:active, #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper:nth-child(2) .sapMInputBase .sapMInputBaseContentWrapper .sapMInputBaseIcon:active {
   background-color: transparent;
 }
 
 @media (max-width: 475px) {
-  #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox .sapMFlexBoxBGSolid {
+  #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout .sapUiHLayoutChildWrapper {
     width: 100% !important;
   }
 }
 
 @media (max-width: 1024px) {
-  #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox {
+  #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1084,7 +1083,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 }
 
 @media (max-width: 767px) and (min-width: 500px) {
-  #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapMHBox {
+  #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(3) > .sapUiHLayout {
     display: flex;
     flex-direction: row;
     align-items: center;

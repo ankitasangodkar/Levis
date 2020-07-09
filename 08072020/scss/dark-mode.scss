@@ -928,15 +928,12 @@ ul.sapUshellInner {
                                     }
                                 }
                                 &:nth-child(3){
-                                    > .sapMHBox{
+                                    > .sapUiHLayout{
                                         position: relative;
                                         width: 100%;
                                         background-color: transparent;
-                                        padding: 0 10px;
-                                        >.sapMFlexBoxBGTransparent{
-                                            background-color: transparent;
-                                        } 
-                                        .sapMFlexBoxBGSolid{
+                                        padding: 16px 24px;
+                                        .sapUiHLayoutChildWrapper{
                                             background-color: transparent;
                                             &:nth-child(1){
                                                 .sapMText{
@@ -944,10 +941,10 @@ ul.sapUshellInner {
                                                     font-size: 13.65px;
                                                     letter-spacing: 0;
                                                     line-height: 16px;
-                                                    padding-top: 10px;
                                                 }
                                             }
                                             &:nth-child(2){
+                                                width: 52% !important;
                                                .sapMInputBase{
                                                     width: 100% !important;
                                                     position: relative;
