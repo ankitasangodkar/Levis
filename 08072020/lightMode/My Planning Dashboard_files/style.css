@@ -1,0 +1,155 @@
+.borderStyle {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.marginStyle {
+    padding-top: 0.2rem !important;
+    padding-left: 10px !important;
+}
+
+.styleObjectStatusSls {
+    font-size: 20px!important;
+}
+
+
+/* Enter your custom styles here */
+
+.HorizontalLayoutID {
+    width: 100% !important;
+}
+
+.HeaderText {
+    width: 31rem !important;
+    padding-top: 0.5rem !important;
+}
+
+.titleClassDate {
+    margin-top: 15px !important
+}
+
+.styleTitle {
+    font-size: 1.4rem !important;
+    padding-left: 8rem !important;
+}
+
+.styleTitle1 {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    width: 50rem !important;
+}
+
+.styleObjectStatus1 {
+    /*padding-left: 4rem !important;*/
+    font-size: 18px;
+    width: 10rem !important;
+    /*color: #E8743B!important;*/
+}
+
+.styleText {
+    margin-top: 1px;
+    margin-left: 22%;
+    width: 26rem;
+}
+
+.styleText1 {
+    font-size: 1rem !important;
+    margin-left: -7.5%;
+    width: 18rem;
+}
+
+.styleObjectStatus {
+    /* padding-left: 4rem !important; */
+    font-size: 18px;
+    width: 3rem !important;
+}
+
+.styleObjectStatusTarget {
+    /* padding-left: 4rem !important; */
+    /*font-size: 1.5rem !important;*/
+    font-size: 18px;
+    width: 20rem !important;
+    width: 6.6rem;
+}
+
+.styleTextRelTarget {
+    font-size: 1rem !important;
+    margin-left: -56%;
+    width: 14rem;
+}
+
+.styleTextTarget {
+    font-size: 1rem !important;
+    margin-left: -32%;
+    width: 7rem;
+}
+
+.styleTextDays {
+    font-size: 1rem !important;
+    margin-left: -78%;
+    width: 20rem;
+    margin-top: 1px;
+}
+
+.styleObjectStatusTarget>span {
+    color: #E8743B!important;
+}
+
+.styleSupplier {
+    padding-left: 1.5rem !important;
+    font-size: 0.8rem !important;
+    font-weight: bold !important;
+}
+
+.sapMBtn {
+    height: 1rem !important;
+}
+
+.styleButton {
+    width: 2rem !important;
+    hight: 2rem !important;
+}
+
+.comboClassValue {
+    width: 200% !important;
+    max-width: 250% !important;
+    /*width: 15rem !important;
+        max-width: 240px !important;*/
+}
+
+.comboClass {
+    /*width: 360% !important;*/
+    /*max-width: 260% !important;*/
+    width: 13rem !important;
+    max-width: 220px !important;
+}
+
+.comboClass1 {
+    width: 19rem !important;
+    max-width: 320px !important;
+}
+
+.titleClass {
+    margin-top: 10px !important
+}
+
+.sapUiVlt.sapUiContentPadding {
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.sapMFlexBoxBGTransparent {
+    background-color: white;
+    /* border-radius:6% !important;*/
+}
+
+.HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child {
+    width: 40% !important;
+}
+
+.sapUiHLayoutChildWrapper {
+    width: 38% !important;
+}
+
+.sapUiHLayoutChildWrapper:last-child {
+    width: 22% !important;
+}

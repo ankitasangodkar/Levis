@@ -1,0 +1,139 @@
+.styleTitle {
+    font-size: 1.4rem !important;
+    padding-left: 8rem !important;
+}
+
+.styleTitle1 {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+}
+
+.sapMFlexBoxBGTransparent {
+    background-color: white;
+    /* border-radius:6% !important;*/
+}
+
+.sapUiVlt.sapUiContentPadding {
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.borderStyle {
+    /*box-shadow: 1px 1px 4px 4px #9a959575;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.HorizontalLayoutID {
+    width: 100% !important;
+}
+
+.HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child {
+    width: 41% !important;
+}
+
+.sapUiHLayoutChildWrapper {
+    width: 40% !important;
+}
+
+.sapUiHLayoutChildWrapper:last-child {
+    width: 19% !important;
+}
+
+.styleBorder {
+    border-radius: 6% !important;
+}
+
+.styleObjectStatus {
+    font-size: x-large !important;
+}
+
+.styleObjectStatusSls {
+    font-size: x-large !important;
+}
+
+.styleObjectStatusInSls {
+    font-size: x-large !important;
+}
+
+.styleObjectStatusInSls1 {
+    font-size: medium !important;
+}
+
+.comboClass {
+    max-width: 170px !important;
+    padding-left: 13px !important;
+}
+
+.titleClass {
+    margin-top: 10px;
+}
+
+.marginStyle {
+    padding-top: 0.4rem !important;
+    padding-left: 10px !important;
+}
+
+.marginPadding {
+    padding-left: 10px !important;
+    padding-top: 0.2rem !important;
+}
+
+.marginOpenSlsStyle {
+    padding-top: 0.6rem !important;
+}
+
+.styleObjectStatusOpnSls {
+    font-size: x-large !important;
+    width: 4.2rem !important;
+}
+
+.styleOpnIcgTitle {
+    padding-left: 8rem !important;
+    font-size: x-large !important;
+}
+
+.soldClass {
+    padding-top: 6px !important;
+    width: 14rem !important;
+}
+
+.dateStyle {
+    width: 240% !important;
+}
+
+.profitStyle {
+    height: 430px !important;
+}
+
+.PrftStyle {
+    width: 34rem !important;
+    padding-top: 0.5rem !important;
+}
+.PrftStyle1 {
+    width: 24rem !important;
+    padding-top: 0.5rem !important;
+}
+.SlsStyle {
+    width: 28rem !important;
+    padding-top: 0.5rem !important;
+}
+
+.switchStyle {
+    padding-left: 15rem !important;
+}
+
+.monthStyle {
+    width: 10.5rem !important;
+    max-width: 220px !important;
+}
+.monthStyle1 {
+    width: 11rem !important;
+    max-width: 220px !important;
+}
+.monthStyle2 {
+    width: 6.5rem !important;
+    max-width: 220px !important;
+}
+.monthTextStyle {
+    padding-top: 8px !important;
+}
