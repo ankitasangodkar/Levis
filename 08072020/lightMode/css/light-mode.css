@@ -1,4 +1,3 @@
-/* css 001 */
 .sapUshellShellHeader {
   background-color: transparent;
 }
@@ -163,6 +162,10 @@ header .sapUshellShellHeadSearchContainer .sapUshellSearchCancelButton .sapMBtnI
   background-color: transparent;
 }
 
+.sapMPageHeader {
+  padding-top: 10px;
+}
+
 .sapMPageHeader.sapUshellAnchorNavigationBar {
   background-color: rgba(26, 76, 125, 0.61);
   background-color: transparent;
@@ -172,20 +175,27 @@ header .sapUshellShellHeadSearchContainer .sapUshellSearchCancelButton .sapMBtnI
   padding: 0 0;
 }
 
+.sapMPageHeader .sapUshellAnchorNavigationBarItemsScroll .sapUshellAnchorItem:focus {
+  outline: 0;
+}
+
 .sapMPageHeader .sapUshellAnchorNavigationBarItemsScroll .sapUshellAnchorItemInner {
-  line-height: 3.563rem;
-  color: #D0D0D0;
+  line-height: 2.8rem;
+  opacity: 0.64;
+  color: #3D466B;
   font-family: Avenir, 72, 72full, Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0;
   text-shadow: none;
-  padding: 0 0.938rem;
+  padding: 0 6px;
+  margin: 0 0.938rem;
   outline: 0;
 }
 
 .sapMPageHeader .sapUshellAnchorNavigationBarItemsScroll .sapUshellAnchorItemInner:hover {
-  color: #ffffff;
+  color: #384265;
+  opacity: 1;
 }
 
 .sapMPageHeader .sapUshellAnchorLeftOverFlowButton,
@@ -221,8 +231,10 @@ header .sapUshellShellHeadSearchContainer .sapUshellSearchCancelButton .sapMBtnI
 }
 
 .sapUshellAnchorItemSelected .sapUshellAnchorItemInner:not(.sapUshellAnchorInnerMarker) {
-  border-bottom: 3px solid #ffffff;
-  color: #ffffff;
+  border-bottom: 3px solid #384265;
+  color: #3D466B;
+  opacity: 1;
+  font-weight: 700;
 }
 
 .sapUshellTileContainerHeader .sapUshellContainerTitle {
@@ -243,7 +255,7 @@ header .sapUshellShellHeadSearchContainer .sapUshellSearchCancelButton .sapMBtnI
 
 .sapUshellTile {
   border-radius: 2px;
-  margin: 0 1.563rem 1.563rem 0;
+  margin: 0 20px 20px 0;
   min-height: 10.938rem;
 }
 
@@ -313,7 +325,7 @@ header .sapUshellShellHeadSearchContainer .sapUshellSearchCancelButton .sapMBtnI
 }
 
 .sapUshellTile .sapMGTContent .sapMNCInner .sapUiIcon {
-  color: #649CEC;
+  color: #6095e1;
   width: 3.75rem;
   font-size: 3.75rem;
   line-height: 3.75rem;
@@ -327,7 +339,7 @@ header .sapUshellShellHeadSearchContainer .sapUshellSearchCancelButton .sapMBtnI
 }
 
 .sapUshellTile .sapMGTContent .sapMImageContent .sapUiIcon {
-  color: #649CEC;
+  color: #6095e1;
   width: 3.75rem;
   font-size: 3.75rem;
   right: 0;
@@ -345,26 +357,28 @@ header .sapUshellShellHeadSearchContainer .sapUshellSearchCancelButton .sapMBtnI
 }
 
 ul.sapUshellInner li.sapUshellTile {
-  background: #34486A;
+  background: #FBFCFE;
   border-radius: 8px;
   overflow: hidden;
+  border: 1px solid #EEECEC;
 }
 
 ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGT {
-  background: #34486A;
-  color: #fff;
+  background: #FBFCFE;
+  border: 1.05px solid #EEECEC;
+  border-radius: 8px;
 }
 
 ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGT .sapMGTTitle.sapMText {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   letter-spacing: 0;
   line-height: 19px;
-  color: #fff !important;
+  color: #3D4768 !important;
 }
 
 ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGT .sapMText {
-  color: #93AEB6;
+  color: #7B7878;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0;
@@ -4481,7 +4495,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(6) .sapMList .sapMSLITitle {
   text-shadow: none;
-  color: white;
+  color: #434242;
   font-size: 12.6px;
   letter-spacing: 0;
   line-height: 15px;
@@ -4490,7 +4504,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(6) .sapMList .sapMSLIDescription {
   text-shadow: none;
-  color: white;
+  color: #434242;
   font-size: 12.61px;
   letter-spacing: 0;
   line-height: 15px;
