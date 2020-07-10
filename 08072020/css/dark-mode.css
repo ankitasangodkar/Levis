@@ -1,5 +1,4 @@
 /* css 001 */
-
 .sapUshellShellHeader {
   background-color: transparent; }
 
@@ -281,6 +280,14 @@ ul.sapUshellInner li.sapUshellTile {
     line-height: 22px; }
   ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTileCnt .sapMTileCntContent .sapMImageContent .sapUiIcon {
     color: #6095e1; }
+
+/* Background Image */
+#mainShell .sapUshellShellBG.sapUiShellBackgroundImage {
+  background-image: url("../bg_dark.jpg");
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 /* graphs */
 #application-Z_OTC_SALESDB-display .viz-legend-valueLabel .v-legend-item text tspan, #application-ZOTCMANAGEROVP-display .viz-legend-valueLabel .v-legend-item text tspan,
