@@ -448,6 +448,13 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   stroke: transparent;
 }
 
+#application-Z_OTC_SALESDB-display .v-m-root .v-m-scrollbarThumb, #application-ZOTCMANAGEROVP-display .v-m-root .v-m-scrollbarThumb,
+#application-Z_OTC_AR_ANALYST_DB-display .v-m-root .v-m-scrollbarThumb, #application-Z_PTP_PA_DB-display .v-m-root .v-m-scrollbarThumb,
+#application-ZPTP_PLAN_MNGR-display .v-m-root .v-m-scrollbarThumb, #application-Z_PTP_SSM_ANALYST-display .v-m-root .v-m-scrollbarThumb,
+#application-Z_PTP_SSM_MANAGER-display .v-m-root .v-m-scrollbarThumb, #application-Z_OTC_OMANALYST_DB-display .v-m-root .v-m-scrollbarThumb {
+  fill: transparent;
+}
+
 #application-Z_OTC_SALESDB-display .v-m-root:focus, #application-ZOTCMANAGEROVP-display .v-m-root:focus,
 #application-Z_OTC_AR_ANALYST_DB-display .v-m-root:focus, #application-Z_PTP_PA_DB-display .v-m-root:focus,
 #application-ZPTP_PLAN_MNGR-display .v-m-root:focus, #application-Z_PTP_SSM_ANALYST-display .v-m-root:focus,
@@ -5381,18 +5388,18 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 #application-ZSUPPLY_CHAIN-display .viz-legend-valueLabel .v-legend-item text tspan,
 #application-ZOTCMANAGEROVP-display .viz-legend-valueLabel .v-legend-item text tspan {
-  fill: #ffffff;
+  fill: #3D3B3B;
 }
 
 #application-ZSUPPLY_CHAIN-display .v-axis .v-m-axisTitle text, #application-ZSUPPLY_CHAIN-display .v-axis .v-m-axisBody text,
 #application-ZOTCMANAGEROVP-display .v-axis .v-m-axisTitle text,
 #application-ZOTCMANAGEROVP-display .v-axis .v-m-axisBody text {
-  fill: #A4A4A4;
+  fill: #857E7E;
 }
 
 #application-ZSUPPLY_CHAIN-display .v-datalabel-group text,
 #application-ZOTCMANAGEROVP-display .v-datalabel-group text {
-  fill: #FFFFFF;
+  fill: #434242;
 }
 
 #application-ZSUPPLY_CHAIN-display .v-info:before,
@@ -5419,6 +5426,12 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-ZSUPPLY_CHAIN-display .v-m-root .v-datapoint-group g path,
 #application-ZOTCMANAGEROVP-display .v-m-root .v-datapoint-group g path {
   stroke: transparent;
+}
+
+#application-ZSUPPLY_CHAIN-display .v-m-root .v-m-scrollbarTrack, #application-ZSUPPLY_CHAIN-display .v-m-root .v-m-scrollbarThumb,
+#application-ZOTCMANAGEROVP-display .v-m-root .v-m-scrollbarTrack,
+#application-ZOTCMANAGEROVP-display .v-m-root .v-m-scrollbarThumb {
+  fill: transparent;
 }
 
 #application-ZSUPPLY_CHAIN-display .v-m-root:focus,
@@ -5460,7 +5473,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 @media (min-width: 768px) {
   #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:last-child > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent, #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:last-child > .sapMFlexBoxBGTransparent {
-    height: 580px;
+    height: 600px;
   }
 }
 
@@ -6170,7 +6183,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 @media (min-width: 768px) {
   #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent, #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent {
-    height: 585px;
+    height: 600px;
   }
 }
 

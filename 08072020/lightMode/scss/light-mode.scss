@@ -420,6 +420,9 @@ ul.sapUshellInner {
                 }
             }
         }
+        .v-m-scrollbarThumb{
+            fill: transparent;
+        }
         &:focus{
             outline: none;
         }
@@ -4798,7 +4801,7 @@ ul.sapUshellInner {
         .v-legend-item {
             text {
                 tspan {
-                    fill: #ffffff;
+                    fill: #3D3B3B;
                 }
             }
         }
@@ -4806,14 +4809,14 @@ ul.sapUshellInner {
     .v-axis {
         .v-m-axisTitle,.v-m-axisBody {
             text {
-                fill: #A4A4A4;
+                fill: #857E7E;
             }
         }
     }
 
     .v-datalabel-group {
         text {
-            fill: #FFFFFF;
+            fill: #434242;
         }
     }
     .v-info{
@@ -4844,6 +4847,9 @@ ul.sapUshellInner {
                     stroke: transparent;
                 }
             }
+        }
+        .v-m-scrollbarTrack , .v-m-scrollbarThumb{
+            fill: transparent;
         }
         &:focus{
             outline: none;
@@ -4879,7 +4885,7 @@ ul.sapUshellInner {
                         &:nth-child(2), &:nth-child(3), &:last-child{
                             > .sapMFlexBoxBGTransparent{
                                 @media (min-width: 768px){
-                                    height: 580px;
+                                    height: 600px;
                                 }
                             } 
                         }
@@ -5591,7 +5597,7 @@ ul.sapUshellInner {
                     > .sapUiVltCell.sapuiVltCell{
                         > .sapMFlexBoxBGTransparent{
                             @media (min-width: 768px){
-                                height: 585px;
+                                height: 600px;
                             }
                         }
                     }
