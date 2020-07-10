@@ -1,3 +1,5 @@
+/* css 001 */
+
 .sapUshellShellHeader {
   background-color: transparent; }
 
@@ -280,14 +282,6 @@ ul.sapUshellInner li.sapUshellTile {
   ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTileCnt .sapMTileCntContent .sapMImageContent .sapUiIcon {
     color: #6095e1; }
 
-/* Background Image */
-#mainShell .sapUshellShellBG.sapUiShellBackgroundImage {
-  background-image: url("../bg_dark.jpg");
-  opacity: 1;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-
 /* graphs */
 #application-Z_OTC_SALESDB-display .viz-legend-valueLabel .v-legend-item text tspan, #application-ZOTCMANAGEROVP-display .viz-legend-valueLabel .v-legend-item text tspan,
 #application-Z_OTC_AR_ANALYST_DB-display .viz-legend-valueLabel .v-legend-item text tspan, #application-Z_PTP_PA_DB-display .viz-legend-valueLabel .v-legend-item text tspan,
@@ -555,16 +549,10 @@ ul.sapUshellInner li.sapUshellTile {
                 width: 22px; }
               #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt .sapMSwtInner {
                 left: -2rem; }
-                #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt .sapMSwtInner .sapMSwtText .sapMSwtTextOn {
-                  color: #FFFFFF; }
               #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt.sapMSwtOff > .sapMSwtInner {
                 left: -2rem; }
                 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt.sapMSwtOff > .sapMSwtInner .sapMSwtHandle {
                   left: 4rem; }
-              #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt.sapMSwtOff.sapMSwtText .sapMSwtTextOff {
-                color: #FFFFFF; }
-              #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt.sapMSwtOff.sapMSwtText .sapMSwtTextOn {
-                color: #8A8C91; }
               #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt .sapMSwtText {
                 position: absolute;
                 bottom: -19px;
@@ -580,6 +568,10 @@ ul.sapUshellInner li.sapUshellTile {
                   left: -5px !important; }
                 #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt .sapMSwtText:last-child {
                   left: 5px !important; }
+                #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt .sapMSwtText.sapMSwtOn .sapMSwtTextOn {
+                  color: #fff; }
+                #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwt .sapMSwtText.sapMSwtOff .sapMSwtTextOn {
+                  color: #fff; }
             #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwtOn:not(.sapMSwtAcceptReject),
             #application-Z_OTC_SALESDB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox .sapMFlexItem:last-child .sapMSwtOff:not(.sapMSwtAcceptReject) {
               background: #6372A4;

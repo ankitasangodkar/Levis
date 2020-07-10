@@ -705,11 +705,6 @@ ul.sapUshellInner {
                                                     }
                                                     .sapMSwtInner {
                                                         left: -2rem;
-                                                        .sapMSwtText {
-                                                            .sapMSwtTextOn {
-                                                                color: #FFFFFF;
-                                                            }
-                                                        }
                                                     }
                                                     &.sapMSwtOff {
                                                         // .sapMSwtText {
@@ -719,14 +714,6 @@ ul.sapUshellInner {
                                                             left: -2rem;
                                                             .sapMSwtHandle {
                                                                 left: 4rem;
-                                                            }
-                                                        }
-                                                        &.sapMSwtText {
-                                                            .sapMSwtTextOff {
-                                                                color: #FFFFFF;
-                                                            }
-                                                            .sapMSwtTextOn {
-                                                                color: #8A8C91;
                                                             }
                                                         }
                                                     }
@@ -747,6 +734,16 @@ ul.sapUshellInner {
                                                         }
                                                         &:last-child {
                                                             left: 5px !important;
+                                                        }
+                                                        &.sapMSwtOn {
+                                                            .sapMSwtTextOn {
+                                                                color: #fff;
+                                                            }
+                                                        }
+                                                        &.sapMSwtOff {
+                                                            .sapMSwtTextOn {
+                                                                color: #fff;
+                                                            }
                                                         }
                                                     }
                                                 }
