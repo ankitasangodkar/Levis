@@ -690,31 +690,79 @@ ul.sapUshellInner {
                                                 top: 42px;
                                                 z-index: 1;
                                                 background-color: transparent;
-                                                .sapMSwtOn{
-                                                    background-color: #6372A4;
-                                                    border-color: #6372A4;
-                                                    overflow: visible;
-                                                    .sapMSwtHandle{
-                                                        background-color: white;
-                                                        left: 5px;
+                                                .sapMSwt {
+                                                    height: 26px;
+                                                    width: 61px;
+                                                    .sapMSwtText {
+                                                        line-height: 26px;
                                                     }
-                                                    .sapMSwtText{
-                                                        font-size: 9.45px;
-                                                        position: absolute;
-                                                        top: 20px;
-                                                        display: flex;
-                                                        .sapMSwtLabelOn{
-                                                            color: white;
-                                                            width: auto;
-                                                            padding-top: 5px;
+                                                    .sapMSwtInner {
+                                                        .sapMSwtHandle {
+                                                            background: #EAEAEA;
+                                                            height: 22px;
+                                                            width: 22px;
                                                         }
-                                                        .sapMSwtLabelOff{
-                                                            color: #8A8C91;
-                                                            width: auto;
-                                                            padding-top: 5px;
+                                                    }
+                                                    &.sapMSwtOff {
+                                                        .sapMSwtText {
+                                                            transform: translateX(40px);
+                                                        }
+                                                    }
+                                                    .sapMSwtText {
+                                                        position: absolute;
+                                                        bottom: -19px;
+                                                        left: 0 !important;
+                                                        color: #8A8C91;
+                                                        font-size: 9px;
+                                                        line-height: 11px;
+                                                        padding: 0;
+                                                        > span {
+                                                            padding: 0;
+                                                        }
+
+                                                        &:first-child {
+                                                            left: -8px !important;
+                                                        }
+                                                        &:last-child {
+                                                            left: -8px !important;
+                                                        }
+                                                        &.sapMSwtTextOn {
+                                                            color: #FFFFFF;
                                                         }
                                                     }
                                                 }
+                                                .sapMSwtOn:not(.sapMSwtAcceptReject),
+                                                .sapMSwtOff:not(.sapMSwtAcceptReject) {
+                                                    background: #6372A4;
+                                                    border-color: #6372A4;
+                                                    overflow: visible;
+                                                }
+
+                                                // .sapMSwtOn{
+                                                //     background-color: #6372A4;
+                                                //     border-color: #6372A4;
+                                                //     overflow: visible;
+                                                //     .sapMSwtHandle{
+                                                //         background-color: white;
+                                                //         left: 5px;
+                                                //     }
+                                                //     .sapMSwtText{
+                                                //         font-size: 9.45px;
+                                                //         position: absolute;
+                                                //         top: 20px;
+                                                //         display: flex;
+                                                //         .sapMSwtLabelOn{
+                                                //             color: white;
+                                                //             width: auto;
+                                                //             padding-top: 5px;
+                                                //         }
+                                                //         .sapMSwtLabelOff{
+                                                //             color: #8A8C91;
+                                                //             width: auto;
+                                                //             padding-top: 5px;
+                                                //         }
+                                                //     }
+                                                // }
                                                 @media (max-width: 425px){
                                                     top: 0;
                                                 }
