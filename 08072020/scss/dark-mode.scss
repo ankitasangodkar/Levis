@@ -705,13 +705,29 @@ ul.sapUshellInner {
                                                     }
                                                     .sapMSwtInner {
                                                         left: -2rem;
+                                                        .sapMSwtText {
+                                                            .sapMSwtTextOn {
+                                                                color: #FFFFFF;
+                                                            }
+                                                        }
                                                     }
                                                     &.sapMSwtOff {
-                                                        .sapMSwtText {
-                                                            transform: translateX(6px);
-                                                        }
+                                                        // .sapMSwtText {
+                                                        //     transform: translateX(6px);
+                                                        // }
                                                         >.sapMSwtInner {
-                                                            left: 0;
+                                                            left: -2rem;
+                                                            .sapMSwtHandle {
+                                                                left: 4rem;
+                                                            }
+                                                        }
+                                                        &.sapMSwtText {
+                                                            .sapMSwtTextOff {
+                                                                color: #FFFFFF;
+                                                            }
+                                                            .sapMSwtTextOn {
+                                                                color: #8A8C91;
+                                                            }
                                                         }
                                                     }
                                                     .sapMSwtText {
@@ -732,10 +748,6 @@ ul.sapUshellInner {
                                                         &:last-child {
                                                             left: 5px !important;
                                                         }
-                                                        
-                                                        &.sapMSwtTextOn {
-                                                            color: #FFFFFF;
-                                                        }
                                                     }
                                                 }
                                                 .sapMSwtOn:not(.sapMSwtAcceptReject),
@@ -745,31 +757,6 @@ ul.sapUshellInner {
                                                     overflow: visible;
                                                 }
 
-                                                // .sapMSwtOn{
-                                                //     background-color: #6372A4;
-                                                //     border-color: #6372A4;
-                                                //     overflow: visible;
-                                                //     .sapMSwtHandle{
-                                                //         background-color: white;
-                                                //         left: 5px;
-                                                //     }
-                                                //     .sapMSwtText{
-                                                //         font-size: 9.45px;
-                                                //         position: absolute;
-                                                //         top: 20px;
-                                                //         display: flex;
-                                                //         .sapMSwtLabelOn{
-                                                //             color: white;
-                                                //             width: auto;
-                                                //             padding-top: 5px;
-                                                //         }
-                                                //         .sapMSwtLabelOff{
-                                                //             color: #8A8C91;
-                                                //             width: auto;
-                                                //             padding-top: 5px;
-                                                //         }
-                                                //     }
-                                                // }
                                                 @media (max-width: 425px){
                                                     top: 0;
                                                 }
@@ -797,7 +784,8 @@ ul.sapUshellInner {
                                             font-size: 12.29px;
                                             letter-spacing: 1.02px;
                                             line-height: 36px;
-                                            padding: 4px 0 0 0 !important;
+                                            padding: 0 0 0 0 !important;
+                                            margin-top: 2px !important;
                                         }
                                     } 
                                 }
