@@ -687,7 +687,7 @@ ul.sapUshellInner {
                                             &:last-child{
                                                 position: absolute;
                                                 right: 24px;
-                                                top: 24px;
+                                                top: 42px;
                                                 z-index: 1;
                                                 background-color: transparent;
                                                 .sapMSwtOn{
@@ -735,15 +735,16 @@ ul.sapUshellInner {
                                             font-weight: bold;
                                             letter-spacing: 0;
                                             line-height: 34px;
-                                            padding: 0 0 0 25px;
+                                            padding: 0 10px 0 25px;
                                         }
                                         .sapMText{
                                             color: #D4D3D3;
                                             font-size: 12.29px;
                                             letter-spacing: 1.02px;
                                             line-height: 36px;
+                                            padding: 4px 0 0 0 !important;
                                         }
-                                    }
+                                    } 
                                 }
                                 &:nth-child(4){
                                     position: relative;
@@ -888,6 +889,14 @@ ul.sapUshellInner {
                                                 background: #455278 !important;
                                                 border-bottom: 0;
                                                 padding: 0 3px;
+                                                .sapMColumnHeader{
+                                                    padding: 0 5px;
+                                                }
+                                                &:nth-child(2){
+                                                    .sapMColumnHeader{
+                                                        padding: 0 0 0 13px;
+                                                    }                                            
+                                                }
                                             }
                                         }
                                         .sapMListItems.sapMTableTBody{
@@ -1322,7 +1331,10 @@ ul.sapUshellInner {
                                             >.sapMTableTH{
                                                 background: #455278 !important;
                                                 border-bottom: 0;
-                                                padding: 0 8px;
+                                                padding: 0 3px;
+                                                .sapMColumnHeader{
+                                                    padding: 0 2px;
+                                                }
                                             }
                                         }
                                         .sapMListItems.sapMTableTBody{
@@ -1485,7 +1497,6 @@ ul.sapUshellInner {
             }
         }
     }
-
     /* background color */
     #application-Z_OTC_SALESDB-display-component---App{
        .sapUiGlobalBackgroundColor, .sapMShellGlobalInnerBackground {
