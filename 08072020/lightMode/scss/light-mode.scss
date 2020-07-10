@@ -3787,32 +3787,71 @@ ul.sapUshellInner {
                                                 right: 24px;
                                                 top: 42px;
                                                 z-index: 1;
-                                                .sapMSwtOn{
+                                                .sapMSwt {
+                                                    height: 26px;
+                                                    width: 61px;
+                                                    .sapMSwtText {
+                                                        line-height: 26px;
+                                                    }
+                                                    .sapMSwtInner {
+                                                        .sapMSwtHandle {
+                                                            background: #FFFFFF;
+                                                            border-color: #FFFFFF;
+                                                            height: 22px;
+                                                            width: 22px;
+                                                        }
+                                                    }
+                                                    .sapMSwtInner {
+                                                        left: -2rem;
+                                                    }
+                                                    &.sapMSwtOff {
+                                                        >.sapMSwtInner {
+                                                            left: -2rem;
+                                                            .sapMSwtHandle {
+                                                                left: 4.1rem;
+                                                            }
+                                                        }
+                                                    }
+                                                    .sapMSwtText {
+                                                        position: absolute;
+                                                        bottom: -19px;
+                                                        left: 0 !important;
+                                                        color: #B1B1B1;
+                                                        font-size: 9px;
+                                                        line-height: 11px;
+                                                        padding: 0;
+                                                        transform: translateX(33px);
+                                                        > span {
+                                                            padding: 0;
+                                                        }
+                                                        &:first-child {
+                                                            left: -5px !important;
+                                                        }
+                                                        &:last-child {
+                                                            left: 5px !important;
+                                                        }
+                                                        
+                                                    }
+                                                }
+                                                .sapMSwt.sapMSwtOn {
+                                                    .sapMSwtText {
+                                                        &.sapMSwtTextOn {
+                                                            color: #5C5C5C;
+                                                        }
+                                                    }
+                                                }
+                                                .sapMSwt.sapMSwtOff {
+                                                    .sapMSwtText {
+                                                        &.sapMSwtTextOff {
+                                                            color: #5C5C5C;
+                                                        }
+                                                    }
+                                                }
+                                                .sapMSwtOn:not(.sapMSwtAcceptReject),
+                                                .sapMSwtOff:not(.sapMSwtAcceptReject) {
                                                     background-color: #BAC9D6;
                                                     border-color: #BAC9D6;
                                                     overflow: visible;
-                                                    .sapMSwtHandle{
-                                                        background-color: white;
-                                                        left: 2px;
-                                                        height: 1.4rem;
-                                                        width: 1.4rem;
-                                                    }
-                                                    .sapMSwtText{
-                                                        font-size: 9.45px;
-                                                        position: absolute;
-                                                        top: 20px;
-                                                        display: flex;
-                                                        .sapMSwtLabelOn{
-                                                            color: #5C5C5C;
-                                                            width: auto;
-                                                            padding-top: 5px;
-                                                        }
-                                                        .sapMSwtLabelOff{
-                                                            color: #B1B1B1;
-                                                            width: auto;
-                                                            padding-top: 5px;
-                                                        }
-                                                    }
                                                 }
                                                 @media (max-width: 425px){
                                                     top: 0;
