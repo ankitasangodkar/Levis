@@ -222,8 +222,8 @@ header {
 }
 
 .sapUshellTileWrapper {
-    width: 18.75rem;
-    height: 10.938rem;
+    width: 100%;
+    height: 14rem;
 }
 
 .sapUshellTile {
@@ -231,8 +231,8 @@ header {
     margin: 0 20px 20px 0;
     min-height: 10.938rem;
     .sapUshellTileInner {
-        max-width: 18.75rem;
-        max-height: 10.938rem;
+        max-width: 100%;
+        max-height: 100%;
         outline: 0;
         .sapMGTHdrTxt>.sapMText {
             color: #04295E;
@@ -313,6 +313,7 @@ header {
     .sapMTileCntContent,
     .sapMTileCnt {
         height: auto;
+        min-width: 100%;
     }
 }
 
@@ -326,6 +327,7 @@ ul.sapUshellInner {
         border-radius: 8px;
         overflow: hidden;
         border: 1px solid #EEECEC;
+        width: 30%;
         .sapUshellTileWrapper {
             .sapMGT {
                 background: #FBFCFE;
@@ -364,6 +366,15 @@ ul.sapUshellInner {
                     }
                 }
             }
+        }
+        @media (min-width: 1300px){
+            width: 22%;
+        }
+        @media (max-width: 991px){
+            width: 44%;
+        }
+        @media (max-width: 575px){
+            width: 66%;
         }
     }
 }
