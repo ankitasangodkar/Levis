@@ -703,9 +703,15 @@ ul.sapUshellInner {
                                                             width: 22px;
                                                         }
                                                     }
+                                                    .sapMSwtInner {
+                                                        left: -2rem;
+                                                    }
                                                     &.sapMSwtOff {
                                                         .sapMSwtText {
-                                                            transform: translateX(40px);
+                                                            transform: translateX(6px);
+                                                        }
+                                                        >.sapMSwtInner {
+                                                            left: 0;
                                                         }
                                                     }
                                                     .sapMSwtText {
@@ -716,16 +722,17 @@ ul.sapUshellInner {
                                                         font-size: 9px;
                                                         line-height: 11px;
                                                         padding: 0;
+                                                        transform: translateX(33px);
                                                         > span {
                                                             padding: 0;
                                                         }
-
                                                         &:first-child {
-                                                            left: -8px !important;
+                                                            left: -5px !important;
                                                         }
                                                         &:last-child {
-                                                            left: -8px !important;
+                                                            left: 5px !important;
                                                         }
+                                                        
                                                         &.sapMSwtTextOn {
                                                             color: #FFFFFF;
                                                         }
