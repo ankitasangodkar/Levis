@@ -2109,8 +2109,8 @@ ul.sapUshellInner {
                                     }
                                 }
                             }
-                            @media (max-width: 768px){
-                                height: 135px;
+                            @media (min-width: 768px){
+                                height: 130px;
                             }
                         }
                     }
@@ -2306,7 +2306,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 600px;
+                                height: 595px;
                             }
                         }
                     }
@@ -3428,7 +3428,7 @@ ul.sapUshellInner {
                                         letter-spacing: 0;
                                         line-height: 19px;
                                     }
-                                    @media (max-width: 1200px){
+                                    @media (max-width: 1024px){
                                         margin-left: -24px;
                                     }
                                 }
@@ -3648,7 +3648,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 450px;
+                                height: 455px;
                             }
                         }
                     }
@@ -4306,7 +4306,7 @@ ul.sapUshellInner {
                        &:nth-child(3){
                             > .sapMFlexBoxBGTransparent{
                                 @media (min-width: 768px){
-                                    height: 580px;
+                                    height: 595px;
                                 }
                             } 
                         }
@@ -4333,7 +4333,7 @@ ul.sapUshellInner {
                                     float: left;
 
                                     &:first-child {
-                                        width: calc(100% - 10rem) !important;
+                                        width: calc(100% - 9rem) !important;
 
                                     }
                                     &:nth-child(2){
