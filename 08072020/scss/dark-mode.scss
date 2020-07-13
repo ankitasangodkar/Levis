@@ -3644,7 +3644,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 560px;
+                                height: 480px;
                             }
                         }
                     }
@@ -3760,7 +3760,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 560px;
+                                height: 580px;
                             }
                         }
                     }
@@ -3894,11 +3894,16 @@ ul.sapUshellInner {
                                                         }
                                                     }
                                                 }
-
+                                            }
+                                            &:last-child{
+                                                border-bottom: 0;
                                             }
                                         }
                                     }
                                 }
+                            }
+                            @media (min-width: 768px){
+                                height: 365px;
                             }
                         }
                     }

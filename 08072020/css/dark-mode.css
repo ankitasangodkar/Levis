@@ -4096,7 +4096,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 @media (min-width: 768px) {
   #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
-    height: 560px;
+    height: 480px;
   }
 }
 
@@ -4232,7 +4232,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 @media (min-width: 768px) {
   #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
-    height: 560px;
+    height: 580px;
   }
 }
 
@@ -4373,6 +4373,16 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:last-child ul.sapMListItems li .sapMLIBContent .sapSuiteCpMCChartItem .sapSuiteCpMCChartBar .sapSuiteCpMCNotFirstBarPart {
   background-color: #ADADAD;
   border-left-color: #ADADAD;
+}
+
+#application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt > .sapuiVltCell:last-child ul.sapMListItems li:last-child {
+  border-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
+    height: 365px;
+  }
 }
 
 #application-Z_PTP_SSM_MANAGER-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt {
