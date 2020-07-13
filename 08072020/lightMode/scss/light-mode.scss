@@ -3677,6 +3677,9 @@ ul.sapUshellInner {
                                                 }
                                                 .sapMInputBaseIcon {
                                                     color: #857E7E;
+                                                    &:active{
+                                                        background-color: transparent;
+                                                    }
                                                 }
                                             }
                                         }
@@ -4179,6 +4182,9 @@ ul.sapUshellInner {
                                                 }
                                                 .sapMInputBaseIcon {
                                                     color: #857E7E;
+                                                    &:active{
+                                                        background-color: transparent;
+                                                    }
                                                 }
                                             }
                                         }
@@ -4386,6 +4392,9 @@ ul.sapUshellInner {
                                                 }
                                                 .sapMInputBaseIcon {
                                                     color: #857E7E;
+                                                    &:active{
+                                                        background-color: transparent;
+                                                    }
                                                 }
                                             }
                                         }
