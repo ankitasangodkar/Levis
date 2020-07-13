@@ -4944,10 +4944,24 @@ ul.sapUshellInner {
                                 }
                             }
                         }
-                        &:nth-child(2), &:nth-child(3), &:last-child{
+                        &:nth-child(2){
                             > .sapMFlexBoxBGTransparent{
                                 @media (min-width: 768px){
-                                    height: 600px;
+                                    height: 500px;
+                                }
+                            } 
+                        }
+                       &:nth-child(3){
+                            > .sapMFlexBoxBGTransparent{
+                                @media (min-width: 768px){
+                                    height: 580px;
+                                }
+                            } 
+                        }
+                        &:last-child{
+                            > .sapMFlexBoxBGTransparent{
+                                @media (min-width: 768px){
+                                    height: 435px;
                                 }
                             } 
                         }
@@ -4967,7 +4981,7 @@ ul.sapUshellInner {
                                     float: left;
 
                                     &:first-child {
-                                        width: calc(100% - 15rem) !important;
+                                        width: calc(100% - 10rem) !important;
 
                                     }
                                     &:nth-child(2){
