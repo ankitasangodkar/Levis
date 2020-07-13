@@ -6012,13 +6012,10 @@ ul.sapUshellInner {
                                                 font-size: 12.29px;
                                                 letter-spacing: 0;
                                                 line-height: 32px;
-                                                width: 140px;
+                                                width: auto;
                                                 white-space: nowrap;
                                                 text-overflow: ellipsis;
                                                 overflow: hidden;
-                                                @media (max-width: 1300px){
-                                                    width: 100px;
-                                                }
                                             }
                                             .sapMListTblRow{
                                                 &:first-child{
