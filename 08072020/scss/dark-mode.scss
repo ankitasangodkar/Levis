@@ -571,6 +571,7 @@ ul.sapUshellInner {
                                     }
                                     .sapMFlexItem {
                                         &:first-child {
+                                            text-align: left;
                                             .sapMText {
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
@@ -580,6 +581,7 @@ ul.sapUshellInner {
                                             }
                                         }
                                         &:last-child {
+                                            text-align: right;
                                             .sapMInputBaseContentWrapper {
                                                 background-color: transparent;
                                                 border: 0;
@@ -589,6 +591,9 @@ ul.sapUshellInner {
                                                 }
                                                 .sapMInputBaseIcon {
                                                     color: #ffffff;
+                                                    &:active{
+                                                        background-color: transparent;
+                                                    }
                                                 }
                                             }
                                         }
@@ -1066,6 +1071,7 @@ ul.sapUshellInner {
                                     }
                                     .sapMFlexItem {
                                         &:first-child {
+                                            text-align: left;
                                             .sapMText {
                                                 color: #A1CFE7;
                                                 font-size: 13.65px;
@@ -1075,6 +1081,7 @@ ul.sapUshellInner {
                                             }
                                         }
                                         &:last-child {
+                                            text-align: right;
                                             .sapMInputBaseContentWrapper {
                                                 background-color: transparent;
                                                 border: 0;
@@ -1084,6 +1091,9 @@ ul.sapUshellInner {
                                                 }
                                                 .sapMInputBaseIcon {
                                                     color: #ffffff;
+                                                    &:active{
+                                                        background-color: transparent;
+                                                    }
                                                 }
                                             }
                                         }
@@ -1286,6 +1296,9 @@ ul.sapUshellInner {
                                                 }
                                                 .sapMInputBaseIcon {
                                                     color: #ffffff;
+                                                    &:active{
+                                                        background-color: transparent;
+                                                    }
                                                 }
                                             }
                                         }
