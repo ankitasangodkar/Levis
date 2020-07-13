@@ -430,6 +430,13 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   stroke: #8699DB;
 }
 
+#application-Z_OTC_SALESDB-display .v-overflow text, #application-ZOTCMANAGEROVP-display .v-overflow text,
+#application-Z_OTC_AR_ANALYST_DB-display .v-overflow text, #application-Z_PTP_PA_DB-display .v-overflow text,
+#application-ZPTP_PLAN_MNGR-display .v-overflow text, #application-Z_PTP_SSM_ANALYST-display .v-overflow text,
+#application-Z_PTP_SSM_MANAGER-display .v-overflow text, #application-Z_OTC_OMANALYST_DB-display .v-overflow text {
+  fill: white;
+}
+
 #application-Z_OTC_SALESDB-display .v-m-root .v-gridline-group .v-gridline, #application-ZOTCMANAGEROVP-display .v-m-root .v-gridline-group .v-gridline,
 #application-Z_OTC_AR_ANALYST_DB-display .v-m-root .v-gridline-group .v-gridline, #application-Z_PTP_PA_DB-display .v-m-root .v-gridline-group .v-gridline,
 #application-ZPTP_PLAN_MNGR-display .v-m-root .v-gridline-group .v-gridline, #application-Z_PTP_SSM_ANALYST-display .v-m-root .v-gridline-group .v-gridline,
@@ -6131,7 +6138,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 @media (min-width: 768px) {
   #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
-    height: 575px;
+    height: 576px;
   }
 }
 
@@ -6212,7 +6219,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 @media (min-width: 768px) {
   #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(1) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent.sapUiVlt.sapuiVlt {
-    height: 575px;
+    height: 585px;
   }
 }
 
@@ -6231,7 +6238,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 0 0;
-  max-height: 575px;
 }
 
 #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapUiContentPadding.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -6255,7 +6261,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapUiContentPadding.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox {
   position: relative;
   background-color: transparent !important;
-  padding: 3px 24px 12px;
+  padding: 3px 24px 3px;
   margin: 0px 0 12px;
   display: flex;
   justify-content: space-between;
@@ -6402,7 +6408,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 @media (min-width: 768px) {
   #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(1) > .sapUiContentPadding.sapUiVlt.sapuiVlt {
-    height: 580px;
+    height: 576px;
   }
 }
 
@@ -6410,7 +6416,6 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   background-color: rgba(61, 71, 104, 0.82) !important;
   border-radius: 7.64px;
   padding: 20px 0 0;
-  max-height: 575px;
 }
 
 #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapUiContentPadding.sapUiVlt.sapuiVlt > .sapuiVltCell {
@@ -6434,7 +6439,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapUiContentPadding.sapUiVlt.sapuiVlt > .sapuiVltCell:nth-child(2) > .sapMHBox {
   position: relative;
   background-color: transparent !important;
-  padding: 3px 24px 12px;
+  padding: 3px 24px 3px;
   margin: 0px 0 12px;
   display: flex;
   justify-content: space-between;
@@ -6575,7 +6580,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 @media (min-width: 768px) {
   #application-Z_OTC_OMANALYST_DB-display .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiVlt.sapUiContentPadding .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapUiContentPadding.sapUiVlt.sapuiVlt {
-    height: 580px;
+    height: 585px;
   }
 }
 

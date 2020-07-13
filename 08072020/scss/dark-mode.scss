@@ -404,6 +404,11 @@ ul.sapUshellInner {
             stroke: #8699DB;
         }
     }
+    .v-overflow{
+        text {
+            fill: white;
+        }
+    }
     .v-m-root {
         .v-gridline-group {
             .v-gridline {
@@ -5694,7 +5699,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 575px;
+                                height: 576px;
                             }
                         }
                     }
@@ -5767,7 +5772,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 575px;
+                                height: 585px;
                             }
                         }
                     }
@@ -5785,7 +5790,6 @@ ul.sapUshellInner {
                             background-color: rgba(61, 71, 104, 0.82) !important;
                             border-radius: 7.64px;
                             padding: 20px 0 0;
-                            max-height: 575px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -5804,7 +5808,7 @@ ul.sapUshellInner {
                                     > .sapMHBox{
                                         position: relative;
                                         background-color: transparent !important;
-                                        padding: 3px 24px 12px;
+                                        padding: 3px 24px 3px;
                                         margin: 0px 0 12px;
                                         display: flex;
                                         justify-content: space-between;
@@ -5937,7 +5941,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 580px;
+                                height: 576px;
                             }
                         }
                     }
@@ -5948,7 +5952,6 @@ ul.sapUshellInner {
                             background-color: rgba(61, 71, 104, 0.82) !important;
                             border-radius: 7.64px;
                             padding: 20px 0 0;
-                            max-height: 575px;
                             > .sapuiVltCell{
                                 padding-bottom: 0px;
                                 outline: none;
@@ -5967,7 +5970,7 @@ ul.sapUshellInner {
                                     > .sapMHBox{
                                         position: relative;
                                         background-color: transparent !important;
-                                        padding: 3px 24px 12px;
+                                        padding: 3px 24px 3px;
                                         margin: 0px 0 12px;
                                         display: flex;
                                         justify-content: space-between;
@@ -6097,7 +6100,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 580px;
+                                height: 585px;
                             }
                         }
                     }
