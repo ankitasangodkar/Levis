@@ -1569,14 +1569,14 @@ ul.sapUshellInner {
                                 padding-bottom: 0px;
                                 outline: none;
                                 &:nth-child(1){
-                                    padding-bottom: 6px;
+                                    padding-bottom: 0px;
                                     .sapMLnk.styleTitle1{
                                         display: none;
                                     }
                                 }
                                 &:nth-child(2){
                                     > .sapMFlexBox {
-                                        margin-top: 5px;
+                                        //margin-top: 5px;
                                         padding: 0;
                                         padding-right: 20px;
                                         display: flex;
