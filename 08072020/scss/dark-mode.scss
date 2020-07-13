@@ -3160,6 +3160,9 @@ ul.sapUshellInner {
                                                 }
 
                                             }
+                                            &:last-child{
+                                                border-bottom: 0;
+                                            }
                                         }
                                     }
                                 }
