@@ -6254,8 +6254,26 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 }
 
 @media (min-width: 768px) {
-  #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent, #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell > .sapMFlexBoxBGTransparent {
-    height: 600px;
+  #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:first-child > .sapMFlexBoxBGTransparent, #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:first-child > .sapMFlexBoxBGTransparent {
+    height: 620px;
+  }
+}
+
+@media (min-width: 768px) {
+  #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent, #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(2) > .sapMFlexBoxBGTransparent {
+    height: 630px;
+  }
+}
+
+@media (min-width: 768px) {
+  #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent, #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(3) > .sapMFlexBoxBGTransparent {
+    height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:first-child > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(4) > .sapMFlexBoxBGTransparent, #application-ZOTCMANAGEROVP-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) > .sapUiContentPadding.sapUiVlt > .sapUiVltCell.sapuiVltCell:nth-child(4) > .sapMFlexBoxBGTransparent {
+    height: 500px;
   }
 }
 

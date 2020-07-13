@@ -5657,9 +5657,32 @@ ul.sapUshellInner {
             &:first-child , &:nth-child(2){
                 > .sapUiContentPadding.sapUiVlt{
                     > .sapUiVltCell.sapuiVltCell{
-                        > .sapMFlexBoxBGTransparent{
-                            @media (min-width: 768px){
-                                height: 600px;
+                        &:first-child{
+                            > .sapMFlexBoxBGTransparent{
+                                @media (min-width: 768px){
+                                    height: 620px;
+                                }
+                            }
+                        }
+                        &:nth-child(2){
+                            > .sapMFlexBoxBGTransparent{
+                                @media (min-width: 768px){
+                                    height: 630px;
+                                }
+                            }
+                        }
+                        &:nth-child(3){
+                            > .sapMFlexBoxBGTransparent{
+                                @media (min-width: 768px){
+                                    height: 500px;
+                                }
+                            }
+                        }
+                        &:nth-child(4){
+                            > .sapMFlexBoxBGTransparent{
+                                @media (min-width: 768px){
+                                    height: 500px;
+                                }
                             }
                         }
                     }
