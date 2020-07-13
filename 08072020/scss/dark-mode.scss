@@ -502,7 +502,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 580px;
+                                height: 590px;
                             }
                         }
                     }
@@ -657,7 +657,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 600px;
+                                height: 640px;
                             }
                         }
                     }
@@ -988,6 +988,9 @@ ul.sapUshellInner {
                                     }
                                 }
                             }
+                            @media (min-width: 768px){
+                                height: 866px;
+                            }
                         }
                     }
                     /* end of incoming sales orders */
@@ -1085,9 +1088,6 @@ ul.sapUshellInner {
                                             }
                                         }
                                     }
-
-
-                                    
                                     > .sapUiHLayout{
                                         position: relative;
                                         width: 100%;
@@ -1167,7 +1167,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 580px;
+                                height: 590px;
                             }
                         }
                     }
@@ -1241,7 +1241,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 600px;
+                                height: 640px;
                             }
                         }
                     }
@@ -1254,24 +1254,14 @@ ul.sapUshellInner {
                             padding: 20px 0;
                             position: relative;
                             > .sapuiVltCell{
-                                padding-bottom: 6px;
+                                padding-bottom: 0;
                                 &:nth-child(1){
                                     .sapMLnk.styleTitle1{
-                                        color: #FFFFFF;
-                                        font-size: 16.38px;
-                                        font-weight: 700;
-                                        letter-spacing: 0;
-                                        line-height: 19px;
-                                        padding: 0 25px;
+                                        display: none;
                                     }
                                 }
                                 &:nth-child(2){
                                     padding: 0 25px;
-                                    
-                                    > .sapMFlexBox {
-                                       border-top: 2px solid #4F5C89;
-                                       padding-top: 5px;
-                                    }
                                     .sapMFlexBoxBGTransparent {
                                         background-color: transparent;
                                     }
