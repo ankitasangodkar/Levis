@@ -2373,7 +2373,7 @@ ul.sapUshellInner {
             &:last-child {
                 width: 50% !important;
                 display: block;
-                padding: 0 25px;
+                padding: 0 25px 16px; 
                 .sapUiVlt.sapUiContentPadding{
                     padding-top: 0;
                 }
@@ -4743,10 +4743,7 @@ ul.sapUshellInner {
         }
     }
     .sapMScrollContScroll {
-        padding: 0 17px 0 17px;
-        @media (max-width: 1024px){
-            padding: 0 17px 0 17px;
-        }
+        padding: 8px 17px 7px 17px;
     }
 
     .HorizontalLayoutID {
@@ -5051,7 +5048,6 @@ ul.sapUshellInner {
             }
             //first column
             &:first-child {
-                padding-top: 16px;
                 .sapUiVltCell {
                     // Missing HTS Report
                     &:first-child {
@@ -5760,14 +5756,6 @@ ul.sapUshellInner {
                         }
                     }  
                 }
-                @media (min-width: 768px){
-                    padding-top: 16px;
-                }
-            }
-            &:nth-child(3){
-                @media (min-width: 1024px){
-                    padding-top: 16px;
-                } 
             }
             @media(max-width: 1024px){
                 &:first-child {
@@ -5809,10 +5797,10 @@ ul.sapUshellInner {
                         &:first-child{
                             > .sapMFlexBoxBGTransparent{
                                 @media (min-width: 768px){
-                                    height: 700px;
+                                    height: 640px;
                                 }
                                 @media (min-width: 1165px){
-                                    height: 655px;
+                                    height: 630px;
                                 }
                             }
                         }
@@ -5826,14 +5814,14 @@ ul.sapUshellInner {
                         &:nth-child(3){
                             > .sapMFlexBoxBGTransparent{
                                 @media (min-width: 768px){
-                                    height: 580px;
+                                    height: 535px;
                                 }
                             }
                         }
                         &:nth-child(4){
                             > .sapMFlexBoxBGTransparent{
                                 @media (min-width: 768px){
-                                    height: 500px;
+                                    height: 515px;
                                 }
                             }
                         }
@@ -6391,7 +6379,7 @@ ul.sapUshellInner {
                         .sapMFlexBoxBGTransparent {
                             .sapUiVltCell {
                                 &:nth-child(2) {                                 
-                                    margin-top: 10px;
+                                    margin-top: 0px;
                                     margin-bottom: 10px;
                                     .sapMHBox{
                                         padding: 0;
