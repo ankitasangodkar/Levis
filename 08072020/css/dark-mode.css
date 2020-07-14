@@ -3248,6 +3248,9 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:first-child {
     width: 50% !important;
   }
+  #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:first-child .sapUiVlt.sapUiContentPadding {
+    padding-bottom: 0;
+  }
   #application-ZPTP_PLAN_MNGR-display .sapUiHLayoutChildWrapper:nth-child(2) {
     width: 50% !important;
   }

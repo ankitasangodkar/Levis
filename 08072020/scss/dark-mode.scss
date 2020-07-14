@@ -2882,6 +2882,9 @@ ul.sapUshellInner {
         @media(max-width: 1024px){
             &:first-child {
                 width: 50% !important;
+                .sapUiVlt.sapUiContentPadding{
+                    padding-bottom: 0;
+                }
             }
             &:nth-child(2) {
                 width: 50% !important;
