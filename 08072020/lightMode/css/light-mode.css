@@ -6189,6 +6189,10 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   order: 1;
 }
 
+#application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) .sapUiVltCell:nth-child(2) .sapMFlexBoxBGTransparent .sapUiVltCell:last-child ul.sapMListItems li .sapMLIBContent .sapSuiteCpMCChartItem .sapSuiteCpMCChartBarValue.sapSuiteCpMCSemanticColorCritical {
+  background: #E15D4F;
+}
+
 #application-ZSUPPLY_CHAIN-display .HorizontalLayoutID .sapUiHLayoutChildWrapper:nth-child(2) .sapUiVltCell:nth-child(2) .sapMFlexBoxBGTransparent .sapUiVltCell:last-child ul.sapMListItems li .sapMLIBContent .sapSuiteCpMCChartItem .sapSuiteCpMCChartBar {
   height: 15px;
   position: static;

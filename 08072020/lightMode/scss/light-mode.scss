@@ -5554,6 +5554,11 @@ ul.sapUshellInner {
                                                         margin-bottom: 10px;
                                                         order: 1;
                                                     }
+                                                    .sapSuiteCpMCChartBarValue{
+                                                        &.sapSuiteCpMCSemanticColorCritical{
+                                                            background: #E15D4F;
+                                                        }
+                                                    }
                                                     .sapSuiteCpMCChartBar {
                                                         height: 15px;
                                                         position: static;
