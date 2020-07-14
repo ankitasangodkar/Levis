@@ -1847,7 +1847,7 @@ ul.sapUshellInner {
         /* Quick Links */
         &:nth-child(3){
             > .sapUiVlt.sapuiVlt{
-                padding: 16px 25px 0 0;
+                padding: 16px 25px 16px 0;
                 .sapUiVltCell.sapuiVltCell{
                     /*links*/
                     > .sapMFlexBox{
@@ -1916,6 +1916,7 @@ ul.sapUshellInner {
                 padding: 0 25px 16px;
                 .sapUiVlt.sapUiContentPadding{
                     padding-top: 0;
+                    padding-bottom: 0;
                 }
             }
         }
@@ -1940,7 +1941,7 @@ ul.sapUshellInner {
             &:last-child {
                 width: 100% !important;
                 .sapUiVlt.sapUiContentPadding{
-                    padding: 16px 48px 16px 0;
+                    padding: 16px 48px 0px 0;
                 }
             }
         }

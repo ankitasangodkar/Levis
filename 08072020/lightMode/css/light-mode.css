@@ -2083,7 +2083,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 }
 
 #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:nth-child(3) > .sapUiVlt.sapuiVlt {
-  padding: 16px 25px 0 0;
+  padding: 16px 25px 16px 0;
   /* quick links first child */
 }
 
@@ -2157,6 +2157,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
   }
   #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:last-child .sapUiVlt.sapUiContentPadding {
     padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -2181,7 +2182,7 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
     width: 100% !important;
   }
   #application-Z_PTP_PA_DB-display .sapUiHLayoutChildWrapper:last-child .sapUiVlt.sapUiContentPadding {
-    padding: 16px 48px 16px 0;
+    padding: 16px 48px 0px 0;
   }
 }
 
