@@ -16,9 +16,20 @@
     padding: .5rem;
     box-sizing: border-box;
 }
-
+.monthStyle {
+    width: 9rem !important;
+    max-width: 220px !important;
+}
 .borderStyle{
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.comboStyle {
+    width: 8.7rem !important;
+    max-width: 220px !important;
+}
+.comboStyle1 {
+    width: 12.7rem !important;
+    max-width: 220px !important;
 }
 
 .HorizontalLayoutID {

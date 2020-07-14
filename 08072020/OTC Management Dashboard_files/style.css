@@ -20,7 +20,18 @@
 	/*box-shadow: 1px 1px 4px 4px #9a959575;*/
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.monthStyle1 {
+    width: 11rem !important;
+    max-width: 220px !important;
+}
+.comboStyle {
+    width: 8.7rem !important;
+    max-width: 220px !important;
+}
+.comboStyle1 {
+    width: 12.7rem !important;
+    max-width: 220px !important;
+}
 .HorizontalLayoutID {
     width: 100% !important;
 }
