@@ -2122,12 +2122,12 @@ ul.sapUshellInner {
                                         line-height: 19px;
                                     }
                                 }
-                                &:nth-child(2){
+                                &:nth-child(2), &:nth-child(3){
                                     position: relative;
                                     .sapMFlexBox{
                                         &.sapMFlexBoxBGTransparent{
                                             background-color: transparent;
-                                            > .sapMFlexBoxBGSolid{
+                                            > .sapMFlexBoxBGSolid, .sapMFlexBoxBGTransparent{
                                                 background-color: transparent;
                                                 margin: 0 !important;
                                                 .sapMText{
@@ -2179,10 +2179,10 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 450px;
+                                height: 485px;
                             }
                             @media (min-width: 1274px){
-                                height: 435px;
+                                height: 475px;
                             }
                         }
                     }
@@ -2236,12 +2236,12 @@ ul.sapUshellInner {
                                         }
                                     }
                                 }
-                                &:nth-child(3){
+                                &:nth-child(3), &:nth-child(4){
                                     position: relative;
                                     .sapMFlexBox{
                                         &.sapMFlexBoxBGTransparent{
                                             background-color: transparent;
-                                            > .sapMFlexBoxBGSolid{
+                                            > .sapMFlexBoxBGSolid, .sapMFlexBoxBGTransparent{
                                                 background-color: transparent;
                                                 margin: 0 !important;
                                                 .sapMText{
@@ -2293,7 +2293,7 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 580px;
+                                height: 638px;
                             }
                         }
                     }
@@ -2762,10 +2762,8 @@ ul.sapUshellInner {
                                                         margin-bottom: 10px;
                                                         order: 1;
                                                     }
-                                                    .sapSuiteCpMCChartBarValue{
-                                                        &.sapSuiteCpMCSemanticColorCritical{
-                                                            background: #E15D4F;
-                                                        }
+                                                    .sapSuiteCpMCChartBarValue.sapSuiteCpMCSemanticColorCritical{
+                                                        background-color: #E15D4F !important;
                                                     }
                                                     .sapSuiteCpMCChartBar {
                                                         height: 15px;
@@ -3098,9 +3096,6 @@ ul.sapUshellInner {
                                             width: 100% !important;
                                             white-space: nowrap;
                                             margin-left: 0 !important;
-                                            @media (max-width: 475px){
-                                                white-space: normal;
-                                            }
                                         }
                                     }
                                 }
@@ -3568,7 +3563,9 @@ ul.sapUshellInner {
                                                         margin-bottom: 10px;
                                                         order: 1;
                                                     }
-
+                                                    .sapSuiteCpMCChartBarValue.sapSuiteCpMCSemanticColorCritical{
+                                                        background-color: #E15D4F !important;
+                                                    }
                                                     .sapSuiteCpMCChartBar {
                                                         height: 15px;
                                                         position: static;
@@ -4162,9 +4159,6 @@ ul.sapUshellInner {
                                                             background-color: transparent;
                                                         }
                                                     }
-                                                }
-                                                @media (max-width: 475px){
-                                                    padding-left: 30px !important;
                                                 }
                                             }
                                         }
