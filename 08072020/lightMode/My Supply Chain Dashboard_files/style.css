@@ -1,5 +1,14 @@
 /*New Design*/
 
+.monthStyle2 {
+    width: 8rem !important;
+    max-width: 230px !important;
+}
+
+.Swicthclass {
+    margin-left: 10.5rem!important;
+}
+
 .comboClassValue>div {
     width: 65%!important;
 }
@@ -13,7 +22,7 @@
 }
 
 .comboClassMonitor {
-    width: 13rem !important;
+    width: 12rem !important;
     max-width: 220px !important;
 }
 
@@ -222,8 +231,8 @@
 }
 
 .comboClassValue {
-    width: 15rem !important;
-    max-width: 215px !important;
+    width: 13rem !important;
+    max-width: 220px !important;
 }
 
 .comboClass1 {
