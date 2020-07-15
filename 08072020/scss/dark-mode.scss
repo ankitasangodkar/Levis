@@ -3517,7 +3517,7 @@ ul.sapUshellInner {
             &:last-child {
                 width: 50% !important;
                 display: block;
-                padding: 0 24px;
+                padding: 0 24px 16px;
                 .sapUiVlt.sapUiContentPadding{
                     padding-top: 0;
                 }
@@ -4216,7 +4216,7 @@ ul.sapUshellInner {
             &:last-child {
                 width: 50% !important;
                 display: block;
-                padding: 0 25px;
+                padding: 0 25px 16px;
                 .sapUiVlt.sapUiContentPadding{
                     padding-top: 0;
                 }
@@ -4239,7 +4239,7 @@ ul.sapUshellInner {
             }
             &:last-child {
                 width: 100% !important;
-                padding: 0 25px 18px;
+                padding: 0 25px 16px;
                 .sapUiVlt.sapUiContentPadding{
                     padding: 0 36px 0 12px
                 }
@@ -5315,7 +5315,10 @@ ul.sapUshellInner {
                         &:nth-child(4){
                             > .sapMFlexBoxBGTransparent{
                                 @media (min-width: 768px){
-                                    height: 500px;
+                                    height: 525px;
+                                }
+                                @media (min-width: 830px){
+                                    height: 510px;
                                 }
                             }
                         }
