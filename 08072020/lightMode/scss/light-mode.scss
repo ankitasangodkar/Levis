@@ -3383,10 +3383,10 @@ ul.sapUshellInner {
                                 }
                             }
                             @media (min-width: 768px){
-                                height: 630px;
+                                height: 625px;
                             }
                             @media (min-width: 1390px){
-                                height: 636px;
+                                height: 610px;
                             }
                         }
                     }
@@ -5162,7 +5162,7 @@ ul.sapUshellInner {
                         &:last-child{
                             > .sapMFlexBoxBGTransparent{
                                 @media (min-width: 768px){
-                                    height: 495px;
+                                    height: 500px;
                                 }
                             } 
                         }
@@ -5444,6 +5444,83 @@ ul.sapUshellInner {
                                             }
                                             &:last-child{
                                                 text-align: right;
+                                            }
+                                        }
+                                    }
+                                    >.sapMHBox{
+                                        .sapMFlexItem{
+                                            &:last-child{
+                                                z-index: 1;
+                                                padding-bottom: 12px;
+                                                .sapMSwt {
+                                                    height: 26px;
+                                                    width: 61px;
+                                                    .sapMSwtText {
+                                                        line-height: 26px;
+                                                    }
+                                                    .sapMSwtInner {
+                                                        .sapMSwtHandle {
+                                                            background: #FFFFFF;
+                                                            border-color: #FFFFFF;
+                                                            height: 22px;
+                                                            width: 22px;
+                                                        }
+                                                    }
+                                                    .sapMSwtInner {
+                                                        left: -2rem;
+                                                    }
+                                                    &.sapMSwtOff {
+                                                        >.sapMSwtInner {
+                                                            left: -2rem;
+                                                            .sapMSwtHandle {
+                                                                left: 4.1rem;
+                                                            }
+                                                        }
+                                                    }
+                                                    .sapMSwtText {
+                                                        position: absolute;
+                                                        bottom: -19px;
+                                                        left: 0 !important;
+                                                        color: #B1B1B1;
+                                                        font-size: 9px;
+                                                        line-height: 11px;
+                                                        padding: 0;
+                                                        transform: translateX(33px);
+                                                        > span {
+                                                            padding: 0;
+                                                        }
+                                                        &:first-child {
+                                                            left: -5px !important;
+                                                        }
+                                                        &:last-child {
+                                                            left: 5px !important;
+                                                        }
+                                                        
+                                                    }
+                                                }
+                                                .sapMSwt.sapMSwtOn {
+                                                    .sapMSwtText {
+                                                        &.sapMSwtTextOn {
+                                                            color: #5C5C5C;
+                                                        }
+                                                    }
+                                                }
+                                                .sapMSwt.sapMSwtOff {
+                                                    .sapMSwtText {
+                                                        &.sapMSwtTextOff {
+                                                            color: #5C5C5C;
+                                                        }
+                                                    }
+                                                }
+                                                .sapMSwtOn:not(.sapMSwtAcceptReject),
+                                                .sapMSwtOff:not(.sapMSwtAcceptReject) {
+                                                    background-color: #BAC9D6;
+                                                    border-color: #BAC9D6;
+                                                    overflow: visible;
+                                                }
+                                                @media (max-width: 425px){
+                                                    top: 0;
+                                                }
                                             }
                                         }
                                     }
