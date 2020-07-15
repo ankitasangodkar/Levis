@@ -1,4 +1,3 @@
-/* css 15 07 2020 001 */
 .sapUshellShellHeader {
   background-color: transparent;
 }
@@ -381,6 +380,15 @@ ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTil
 
 ul.sapUshellInner li.sapUshellTile .sapUshellTileWrapper .sapMGTContent .sapMTileCnt .sapMTileCntContent .sapMImageContent .sapUiIcon {
   color: #6095e1;
+}
+
+/* Background Image */
+#mainShell .sapUshellShellBG.sapUiShellBackgroundImage {
+  background-image: url("../bg_dark.jpg");
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* graphs */
